@@ -1,0 +1,7 @@
+project:
+  title: "OST597.TEACH"
+  output-dir: "output"
+  render:
+    - Slides.qmd
+
+
