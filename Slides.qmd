@@ -1,0 +1,99 @@
+---
+title: "The TEACH Intervention for Youth with Childhood-Onset Lupus"
+subtitle: "Research Case Study for OST 597 (Biomedical Research Structure and Methods)"
+author: 
+  - name: Steven J. Pierce
+    orcid: 0000-0002-0679-3019
+    email: pierces1@msu.edu
+    affiliations: 
+      - name: Michigan State University, Center for Statistical Training and Consulting
+  - name: Natoshia Cunningham
+    affiliations: 
+      - name: Michigan State University, Department of Family Medicine
+  - name: Andrea Knight
+    affiliations: 
+      - name: University of Toronto, Temerty Faculty of Medicine
+date: March 30, 2026
+title-slide-attributes: 
+  data-notes: 1 hr (40-45 min talk + 5 min Q & A + 10 min break) My name is 
+              Steven Pierce. My talk today . 
+csl: apa-numeric-superscript-brackets.csl      # File controls citation & reference list format
+bibliography: references.bib                   # File holds BibTeX data for references
+format: 
+  revealjs:                                    # Settings for HTML revealjs slide output
+    embed-resources: true                      # Makes HTML output file self-contained
+    theme: [default, brand, CSTAT_theme.scss]  # Theme controls output formatting
+    controls: true                             # Turn on visible slide controls
+    slide-number: c/t                          # Turn on slide numbering
+    show-notes: false                          # Hide notes (except in speaker view)
+    header-logo: graphics/Combomark-Horiz_Green-RGB.png
+    footer: <a href="https://github.com/sjpierce/OST597.TEACH">https://github.com/sjpierce/OST597.TEACH</a>
+    link-external-icon: true                   # Mark links that lead to external sites
+    link-external-newwindow: true              # Open external web links in a new window
+filters:                                       # Filters are Quarto extensions
+  - reveal-header                              # Allows footer text & header logo
+---
+
+```{r}
+#| label: load-packages
+#| include: false
+
+library(tidyverse)
+library(knitr)
+library(kableExtra) # Functions for formatting nice tables. 
+```
+
+## Outline
+* Background
+* Study Purpose & Design
+* Methods
+*	Raw Data – Tables
+* Data Analysis
+* Results
+* Discussion & Conclusion
+
+::: {.notes}
+
+:::
+
+## Background
+
+::: {.notes}
+
+:::
+
+## Study Purpose & Design
+
+* Hypothesis 
+* Research design
+
+::: {.notes}
+
+:::
+
+## Methods
+
+::: {.notes}
+:::
+
+## Study Design
+
+::: {.notes}
+:::
+
+
+## References {.scrollable}
+
+::: {#refs}
+:::
+
+::: {.notes}
+Finally, here's the list of references mentioned in the slides. 
+:::
+
+# Questions & Discussion Time
+Thank you for attending!
+
+::: {.notes}
+*Time should be ~40-45 min, leaving 5 min for questions and discussion.*
+:::
