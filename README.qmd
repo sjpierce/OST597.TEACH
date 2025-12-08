@@ -1,0 +1,76 @@
+---
+title: README
+author: 
+  - name: Steven J. Pierce
+    orcid: 0000-0002-0679-3019
+    email: pierces1@msu.edu
+    affiliations: 
+      - name: Michigan State University, Center for Statistical Training and Consulting
+bibliography: references.bib
+csl: apa.csl
+format: gfm
+---
+
+<!-- README.md is generated from README.Rmd. Please edit that file -->
+
+```{r, include = FALSE}
+knitr::opts_chunk$set(
+  collapse = TRUE,
+  comment = "#>",
+  fig.path = "man/figures/README-",
+  out.width = "100%"
+)
+```
+
+# OST597.TEACH: 
+
+<!-- badges: start -->
+<!-- badges: end -->
+
+This repository holds materials for one of my professional presentations 
+[@Pierce-RN8914] based on a forthcoming journal article [@Cunningham-RN8694]. 
+Its primary purpose is for me to use version control tools while developing my
+slides, but its secondary purpose is distributing the slides to my audience.
+
+There are two different types of users of this repository: myself and my
+audience. I am an the only person editing the code in this repository and I 
+assume the audience just wants copies of my slides, so I am omitting information 
+about the structure of the repository and how to render the slides.
+
+## Obtaining the Slides 
+For the link below, you will land on a GitHub page that has a 
+*Download raw file* button in the upper right corner of the screen. Its icon
+looks like an arrow pointing down into a tray. It is just to the left of the
+pencil icon. Use that to download the file to your computer, then open it with 
+a web browser.
+
+* [`Slides.html`](https://github.com/sjpierce/OST597.TEACH/blob/main/output/Slides.html) 
+  *These are the final slides.*
+
+## Usage Tips
+
+* After you open the `Slides.html` file on your computer, press the `s` key on 
+  your keyboard to see the speaker view that contains my speaker notes. 
+* There are also other 
+  [slide navigation keyboard shortcuts](https://quarto.org/docs/presentations/revealjs/presenting.html). 
+
+## References 
+::: {#refs}
+:::
+
+## Citing This Repository
+Please cite my actual presentation [@Pierce-RN8914] and the associated paper 
+[@Cunningham-RN8694]. 
+
+## License
+This work is licensed under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/?ref=chooser-v1). 
+To view a copy of this license, visit 
+[https://creativecommons.org/licenses/by-nc-sa/4.0/](https://creativecommons.org/licenses/by-nc-sa/4.0/)
+
+The following exceptions apply: 
+
+* Graphics files for the Michigan State University (MSU) wordmark and the logos 
+  for the Center for Statistical Training and Consulting (CSTAT) do not fall 
+  under the CC BY-NC-SA license. They are intellectual property owned by 
+  Michigan State University. I use them for branding purposes because I am an 
+  MSU employee. 
