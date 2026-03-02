@@ -701,10 +701,10 @@ grid-template-areas: "sc ht sb sn";
 .reveal-header.no-logo .sc-title p {margin-left: 2vw; }
 div.reveal.has-logo div.slide-number { font-size: 10px; }
 }</style><meta charset="utf-8">
-  <meta name="generator" content="quarto-1.8.26">
+  <meta name="generator" content="quarto-1.8.27">
 
   <meta name="author" content="Steven J. Pierce">
-  <meta name="author" content="Natoshia Cunningham">
+  <meta name="author" content="Natoshia R. Cunningham">
   <meta name="author" content="Andrea Knight">
   <meta name="dcterms.date" content="2026-03-30">
   <title>The TEACH Intervention for Youth with Childhood-Onset Lupus</title>
@@ -754,6 +754,7 @@ margin: 0 0.8em 0.2em -1em;  vertical-align: middle;
 div.csl-bib-body { }
 div.csl-entry {
 clear: both;
+margin-bottom: 0em;
 }
 .hanging-indent div.csl-entry {
 margin-left:2em;
@@ -1269,7 +1270,7 @@ margin-right: 0; }
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-notes="1 hr (40-45 min talk + 5 min Q &amp; A + 10 min break) My name is Steven Pierce. My talk today ." class="quarto-title-block center">
+<section id="title-slide" data-notes="1 hr (40-45 min talk + 5 min Q &amp; A + 10 min break) My name is Steven Pierce. I’ll be presenting a research case study on the TEACH intervention for youth with childhood-onset lupus. I was the statistician on the project, so my talk will emphasize some of the research design and methodology issues involved, plus the results we obtained." class="quarto-title-block center">
   <h1 class="title">The TEACH Intervention for Youth with Childhood-Onset Lupus</h1>
   <p class="subtitle">Research Case Study for OST 597 (Biomedical Research Structure and Methods)</p>
 
@@ -1287,7 +1288,7 @@ Steven J. Pierce <a href="https://orcid.org/0000-0002-0679-3019" class="quarto-t
     </div>
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Natoshia Cunningham 
+Natoshia R. Cunningham <a href="https://orcid.org/0000-0002-1788-7264" class="quarto-title-author-orcid"> <img role="img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a>
 </div>
         <p class="quarto-title-affiliation">
             Michigan State University, Department of Family Medicine
@@ -1295,7 +1296,7 @@ Natoshia Cunningham
     </div>
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Andrea Knight 
+Andrea Knight <a href="https://orcid.org/0000-0003-4278-9049" class="quarto-title-author-orcid"> <img role="img" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a>
 </div>
         <p class="quarto-title-affiliation">
             University of Toronto, Temerty Faculty of Medicine
@@ -1305,10 +1306,220 @@ Andrea Knight
 
   <p class="date">2026-03-30</p>
 </section>
-<section id="outline" class="slide level2">
-<h2>Outline</h2>
+<section id="preface" class="slide level2">
+<h2>Preface</h2>
 <ul>
-<li></li>
+<li>Presentation is based on a forthcoming paper.<span class="citation" data-cites="Cunningham-RN8694"><sup>[<a href="#/references" role="doc-biblioref" onclick>1</a>]</sup></span></li>
+<li>See the paper for most supporting references.</li>
+</ul>
+<div title="Funding">
+<div class="callout callout-tip callout-titled callout-style-default">
+<div class="callout-body">
+<div class="callout-title">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<p><strong>Funding</strong></p>
+</div>
+<div class="callout-content">
+<p>All phases of this study were supported by a Childhood Arthritis and Rheumatology Research Alliance-Arthritis Foundation Transdisciplinary Research Grant (PI: Natoshia R. Cunningham).</p>
+</div>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>My case study is based on a forthcoming paper in <em>Arthritis Care &amp; Research</em>. Supporting references for some of my points here can be found in the paper, which is listed in the references at the end of the slides. I’ve just been selective about citing sources in the slides to keep them cleaner.</p>
+<style type="text/css">
+span.MJX_Assistive_MathML {
+position:absolute!important;
+clip: rect(1px, 1px, 1px, 1px);
+padding: 1px 0 0 0!important;
+border: 0!important;
+height: 1px!important;
+width: 1px!important;
+overflow: hidden!important;
+display:block!important;
+}</style></aside>
+</section>
+<section id="contributors" class="slide level2 smaller">
+<h2>Contributors</h2>
+<div class="columns">
+<div class="column" style="width:34%;">
+<ul>
+<li><strong>Natoshia R. Cunningham</strong></li>
+<li>Thea Senger-Carpenter</li>
+<li>Jocelyn Zuckerman</li>
+<li>Michelle Adler</li>
+<li>Mallet R. Reid</li>
+<li>Ashley Danguecan</li>
+<li>Luana Flores Pereira</li>
+<li>Sarah I. Mossad</li>
+<li>Samantha L. Ely</li>
+<li>Khalid Abulaban</li>
+</ul>
+</div><div class="column" style="width:33%;">
+<ul>
+<li>Elizabeth A. Kessler</li>
+<li>Natalie Rosenwasser</li>
+<li>Tamar B. Rubinstein</li>
+<li>Ekemini A. Ogbu</li>
+<li>Emily A. Smitherman</li>
+<li>Alaina Miller</li>
+<li>Taylor Abounader</li>
+<li>Elizabeth Ross</li>
+<li>Livie Timmerman</li>
+<li>Dhriti Sharma</li>
+</ul>
+</div><div class="column" style="width:33%;">
+<ul>
+<li>Jennifer N. Stinson</li>
+<li>Stacy Allen</li>
+<li>Kabita Nanda</li>
+<li>Tala El Tal</li>
+<li>Deborah M. Levy</li>
+<li>Linda T. Hiraki</li>
+<li>Hermine I. Brunner</li>
+<li>Mathew Reeves</li>
+<li>Steven J. Pierce</li>
+<li><strong>Andrea Knight</strong></li>
+</ul>
+</div></div>
+<p><strong>Bold = Principal investigators.</strong></p>
+<aside class="notes">
+<p>Our study team was very large. This is a list of all the co-authors on our paper with the principal investigators’ names in bold text. That said, let’s get started with the substantive content of the case study.</p>
+<style type="text/css">
+span.MJX_Assistive_MathML {
+position:absolute!important;
+clip: rect(1px, 1px, 1px, 1px);
+padding: 1px 0 0 0!important;
+border: 0!important;
+height: 1px!important;
+width: 1px!important;
+overflow: hidden!important;
+display:block!important;
+}</style></aside>
+</section>
+<section id="childhood-onset-systemic-lupus-erythematosus" class="slide level2">
+<h2>Childhood-Onset Systemic Lupus Erythematosus</h2>
+<ul>
+<li>cSLE is a chronic, multisystemic, autoimmune disease diagnosed prior to age 18 years.</li>
+<li>Higher risk for depressive, fatigue, and pain symptoms, which may lower health-related quality of life (HR-QOL).</li>
+<li>More often affects female and Asian, Native American, and Black youth.</li>
+<li>Black youth may get less help managing comorbid symptoms than White peers.</li>
+</ul>
+<aside class="notes">
+<p>Childhood-onset lupus is a chronic, multisystemic, autoimmune disease diagnosed prior to age 18 years. Patients are at higher risk for depressive, fatigue, and pain symptoms, which may lower health-related quality of life. We know that lupus has a disproportionate impact on some parts of the population: it is more likely to affect female and Asian, Native American, and Black youth. It’s the fifth leading cause of death for Black and Hispanic females age 15-24. Previous studies also suggest that Black youth may be less likely to receive effective help managing comorbid symptoms such as anxiety and depression than White peers. This all means that we need better interventions to help lupus patients.</p>
+<style type="text/css">
+span.MJX_Assistive_MathML {
+position:absolute!important;
+clip: rect(1px, 1px, 1px, 1px);
+padding: 1px 0 0 0!important;
+border: 0!important;
+height: 1px!important;
+width: 1px!important;
+overflow: hidden!important;
+display:block!important;
+}</style></aside>
+</section>
+<section id="cognitive-behavioral-therapy-cbt" class="slide level2">
+<h2>Cognitive Behavioral Therapy (CBT)</h2>
+<ul>
+<li>Effective for managing depression, fatigue, and pain in youth with other chronic illnesses and in <em>adults</em> with lupus.</li>
+<li>Prior studies on CBT for <em>youth</em> with lupus:
+<ul>
+<li>One failed to find clinically significant effects on pain, affect, &amp; quality of life.</li>
+<li>Treatment and Education Approach for Childhood-Onset Lupus (TEACH) program had promising results but needed refinements.</li>
+</ul></li>
+</ul>
+<aside class="notes">
+<p>Psychological interventions offer one way to improve the mental health of lupus patients. Research has shown that cognitive behavioral therapy is effective for managing depression, fatigue, and pain in youth with other chronic illnesses and in adults with lupus. However, there were only two prior studies on using CBT for youth with lupus. One of them failed to find any clinically significant effects on pain, affect, and quality of life. The other was our team’s single-arm pilot test of the Treatment and Education Approach for Childhood-Onset Lupus, the TEACH program. My colleagues’ first TEACH study yielded promising results but needed some refinements.</p>
+<style type="text/css">
+span.MJX_Assistive_MathML {
+position:absolute!important;
+clip: rect(1px, 1px, 1px, 1px);
+padding: 1px 0 0 0!important;
+border: 0!important;
+height: 1px!important;
+width: 1px!important;
+overflow: hidden!important;
+display:block!important;
+}</style></aside>
+</section>
+<section id="the-teach-intervention-initial-pilot-study" class="slide level2">
+<h2>The TEACH Intervention: Initial Pilot Study</h2>
+<ul>
+<li>A tailored, CBT program delivered via 6 weekly sessions.</li>
+<li>Targets depressive, fatigue, and pain symptoms as primary outcomes.</li>
+<li>High retention rate (82.4%).</li>
+<li>Reduced depressive and fatigue symptoms.</li>
+<li>Marginal reductions in pain and anxiety.</li>
+</ul>
+<aside class="notes">
+<p>The first iteration of the TEACH intervention consisted of a tailored, CBT program delivered during a series of 6 weekly in-person visits. The primary outcomes it sought to improve were patients’ depressive, fatigue, and pain symptoms. The first study showed a retention rate of just over 82% and potential improvements in depressive and fatigue symptoms, with weaker evidence for reductions in pain and anxiety.</p>
+<p>Intervention development is often iterative. Early results like these are promising but not definitive and usually accompanied by feedback about ways to improve the program.</p>
+<style type="text/css">
+span.MJX_Assistive_MathML {
+position:absolute!important;
+clip: rect(1px, 1px, 1px, 1px);
+padding: 1px 0 0 0!important;
+border: 0!important;
+height: 1px!important;
+width: 1px!important;
+overflow: hidden!important;
+display:block!important;
+}</style></aside>
+</section>
+<section id="the-teach-intervention-initial-lessons-learned" class="slide level2">
+<h2>The TEACH Intervention: Initial Lessons Learned</h2>
+<ul>
+<li>Patients wanted a remote delivery option instead of only in-person.</li>
+<li>Need to engage patients in refining the intervention.</li>
+<li>Need to better address pain and anxiety.</li>
+<li>Need stronger evidence of efficacy.</li>
+</ul>
+<aside class="notes">
+<p>Some of the inital lessons learned were that patients reported wanting the option to get the TEACH intervention delivered remotely instead of only through in-person visits. That first study also revealed a need to refine the intervention and it was clear that engaging lupus patients in planning those refinements could be crucial to improving feasibility, acceptability, and effectiveness of the intervention. One priority was better addressing pain and anxiety. Finally, my colleagues also recognized that they needed a stronger research design because the initial study lacked a control group. Moving to a randomized trial could yield stronger evidence for TEACH’s efficacy.</p>
+<style type="text/css">
+span.MJX_Assistive_MathML {
+position:absolute!important;
+clip: rect(1px, 1px, 1px, 1px);
+padding: 1px 0 0 0!important;
+border: 0!important;
+height: 1px!important;
+width: 1px!important;
+overflow: hidden!important;
+display:block!important;
+}</style></aside>
+</section>
+<section id="study-purpose" class="slide level2">
+<h2>Study Purpose</h2>
+<ul>
+<li>Examine the feasibility and acceptability of remotely-delivered TEACH+TAU for adolescents and young adults with cSLE.</li>
+<li>Test efficacy of TEACH+TAU vs. TAU-alone:
+<ul>
+<li>Primary: depressive, fatigue, &amp; pain symptoms.</li>
+<li>Secondary: disease activity, medication adherence, &amp; anxiety symptoms.</li>
+</ul></li>
+</ul>
+<aside class="notes">
+<p>That led to development of the study I’m describing today. The PIs decided to pursue refining the program to include re</p>
+<style type="text/css">
+span.MJX_Assistive_MathML {
+position:absolute!important;
+clip: rect(1px, 1px, 1px, 1px);
+padding: 1px 0 0 0!important;
+border: 0!important;
+height: 1px!important;
+width: 1px!important;
+overflow: hidden!important;
+display:block!important;
+}</style></aside>
+</section>
+<section id="research-design" class="slide level2">
+<h2>Research Design</h2>
+<ul>
+<li>Hypothesis</li>
+<li>Research design</li>
 </ul>
 <aside class="notes">
 
@@ -1324,9 +1535,8 @@ overflow: hidden!important;
 display:block!important;
 }</style></aside>
 </section>
-<section>
-<section id="section-title" class="title-slide slide level1 center">
-<h1>Section title</h1>
+<section id="methods" class="slide level2">
+<h2>Methods</h2>
 <aside class="notes">
 
 <style type="text/css">
@@ -1341,8 +1551,8 @@ overflow: hidden!important;
 display:block!important;
 }</style></aside>
 </section>
-<section id="slide-title" class="slide level2">
-<h2>Slide title</h2>
+<section id="study-design" class="slide level2">
+<h2>Study Design</h2>
 <aside class="notes">
 
 <style type="text/css">
@@ -1359,8 +1569,10 @@ display:block!important;
 </section>
 <section id="references" class="slide level2 scrollable smaller">
 <h2>References</h2>
-<div id="refs" role="list">
-
+<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" data-line-spacing="2" role="list">
+<div id="ref-Cunningham-RN8694" class="csl-entry" role="listitem">
+1. Cunningham, N. R., Senger-Carpenter, T., Zuckerman, J., Adler, M., Reid, M. R., Danguecan, A. N., Flores Pereira, L., Mossad, S. I., Ely, S. L., Abulaban, K., Kessler, E. A., Rosenwasser, N., Rubinstein, T. B., Ogbu, E. A., Smitherman, E. A., Miller, A., Abounader, T., Ross, E., Timmerman, L., … Knight, A. (2025). Cognitive behavioral therapy for youth with childhood-onset lupus: A randomized clinical trial [Advance online publication]. <em>Arthritis Care &amp; Research</em>. <a href="https://doi.org/10.1002/acr.70010">https://doi.org/10.1002/acr.70010</a>
+</div>
 </div>
 <aside class="notes">
 <p>Finally, here’s the list of references mentioned in the slides.</p>
@@ -1375,7 +1587,7 @@ width: 1px!important;
 overflow: hidden!important;
 display:block!important;
 }</style></aside>
-</section></section>
+</section>
 <section id="questions-discussion-time" class="title-slide slide level1 center">
 <h1>Questions &amp; Discussion Time</h1>
 <p>Thank you for attending!</p>
