@@ -49,14 +49,6 @@ library(knitr)
 library(kableExtra) # Functions for formatting nice tables. 
 ```
 
-## Outline
-* Background
-* Study Purpose & Design
-* Methods
-*	Raw Data – Tables
-* Data Analysis
-* Results
-* Discussion & Conclusion
 
 ::: {.notes}
 
