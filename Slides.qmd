@@ -7,10 +7,12 @@ author:
     email: pierces1@msu.edu
     affiliations: 
       - name: Michigan State University, Center for Statistical Training and Consulting
-  - name: Natoshia Cunningham
+  - name: Natoshia R. Cunningham
+    orcid: 0000-0002-1788-7264
     affiliations: 
       - name: Michigan State University, Department of Family Medicine
   - name: Andrea Knight
+    orcid: 0000-0003-4278-9049
     affiliations: 
       - name: University of Toronto, Temerty Faculty of Medicine
 date: March 30, 2026
