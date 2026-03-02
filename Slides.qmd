@@ -49,18 +49,174 @@ library(knitr)
 library(kableExtra) # Functions for formatting nice tables. 
 ```
 
+## Preface
 
-::: {.notes}
+* Presentation is based on a forthcoming paper. [@Cunningham-RN8694]
+* See the paper for most supporting references. 
+
+:::{.callout-tip title="Funding"}
+All phases of this study were supported by a Childhood Arthritis and 
+Rheumatology Research Alliance-Arthritis Foundation Transdisciplinary Research 
+Grant (PI: Natoshia R. Cunningham).
 
 :::
 
-## Background
-
 ::: {.notes}
-
+My case study is based on a forthcoming paper in *Arthritis Care & Research*. 
+Supporting references for some of my points here can be found in the paper, 
+which is listed in the references at the end of the slides. I've just been 
+selective about citing sources in the slides to keep them cleaner. 
 :::
 
-## Study Purpose & Design
+## Contributors {.smaller}
+
+:::: {.columns}
+::: {.column width="34%"}
+* **Natoshia R. Cunningham**
+* Thea Senger-Carpenter
+* Jocelyn Zuckerman
+* Michelle Adler
+* Mallet R. Reid 
+* Ashley Danguecan
+* Luana Flores Pereira
+* Sarah I. Mossad
+* Samantha L. Ely
+* Khalid Abulaban
+:::
+
+::: {.column width="33%"}
+* Elizabeth A. Kessler
+* Natalie Rosenwasser
+* Tamar B. Rubinstein
+* Ekemini A. Ogbu
+* Emily A. Smitherman
+* Alaina Miller
+* Taylor Abounader
+* Elizabeth Ross
+* Livie Timmerman
+* Dhriti Sharma
+:::
+
+::: {.column width="33%"}
+* Jennifer N. Stinson
+* Stacy Allen
+* Kabita Nanda
+* Tala El Tal
+* Deborah M. Levy
+* Linda T. Hiraki
+* Hermine I. Brunner
+* Mathew Reeves
+* Steven J. Pierce
+* **Andrea Knight**
+:::
+
+:::: 
+
+**Bold = Principal investigators.**
+
+::: {.notes}
+Our study team was very large. This is a list of all the co-authors on our paper
+with the principal investigators' names in bold text. That said, let's get
+started with the substantive content of the case study.
+:::
+
+## Childhood-Onset Systemic Lupus Erythematosus
+
+* cSLE is a chronic, multisystemic, autoimmune disease diagnosed prior to age 18 
+  years.
+* Higher risk for depressive, fatigue, and pain symptoms, which may lower 
+  health-related quality of life (HR-QOL).
+* More often affects female and Asian, Native American, and Black youth.
+* Black youth may get less help managing comorbid symptoms than White peers.
+
+::: {.notes}
+Childhood-onset lupus is a chronic, multisystemic, autoimmune disease diagnosed 
+prior to age 18 years. Patients are at higher risk for depressive, fatigue, and 
+pain symptoms, which may lower health-related quality of life. We know that 
+lupus has a disproportionate impact on some parts of the population: it is more 
+likely to affect female and Asian, Native American, and Black youth. It's the 
+fifth leading cause of death for Black and Hispanic females age 15-24. Previous
+studies also suggest that Black youth may be less likely to receive effective 
+help managing comorbid symptoms such as anxiety and depression than White peers.
+This all means that we need better interventions to help lupus patients. 
+:::
+
+## Cognitive Behavioral Therapy (CBT)
+
+* Effective for managing depression, fatigue, and pain in youth with other 
+  chronic illnesses and in *adults* with lupus. 
+* Prior studies on CBT for *youth* with lupus: 
+    * One failed to find clinically significant effects on pain, affect, & 
+      quality of life. 
+    * Treatment and Education Approach for Childhood-Onset Lupus (TEACH) program 
+      had promising results but needed refinements. 
+
+::: {.notes}
+Psychological interventions offer one way to improve the mental health of lupus
+patients. Research has shown that cognitive behavioral therapy is effective for
+managing depression, fatigue, and pain in youth with other chronic illnesses and
+in adults with lupus. However, there were only two prior studies on using CBT
+for youth with lupus. One of them failed to find any clinically significant
+effects on pain, affect, and quality of life. The other was our team's
+single-arm pilot test of the Treatment and Education Approach for
+Childhood-Onset Lupus, the TEACH program. My colleagues' first TEACH study 
+yielded promising results but needed some refinements.
+:::
+
+## The TEACH Intervention: Initial Pilot Study
+
+* A tailored, CBT program delivered via 6 weekly sessions.
+* Targets depressive, fatigue, and pain symptoms as primary outcomes.
+* High retention rate (82.4%).
+* Reduced depressive and fatigue symptoms.
+* Marginal reductions in pain and anxiety. 
+
+::: {.notes}
+The first iteration of the TEACH intervention consisted of a tailored, CBT 
+program delivered during a series of 6 weekly in-person visits. The primary 
+outcomes it sought to improve were patients' depressive, fatigue, and pain
+symptoms. The first study showed a retention rate of just over 82% and potential 
+improvements in depressive and fatigue symptoms, with weaker evidence for 
+reductions in pain and anxiety. 
+
+Intervention development is often iterative. Early results like these are 
+promising but not definitive and usually accompanied by feedback about ways to 
+improve the program. 
+:::
+
+## The TEACH Intervention: Initial Lessons Learned
+
+* Patients wanted a remote delivery option instead of only in-person. 
+* Need to engage patients in refining the intervention.
+* Need to better address pain and anxiety. 
+* Need stronger evidence of efficacy.
+
+::: {.notes}
+Some of the inital lessons learned were that patients reported wanting the
+option to get the TEACH intervention delivered remotely instead of only through
+in-person visits. That first study also revealed a need to refine the
+intervention and it was clear that engaging lupus patients in planning those
+refinements could be crucial to improving feasibility, acceptability, and
+effectiveness of the intervention. One priority was better addressing pain and
+anxiety. Finally, my colleagues also recognized that they needed a stronger
+research design because the initial study lacked a control group. Moving to a
+randomized trial could yield stronger evidence for TEACH's efficacy.
+:::
+
+## Study Purpose
+
+* Examine the feasibility and acceptability of remotely-delivered TEACH+TAU for 
+  adolescents and young adults with cSLE. 
+* Test efficacy of TEACH+TAU vs. TAU-alone:
+    * Primary: depressive, fatigue, & pain symptoms. 
+    * Secondary: disease activity, medication adherence, & anxiety symptoms.
+
+::: {.notes}
+That led to development of the study I'm describing today. The PIs decided to 
+pursue refining the program to include re
+:::
+
+## Research Design
 
 * Hypothesis 
 * Research design
