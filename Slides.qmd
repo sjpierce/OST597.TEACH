@@ -18,7 +18,11 @@ author:
 date: March 30, 2026
 title-slide-attributes: 
   data-notes: 1 hr (40-45 min talk + 5 min Q & A + 10 min break) My name is 
-              Steven Pierce. My talk today . 
+              Steven Pierce. I'll be presenting a research case study on the 
+              TEACH intervention for youth with childhood-onset lupus. I was 
+              the statistician on the project, so my talk will emphasize some of 
+              the research design and methodology issues involved, plus the 
+              results we obtained.  
 csl: apa-numeric-superscript-brackets.csl      # File controls citation & reference list format
 bibliography: references.bib                   # File holds BibTeX data for references
 format: 
