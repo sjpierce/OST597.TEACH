@@ -168,7 +168,7 @@ Childhood-Onset Lupus, the TEACH program. My colleagues' first TEACH study
 yielded promising results but needed some refinements.
 :::
 
-## The TEACH Intervention: Initial Pilot Study
+## TEACH: Initial Pilot Study
 
 * A tailored, CBT program delivered via 6 weekly sessions.
 * Targets depressive, fatigue, and pain symptoms as primary outcomes.
@@ -189,15 +189,15 @@ promising but not definitive and usually accompanied by feedback about ways to
 improve the program. 
 :::
 
-## The TEACH Intervention: Initial Lessons Learned
+## TEACH: Initial Lessons Learned
 
-* Patients wanted a remote delivery option instead of only in-person. 
+* Patients wanted a remote delivery option. 
 * Need to engage patients in refining the intervention.
 * Need to better address pain and anxiety. 
-* Need stronger evidence of efficacy.
+* Need to get stronger evidence of efficacy.
 
 ::: {.notes}
-Some of the inital lessons learned were that patients reported wanting the
+Some of the initial lessons learned were that patients reported wanting the
 option to get the TEACH intervention delivered remotely instead of only through
 in-person visits. That first study also revealed a need to refine the
 intervention and it was clear that engaging lupus patients in planning those
@@ -208,17 +208,32 @@ research design because the initial study lacked a control group. Moving to a
 randomized trial could yield stronger evidence for TEACH's efficacy.
 :::
 
-## Study Purpose
+## Current Study
 
 * Examine the feasibility and acceptability of remotely-delivered TEACH+TAU for 
   adolescents and young adults with cSLE. 
-* Test efficacy of TEACH+TAU vs. TAU-alone:
+* Test efficacy of TEACH vs. TAU:
     * Primary: depressive, fatigue, & pain symptoms. 
     * Secondary: disease activity, medication adherence, & anxiety symptoms.
 
 ::: {.notes}
 That led to development of the study I'm describing today. The PIs decided to 
-pursue refining the program to include re
+update the program content and delivery method to address the patient feedback
+from the prior study. So, our new study needed to again examine the feasibility 
+and acceptability of the updated program, which was delivered remotely via
+video-conference calls with participants instead of in-person. The other major 
+objective was to move to a randomized controlled trial design that included an 
+intervention arm and treatment-as-usual control group. That design change aimed 
+to improve internal validity when we tested the intervention's efficacy by 
+comparing primary and secondary outcomes among patients who received TEACH 
+paired with outcomes among those who did not. Both groups got medical 
+treatment-as-usual for lupus throughout the study, so study arms were a 
+TEACH+TAU intervention arm and TAU-alone control arm. 
+
+Measures of depressive, fatigue, and pain symptoms were the primary outcomes, 
+while measures of disease activity, medication adherence, and anxiety symptoms 
+were secondary outcomes. 
+:::
 
 # Methods
 
@@ -227,19 +242,114 @@ pursue refining the program to include re
 
 ## Research Design
 
-* Hypothesis 
-* Research design
+* International, multi-site study 
+* Longitudinal, parallel-arms RCT
+* Preregistered at ClinicalTrials.gov (NCT04335643)
+* Approved by MSU IRB (STUDY00003882)
 
 ::: {.notes}
 
 :::
 
-## Methods
+## Sites: Pediatric Rheumatology Clinics
+
+:::: {.columns}
+::: {.column width="50%"}
+**United States**
+
+* Helen DeVos Children's Hospital
+* Cincinnati Children's Hospital Medical Center
+* Seattle Children's Hospital
+* Children's Hospital at Montefiore
+* University of Alabama
+
+:::
+
+::: {.column width="50%"}
+**Canada**
+
+* The Hospital for Sick Children, Toronto
+
+:::
+::::
+
+::: {.notes}
+Our sites were all pediatric rheumatology clinics. We had five sites in the US 
+and one in Canada. 
+:::
+
+## Participants {.smaller}
+
+:::: {.columns}
+::: {.column width="50%"}
+**Inclusion Criteria**
+
+* Age 12-22 years, 
+* cSLE diagnosis from a pediatric rheumatologist by age 18 yrs,
+* Elevated depressive, fatigue, and/or pain symptoms, and
+* English language proficiency. 
+
+:::
+
+::: {.column width="50%"}
+**Exclusion Criteria**
+
+* Other chronic medical conditions (e.g., juvenile idiopathic arthritis),
+* Documented developmental delays or severe cognitive impairments,
+* Untreated major psychiatric illness (e.g. bipolar disorder, active suicidal 
+  ideation), or
+* Already getting treated for depressive, fatigue, or pain symptoms. 
+
+:::
+::::
+
+::: {.notes}
+Participants were compensated with gift cards, with $50 each at baseline and and 
+post-assessment. 
+:::
+
+## TEACH Intervention
+
+* Adapted with input from advisory group (cSLE patients & caregivers)
+* A tailored, CBT program delivered via 6 weekly video conference sessions.
+* Supporting online modules & caregiver involvement for minors.
+* Targets depressive, fatigue, and pain symptoms as primary outcomes.
+* Delivered by three trained interventionists (i.e., two licensed clinical 
+  social workers or a pediatric psychologist),
+* Content comprised psychoeducation, behavioral (e.g., relaxation training; 
+  activity pacing), cognitive (e.g., identifying and challenging automatic 
+  thoughts; problem solving) and mindfulness strategies. 
 
 ::: {.notes}
 :::
 
-## Study Design
+## Fidelity Assessment
+
+* All sessions video recorded.
+* Independent evaluators scored fidelity 0-100% via standardized checklist. 
+
+::: {.notes}
+:::
+
+## Stratified Random Block Randomization
+
+* 1:1 ratio for TEACH+TAU vs TAU-Alone
+* Country: US vs Canada.
+* Age group: adolescent (12-17 yrs) vs. young adult (18-22 yrs).
+* Random blocks of 4 or 8 patients.
+* TAU-alone participants offered TEACH after posttest. 
+* The investigators (except interventionists and statistician) were blind to 
+  randomization throughout. 
+
+
+::: {.notes}
+:::
+
+## Measures
+
+* Recruitment rate = (# agreed)/(# approached)
+* Retention rate = (# completed posttest)/(# randomized)
+
 # Results
 
 ::: {.notes}
