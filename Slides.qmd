@@ -120,6 +120,11 @@ with the principal investigators' names in bold text. That said, let's get
 started with the substantive content of the case study.
 :::
 
+# Introduction
+
+::: {.notes}
+:::
+
 ## Childhood-Onset Systemic Lupus Erythematosus
 
 * cSLE is a chronic, multisystemic, autoimmune disease diagnosed prior to age 18 
@@ -214,6 +219,10 @@ randomized trial could yield stronger evidence for TEACH's efficacy.
 ::: {.notes}
 That led to development of the study I'm describing today. The PIs decided to 
 pursue refining the program to include re
+
+# Methods
+
+::: {.notes}
 :::
 
 ## Research Design
@@ -231,6 +240,7 @@ pursue refining the program to include re
 :::
 
 ## Study Design
+# Results
 
 ::: {.notes}
 :::
