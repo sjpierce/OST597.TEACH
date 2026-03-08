@@ -53,6 +53,7 @@ library(kableExtra) # Functions for formatting nice tables.
 
 * Presentation is based on a forthcoming paper. [@Cunningham-RN8694]
 * See the paper for most supporting references. 
+* Study was approved by MSU IRB (STUDY00003882).
 
 :::{.callout-tip title="Funding"}
 All phases of this study were supported by a Childhood Arthritis and 
@@ -65,7 +66,8 @@ Grant (PI: Natoshia R. Cunningham).
 My case study is based on a forthcoming paper in *Arthritis Care & Research*. 
 Supporting references for some of my points here can be found in the paper, 
 which is listed in the references at the end of the slides. I've just been 
-selective about citing sources in the slides to keep them cleaner. 
+selective about citing sources in the slides to keep them cleaner. The study was 
+approved by MSU's institutional review board. 
 :::
 
 ## Contributors {.smaller}
@@ -242,12 +244,32 @@ were secondary outcomes.
 
 ## Research Design
 
-* International, multi-site study 
-* Longitudinal, parallel-arms RCT
+```{r}
+#| results: asis
+
+StudyDesign <- data.frame(Arm = c("TEACH", "TAU"),
+                          Pretest = rep("$O_1$", times = 2),
+                          Allocation = rep("$R$", times = 2),
+                          Intervention = c("$X$", ""),
+                          Posttest = rep("$O_2$", times = 2)) 
+
+FN <- paste("$O_i$, observed data at time $i$;", 
+            "$R$, randomized;",
+            "$X$, delivery of TEACH intervention (6 weeks).")
+kable(StudyDesign, format = "html", escape = FALSE, align = "lcccc") %>% 
+  kable_styling(full_width = FALSE) %>% 
+  add_header_above(c(" ", "Longitudinal Event" = 4), escape = FALSE) %>% 
+  footnote(general = FN, general_title = "Note: ", footnote_as_chunk = TRUE,
+           threeparttable = FALSE, escape = FALSE) %>% 
+  cat()
+```
+
 * Preregistered at ClinicalTrials.gov (NCT04335643)
-* Approved by MSU IRB (STUDY00003882)
 
 ::: {.notes}
+This international, multi-site study used a parallel arms randomized controlled 
+trial design, with pretest data collected before random assignment. The TEACH 
+arm got the intervention between pretest and posttest, but the TAU arm did not.
 
 :::
 
@@ -310,17 +332,23 @@ post-assessment.
 
 ## TEACH Intervention
 
-* Adapted with input from advisory group (cSLE patients & caregivers)
-* A tailored, CBT program delivered via 6 weekly video conference sessions.
-* Supporting online modules & caregiver involvement for minors.
-* Targets depressive, fatigue, and pain symptoms as primary outcomes.
-* Delivered by three trained interventionists (i.e., two licensed clinical 
-  social workers or a pediatric psychologist),
-* Content comprised psychoeducation, behavioral (e.g., relaxation training; 
-  activity pacing), cognitive (e.g., identifying and challenging automatic 
-  thoughts; problem solving) and mindfulness strategies. 
+* Advisory input from cSLE patients & caregivers.
+* A tailored, CBT program, 6 weekly video calls.
+* Delivered by 1 of 3 interventionists.
+* Supporting online modules, caregiver involved for minors
+* Targets depressive, fatigue, and pain symptoms.
+* Psychoeducation, behavioral, cognitive, & mindfulness strategies. 
 
 ::: {.notes}
+The TEACH intervention was adapted with input from an advisory group of lupus 
+patients and caregivers. It remained a 6-session CBT program, but was delivered 
+via video calls with trained interventionists (two licensed clinical social 
+workers or a pediatric psychologist). Patients used supporting online modules, 
+and caregivers were involved for minors. TEACH continued to target depressive, 
+fatigue, and pain symptoms as primary outcomes. The intervention content 
+included psychoeducation, behavioral stratigies such as relaxation training and 
+activity pacing, cognitive strategies such as challenging automatic thoughts and 
+problem solving, and mindfulness strategies. 
 :::
 
 ## Fidelity Assessment
@@ -333,24 +361,143 @@ post-assessment.
 
 ## Stratified Random Block Randomization
 
-* 1:1 ratio for TEACH+TAU vs TAU-Alone
+* 1:1 ratio for TEACH vs. TAU arms.
 * Country: US vs Canada.
 * Age group: adolescent (12-17 yrs) vs. young adult (18-22 yrs).
 * Random blocks of 4 or 8 patients.
-* TAU-alone participants offered TEACH after posttest. 
-* The investigators (except interventionists and statistician) were blind to 
-  randomization throughout. 
+* TAU participants offered TEACH after posttest. 
+* Investigators (except interventionists & statistician) were blind to 
+  randomization. 
+
+::: {.notes}
+:::
+
+## Primary Outcome Measures 
+
+* Recruitment rate = (# consented)/(# approached)
+* Retention rate = (# completed posttest)/(# randomized)
+* Qualitative interviews
+
+::: {.notes}
+:::
+
+## Secondary Outcome Measures
+
+* Depressive symptoms over past 2 weeks
+    * Children’s Depression Inventory 2nd Edition (CDI-II) for adolescents, 28 items
+    * Beck Depression Inventory-II (BDI-II) for young adults, 21 items
+    * Both converted to $T$-scores (M = 50, SD = 10) 
+    * Eligible if $60 \le T < 90$.
+    * 50% reduction is meaningful.
+* Fatigue over past week
+    * PROMIS Pediatric Short Form for adolescents, 10 items
+    * Adult Fatigue Short Form for young adults, 8 items
+    * Both converted to $T$-scores (M = 50, SD = 10) 
+    * Eligible if $T \ge 60$ (elevated).
+    * Reduction of $\ge 10$ is meaningful. 
+* Pain intensity over past 2 weeks
+    * Pain Visual Analog Scale (VAS), ranges 0-10
+    * Eligible if rating $\ge 3$ (moderate)
+    * Reduction of $\ge 30$% are meaningful.
+  
+::: {.notes}
+:::
+
+## Exploratory Outcome Measures
+
+* Anxiety for past 3 months
+    * Screen for Child Anxiety Related Disorders (SCARED) for adolescents, 41 items
+    * Screen for Adult Anxiety Related Disorders (SCAARED) for young adults, 44 items
+    * Converted to $z$-scores.
+    * Reduction of >50% is meaningful. 
+* Disease Activity
+    * Systemic Lupus Erythematosus Disease Activity Index (SLEDAI-2K).
+    * Scores range from 0-105, with scores $\ge 6$ indicating active disease. 
+* Medication adherence over past month
+    * Adapted from Medication Adherence Self-Report Inventory
+    * Rated 0-100%, scores $\ge 80$% indicate adequate adherence.
+* Pediatric health-related quality of life (HR-QOL)
+    * PedsQL Quality of Life Inventory (child & caregiver)
+    * PedsQL Rheumatology Module (child & caregiver)
+* Adverse events during the intervention
+    * Negative Effects Questionnaire, 20 items
+    * Binary indicator of occurrent (0 = no, 1 = yes)
+    * Ordinal indicator of how negatively they were affected (0-5)
+
+::: {.notes}
+:::
+
+## Covariates
+
+* Demographics: Age, sex, race, ethnicity, disease duration (months), education.
+* Disease manifestations: Systemic Lupus International Collaborating Clinics 
+  (SLICC) classification.
+* Adverse childhood experiences (ACEs).
+* Medication usage (name, indication). 
+
+## Analysis
+
+*
+
+# Results
+
+## CONSORT Chart
+
+```{dot}
+//| fig-width: 10
+//| fig-height: 3
+digraph RRProduct {
+rankdir="LR";
+
+node [shape = "box", style= "filled", fontname="Lato", fillcolor = "#C3FFEC"]
+Identified [label = "Identified\nn = 293"]
+Approached [label = "Approached\nn = 200"]
+Consented [label = "Consented\nn = 97"]
+Screened [label = "Screened\nn = 85"]
+Pretest [label = "Pretest &\nRandomized\nn = 64"]
+TEACH [label = "TEACH\nn = 32"]
+TEACHPosttest [label = "Posttest\nn = 29"]
+TAU [label = "TAU\nn = 32"]
+TAUPosttest [label = "Posttest\nn = 30"]
+
+Identified -> Approached -> Consented -> Screened -> Pretest 
+Pretest -> TEACH -> TEACHPosttest
+Pretest -> TAU -> TAUPosttest
+}
+```
+
+:::: {.fragment}
+:::{.callout-tip title = "Primary Outcomes"}
+
+* Recruitment rate = 97/200 = 48.5%
+* Retention rate = 59/64 = 92.2%
+
+:::
+::::
+
+::: {.notes}
+:::
+
+
+## Sample Descriptives
 
 
 ::: {.notes}
 :::
 
-## Measures
+## Primary Outcomes
 
-* Recruitment rate = (# agreed)/(# approached)
-* Retention rate = (# completed posttest)/(# randomized)
+::: {.notes}
+:::
 
-# Results
+
+## Secondary Outcomes 
+
+::: {.notes}
+:::
+
+
+## Exploratory Outcomes
 
 ::: {.notes}
 :::
