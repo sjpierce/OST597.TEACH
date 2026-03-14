@@ -317,7 +317,7 @@ and one in Canada.
 **Inclusion Criteria**
 
 * Age 12-22 years, 
-* cSLE diagnosis from a pediatric rheumatologist by age 18 yrs,
+* cSLE diagnosis by age 18 yrs,
 * Elevated depressive, fatigue, and/or pain symptoms, and
 * English language proficiency. 
 
@@ -326,16 +326,23 @@ and one in Canada.
 ::: {.column width="50%"}
 **Exclusion Criteria**
 
-* Other chronic medical conditions (e.g., juvenile idiopathic arthritis),
-* Documented developmental delays or severe cognitive impairments,
-* Untreated major psychiatric illness (e.g. bipolar disorder, active suicidal 
-  ideation), or
-* Already getting treated for depressive, fatigue, or pain symptoms. 
+* Other chronic medical conditions, 
+* Developmental delays or severe cognitive impairments,
+* Untreated major psychiatric illness, or
+* In treatment for depressive, fatigue, or pain symptoms. 
 
 :::
 ::::
 
 ::: {.notes}
+Participants had to be 12-22 years old, with a cSLE diagnosis from a pediatric 
+rheumatologist by age 18 yrs, have elevated depressive, fatigue, and/or pain 
+symptoms, and proficient in English. We excluded any who had other chronic 
+medical conditions (such as juvenile idiopathic arthritis), any documented 
+developmental delays or severe cognitive impairments, untreated major 
+psychiatric illness (such as bipolar disorder, active suicidal ideation), or
+who was already getting treated for depressive, fatigue, or pain symptoms. 
+
 Participants were compensated with gift cards, with $50 each at baseline and and 
 post-assessment. 
 :::
