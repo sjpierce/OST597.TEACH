@@ -222,25 +222,25 @@ randomized trial could yield stronger evidence for TEACH's efficacy.
 
 ## Current Study
 
-* Examine the feasibility and acceptability of remotely-delivered TEACH+TAU for 
-  adolescents and young adults with cSLE. 
+* Examine feasibility & acceptability of remotely-delivered TEACH for 
+  adolescents/young adults w/ cSLE. 
 * Test efficacy of TEACH vs. TAU:
     * Primary: depressive, fatigue, & pain symptoms. 
     * Secondary: disease activity, medication adherence, & anxiety symptoms.
 
 ::: {.notes}
-That led to development of the study I'm describing today. The PIs decided to 
+That led to development of the study I'm describing today. The PIs decided to
 update the program content and delivery method to address the patient feedback
-from the prior study. So, our new study needed to again examine the feasibility 
+from the prior study. So, our new study needed to again examine the feasibility
 and acceptability of the updated program, which was delivered remotely via
-video-conference calls with participants instead of in-person. The other major 
-objective was to move to a randomized controlled trial design that included an 
-intervention arm and treatment-as-usual control group. That design change aimed 
-to improve internal validity when we tested the intervention's efficacy by 
-comparing primary and secondary outcomes among patients who received TEACH 
-paired with outcomes among those who did not. Both groups got medical 
-treatment-as-usual for lupus throughout the study, so study arms were a 
-TEACH+TAU intervention arm and TAU-alone control arm. 
+video-conference calls with participants instead of in-person. The other major
+objective was to move to a randomized controlled trial design that included an
+intervention arm and a treatment-as-usual control arm. That design change aimed
+to improve internal validity when we tested the intervention's efficacy by
+comparing primary and secondary outcomes among patients who received TEACH
+with outcomes among those who did not. Both groups got medical
+treatment-as-usual for lupus throughout the study, so study arms were a
+TEACH+TAU intervention arm and TAU-alone control arm.
 
 Measures of depressive, fatigue, and pain symptoms were the primary outcomes, 
 while measures of disease activity, medication adherence, and anxiety symptoms 
