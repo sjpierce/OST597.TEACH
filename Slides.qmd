@@ -392,10 +392,18 @@ problem solving, and mindfulness strategies.
 ## Primary Outcome Measures 
 
 * Recruitment rate = (# consented)/(# approached)
+    * Benchmark: > 65 %
 * Retention rate = (# completed posttest)/(# randomized)
-* Qualitative interviews
+    * Benchmark: > 80%
+* Qualitative interviews about TEACH acceptability
 
 ::: {.notes}
+The primary quantitative outcomes for this study were the recruitment rate, 
+defined as the percent of approached patients who consented to joining the 
+study, and the retention rate, defined as the percent of randomized patients who 
+completed the posttest data collection. In addition, qualitative feedback about 
+the acceptability of the intervention was collected by interviewing 
+participants.
 :::
 
 ## Secondary Outcome Measures
