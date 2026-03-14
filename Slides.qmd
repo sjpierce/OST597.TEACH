@@ -416,7 +416,7 @@ participants.
     * 50% reduction is meaningful.
 * Fatigue over past week
     * PROMIS Pediatric Short Form for adolescents, 10 items
-    * Adult Fatigue Short Form for young adults, 8 items
+    * PROMIS Adult Fatigue Short Form for young adults, 8 items
     * Both converted to $T$-scores (M = 50, SD = 10) 
     * Eligible if $T \ge 60$ (elevated).
     * Reduction of $\ge 10$ is meaningful. 
@@ -460,11 +460,51 @@ participants.
 * Adverse childhood experiences (ACEs).
 * Medication usage (name, indication). 
 
-## Analysis
+## Quantitative Analysis
 
-*
+* Estimated recruitment and retention rates
+* Intent-to-treat (ITT) estimate of intervention effect
+* ANCOVA predictors or posttest outcomes: 
+    * Arm (focal predictor)
+    * Pretest outcome
+    * Country
+    * Age group
+    * Covariates: Race, ethnicity, ACE exposures
+    * Arm x pretest
+* Estimated marginal means for arm effect
+
+::: {.notes}
+:::
+
+## Imputing Missing Data via MICE {.smaller}
+
+* Allowed retaining all cases as required for ITT analysis 
+* 55% of cases had at least one missing value.
+    * HR-QOL measures missing by design for young-adults. 
+* Imputation model used:
+    * All focal predictors & covariates used in the (ANCOVA) model.
+    * Binary indicator of post-assessment attendance.
+    * Longitudinal relationships between pretest & posttest for each outcome.
+    * Cross-sectional relationships between outcomes measured at the same time. 
+* Parameter estimates pooled across analyses of 55 imputed datasets. 
+
+::: {.notes}
+To ensure that we retained all randomized participants in the analysis while 
+also handling missing data, we used multiple imputation via chained equations 
+:::
 
 # Results
+
+## Sample Descriptives
+
+* Country: 61% US, 39% CA
+* Age: M = 16.5, SD = 2.1, 64% adolescent, 36% young adult
+* Sex: 97% female
+* 
+
+
+::: {.notes}
+:::
 
 ## CONSORT Chart
 
@@ -506,14 +546,13 @@ Pretest -> TAU -> TAUPosttest
 ::: {.notes}
 :::
 
-
-## Sample Descriptives
+## Primary Outcomes
 
 
 ::: {.notes}
 :::
 
-## Primary Outcomes
+
 ## Secondary Outcomes: Arm Main Effect
 
 ```{r}
