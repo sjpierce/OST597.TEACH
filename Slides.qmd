@@ -455,7 +455,7 @@ problem solving, and mindfulness strategies.
 
 ```{dot}
 //| fig-width: 10
-//| fig-height: 3
+//| fig-height: 2.5
 digraph RRProduct {
 rankdir="LR";
 
@@ -479,8 +479,11 @@ Pretest -> TAU -> TAUPosttest
 :::: {.fragment}
 :::{.callout-tip title = "Primary Outcomes"}
 
-* Recruitment rate = 97/200 = 48.5%
-* Retention rate = 59/64 = 92.2%
+* Recruitment rate = 97/200 = 48.5% (benchmark: 65%)
+* Retention rate = 59/64 = 92.2% (benchmark: 80%)
+    * Unrelated: arm, country, age group, race, ethnicity, most pretest 
+      outcomes. 
+    * Related: pretest child rheumatology QOL, disease duration.
 
 :::
 ::::
