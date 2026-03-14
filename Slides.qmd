@@ -44,9 +44,19 @@ filters:                                       # Filters are Quarto extensions
 #| label: load-packages
 #| include: false
 
-library(tidyverse)
+library(here)             # for here()
+library(tidyverse)        # loads dplyr, ggplot2, lubridate, stringr all at once.
+                          # for %>%, filter(), mutate(), etc.
+library(emmeans)          # for emmeans(), contrast()
 library(knitr)
 library(kableExtra) # Functions for formatting nice tables. 
+```
+
+``` {r}
+#| label: load-OST597-data
+#| include: false
+
+load(file=here("data/OST597_TEACH.RData"))
 ```
 
 ## Preface
