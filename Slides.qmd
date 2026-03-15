@@ -47,9 +47,11 @@ filters:                                       # Filters are Quarto extensions
 library(here)             # for here()
 library(tidyverse)        # loads dplyr, ggplot2, lubridate, stringr all at once.
                           # for %>%, filter(), mutate(), etc.
-library(emmeans)          # for emmeans(), contrast()
-library(knitr)
+library(knitr)            # for kable(), include_graphics()
 library(kableExtra) # Functions for formatting nice tables. 
+library(emmeans)          # for emmeans(), contrast()
+library(mice)             # for mice(), flux(), etc. 
+library(miceadds)         # for mi.anova()
 ```
 
 ``` {r}
