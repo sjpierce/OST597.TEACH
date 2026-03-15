@@ -588,6 +588,14 @@ plot(emmc_CI_pain, ylab = NULL, xlab = "Pain, Posttest Difference") +
 ```
 
 ::: {.notes}
+Here are the results for testing the main effect of arm, which tells us whether 
+on average the TEACH arm did better than the TAU arm at posttest. On the left, 
+you can see the posttest means and 95% confidence intervals for each arm on each
+secondary outcome. On the right, I've graphed the raw effect size measured by
+the difference between those means. When the red reference line intersects the
+confidence interval for the difference, that means there may be no difference. 
+Here we see that on average, depressive symptoms improved by almost 8 points
+and fatigue by almost 4 points. Pain, however may not have improved. 
 :::
 
 ## Fatigue: Arm x Pretest Interaction
