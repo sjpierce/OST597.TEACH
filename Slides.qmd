@@ -594,7 +594,7 @@ plot(emmc_CI_pain, ylab = NULL, xlab = "Pain, Posttest Difference") +
 
 ```{r}
 #| fig-width: 10
-#| fig-height: 5
+#| fig-height: 5.5
 
 emmip(fit_fatigue_m3, formula = arm ~ c_fatigue_T1, cov.reduce = range, 
       style = "numeric", CIs = TRUE, CIarg = list(lwd = 1, alpha = 0.25), 
@@ -602,20 +602,22 @@ emmip(fit_fatigue_m3, formula = arm ~ c_fatigue_T1, cov.reduce = range,
       xlab = "Centered Pretest Fatigue",
       ylab = "Posttest Fatigue") + 
   geom_ribbon(aes(ymin=LCL, ymax=UCL, fill=arm), alpha=.25) + 
-  theme(text = element_text(family = "sans", size = 10),
-        axis.text = element_text(family = "sans", size=10),
-        legend.position = "bottom", 
-        legend.title = element_text(family = "sans", size=8),
-        legend.text = element_text(family = "sans", size=8)) +
+  theme(text = element_text(family = "sans", size = 14),
+        axis.text = element_text(family = "sans", size=14),
+        legend.position = "inside", 
+        legend.position.inside = c(0.85, 0.20),
+        legend.title = element_text(family = "sans", size=12),
+        legend.text = element_text(family = "sans", size=12)) +
   coord_cartesian(xlim = c(-31, 21), ylim = c(20, 71))
 ```
 
-::: {.callout-tip}
-TEACH has the strongest beneficial effect on posttest fatigue when pretest 
-fatigue is very mild (> 10 points below average). The benefit disappears by 
-about 7.5 points above average pretest fatigue. At unusually high levels of 
-pretest fatigue (> 10-12 points above average), TEACH appears to worsen posttest 
-fatigue. 
+::: {.notes}
+Testing the arm by pretest interaction for fatigue showed that the size of the 
+intervention effect depended on pretest levels of fatigue. TEACH has the 
+strongest beneficial effect on posttest fatigue when pretest fatigue is very 
+mild (> 10 points below average). The benefit disappears by about 7.5 points 
+above average pretest fatigue. At unusually high levels of pretest fatigue 
+(> 10-12 points above average), TEACH appears to worsen posttest fatigue. 
 :::
 
 ## Exploratory Outcomes: Arm Main Effect
@@ -657,7 +659,7 @@ plot(emmc_CI_masri, ylab = NULL, xlab = "Medication Adherence, Posttest Differen
 
 ```{r}
 #| fig-width: 10
-#| fig-height: 5
+#| fig-height: 5.5
 
 emmip(fit_masri_m3, formula = arm ~ c_masri_score_T1, cov.reduce = range, 
       style = "numeric", CIs = TRUE, CIarg = list(lwd = 1, alpha = 0.25), 
@@ -665,19 +667,23 @@ emmip(fit_masri_m3, formula = arm ~ c_masri_score_T1, cov.reduce = range,
       xlab = "Centered Pretest Medication Adherence", xlim = c(-81, 41),
       ylab = "Posttest Medication Adherence") + 
   geom_ribbon(aes(ymin=LCL, ymax=UCL, fill=arm), alpha=.25) + 
-  theme(text = element_text(family = "sans", size = 10),
-        axis.text = element_text(family = "sans", size=10),
-        legend.position = "bottom", 
-        legend.title = element_text(family = "sans", size=8),
-        legend.text = element_text(family = "sans", size=8)) +
+  theme(text = element_text(family = "sans", size = 14),
+        axis.text = element_text(family = "sans", size=14),
+        legend.position = "inside", 
+        legend.position.inside = c(0.85, 0.25),
+        legend.title = element_text(family = "sans", size=12),
+        legend.text = element_text(family = "sans", size=12)) +
   coord_cartesian(xlim = c(-60, 20), ylim = c(40, 120))
 ```
 
-::: {.callout-tip}
-TEACH has the strongest beneficial effect on posttest medication adherence when
-pretest adherence is very low (> 20 points below average). The benefit 
-disappears at average pretest adherence. At higher levels of pretest adherence
-(> 10 points above average), TEACH may worsen posttest adherence.
+::: {.notes}
+While there was no main effect on medication adherence, we did find an arm by
+pretest adherence interaction. That means the size of the intervention effect
+was not constant. Here, we can see that TEACH has the strongest beneficial
+effect on posttest medication adherence when pretest adherence is very low (> 20
+points below average). The benefit disappears at average pretest adherence. At
+higher levels of pretest adherence (> 10 points above average), TEACH may worsen
+posttest adherence.
 :::
 
 ## References {.scrollable}
