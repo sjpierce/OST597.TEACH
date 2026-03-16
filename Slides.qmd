@@ -229,6 +229,7 @@ randomized trial could yield stronger evidence for TEACH's efficacy.
 
 ## Current Study
 
+* Update program content per previous feedback.
 * Examine feasibility & acceptability of remotely-delivered TEACH for 
   adolescents/young adults w/ cSLE. 
 * Test efficacy of TEACH vs. TAU:
@@ -360,7 +361,7 @@ post-assessment.
 * A tailored, CBT program, 6 weekly video calls.
 * Delivered by 1 of 3 interventionists.
 * Supporting online modules, caregiver involved for minors
-* Targets depressive, fatigue, and pain symptoms.
+* Still targets depressive, fatigue, & pain symptoms.
 * Psychoeducation, behavioral, cognitive, & mindfulness strategies. 
 
 ::: {.notes}
@@ -379,6 +380,7 @@ problem solving, and mindfulness strategies.
 
 * All sessions video recorded.
 * Independent evaluators scored fidelity 0-100% via standardized checklist. 
+* Average fidelity was 98%
 
 ::: {.notes}
 :::
