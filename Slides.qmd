@@ -383,6 +383,11 @@ problem solving, and mindfulness strategies.
 * Average fidelity was 98%
 
 ::: {.notes}
+The team recorded video of all intervention sessions, then had three 
+independent, trained evaluators (a physician, licensed social worker, or
+doctoral student of psychology) use standardized checklists to assess fidelity 
+to the TEACH intervention manual. Fidelity was extraordinarily high: the average 
+across all sessions of 98%, so the intervention was delivered as designed. 
 :::
 
 ## Stratified Random Block Randomization
