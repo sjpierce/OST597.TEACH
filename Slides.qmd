@@ -387,15 +387,33 @@ problem solving, and mindfulness strategies.
 
 ## Stratified Random Block Randomization
 
-* 1:1 ratio for TEACH vs. TAU arms.
-* Country: US vs Canada.
-* Age group: adolescent (12-17 yrs) vs. young adult (18-22 yrs).
-* Random blocks of 4 or 8 patients.
-* TAU participants offered TEACH after posttest. 
-* Investigators (except interventionists & statistician) were blind to 
-  randomization. 
+```{r}
+#| results: asis
+
+Strata <- data.frame(Stratum = 1:4,
+                     Country = rep(c("United States", "Canada"), each = 2),
+                     Age_Group = rep(c("Adolescent (12-17 yrs)", 
+                                       "Young Adult (18-22 yrs)"), times = 2)) 
+
+FN <- paste("Within stratum, 1:1 ratio for arms (random blocks, n = 4 or 8).",
+            "Investigators were blind to randomization.",
+            "TAU arm offered TEACH after posttest.")
+kable(Strata, format = "html", escape = FALSE, align = "ccc",
+      col.names = c("Stratum", "Country", "Age Group")) %>% 
+  kable_styling(full_width = FALSE) %>% 
+  footnote(general = FN, general_title = "Note: ", footnote_as_chunk = TRUE,
+           threeparttable = FALSE, escape = FALSE) %>% 
+  cat()
+```
 
 ::: {.notes}
+To balance sample size across arms, the study used a stratified random block
+randomization process. The two stratification variables were country (US vs
+Canada) and age group (adolescent vs young adult). Within each stratum, blocks
+of either 4 or 8 participants were allocated to the TEACH vs TAU arms in 1:1
+ratio. The investigators (except the interventionists & statistician) were blind
+to randomization results during data collection. After the posttest, the TAU
+participants were offered the TEACH intervention.
 :::
 
 ## Primary Outcome Measures 
