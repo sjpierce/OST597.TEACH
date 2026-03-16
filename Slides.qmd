@@ -58,6 +58,11 @@ library(miceadds)         # for mi.anova()
 #| label: load-OST597-data
 #| include: false
 
+# Data file created by 
+# P:\Consulting\Cases_1400-1599\C1563\TEACHPilot\scripts\Outcome_Analyses.qmd
+# and copied from 
+# P:\Consulting\Cases_1400-1599\C1563\TEACHPilot\data\OST597_TEACH.RData
+
 load(file=here("data/OST597_TEACH.RData"))
 ```
 
