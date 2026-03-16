@@ -190,7 +190,7 @@ yielded promising results but needed some refinements.
 ## TEACH: Initial Pilot Study
 
 * A tailored, CBT program delivered via 6 weekly sessions.
-* Targets depressive, fatigue, and pain symptoms as primary outcomes.
+* Targets depressive, fatigue, & pain symptoms as primary outcomes.
 * High retention rate (82.4%).
 * Reduced depressive and fatigue symptoms.
 * Marginal reductions in pain and anxiety. 
