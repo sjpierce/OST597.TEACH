@@ -274,7 +274,9 @@ StudyDesign <- data.frame(Arm = c("TEACH", "TAU"),
 FN <- paste("$O_i$, observed data at time $i$;", 
             "$R$, randomized;",
             "$X$, delivery of TEACH intervention (6 weeks).")
-kable(StudyDesign, format = "html", escape = FALSE, align = "lcccc") %>% 
+kable(StudyDesign, format = "html", escape = FALSE, align = "lcccc",
+      col.names = c("Arm", "Pretest Week 0", "Allocation", "Intervention", 
+                    "Posttest Week 8")) %>% 
   kable_styling(full_width = FALSE) %>% 
   add_header_above(c(" ", "Longitudinal Event" = 4), escape = FALSE) %>% 
   footnote(general = FN, general_title = "Note: ", footnote_as_chunk = TRUE,
