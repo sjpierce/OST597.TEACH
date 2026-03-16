@@ -382,7 +382,7 @@ problem solving, and mindfulness strategies.
 
 * All sessions video recorded.
 * Independent evaluators scored fidelity 0-100% via standardized checklist. 
-* Average fidelity was 98%
+* Average fidelity was 98%.
 
 ::: {.notes}
 The team recorded video of all intervention sessions, then had three 
@@ -598,12 +598,11 @@ quality of life and disease duration were related to retention.
 ## Primary Outcomes: Acceptability Themes
 
 * Skills were logically connected & went "hand in hand".
-* Frequent use of relaxation skills, pleasant activity planning, & activity 
-  pacing was helpful.
+* Relaxation skills, pleasant activity planning, & activity pacing were helpful.
 * There was immediate effect of using the skills taught.
-* Positive relationship w/ interventionist motivated practicing skills.
-* Symptom severity & busy schedules were barriers to using skills.
-* Virtual format was appreciated and it facilitated attendance. 
+* Relationship w/ interventionist motivated practicing skills.
+* Symptom severity & busy schedules were barriers.
+* Virtual format was appreciated & facilitated attendance. 
 
 ::: {.notes}
 :::
