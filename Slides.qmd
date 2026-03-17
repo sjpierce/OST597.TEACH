@@ -384,7 +384,7 @@ problem solving, and mindfulness strategies.
 ## Fidelity Assessment
 
 * All sessions video recorded.
-* Independent evaluators scored fidelity 0-100% via standardized checklist. 
+* Evaluators scored fidelity of each session (0-100%) via standardized checklist. 
 * Average fidelity was 98%.
 
 ::: {.notes}
