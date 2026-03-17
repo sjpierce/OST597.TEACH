@@ -445,24 +445,24 @@ participants.
 
 ## Secondary Outcome Measures
 
-* Depressive symptoms over past 2 weeks
-    * Children’s Depression Inventory 2nd Edition (CDI-II) for adolescents, 28 items
-    * Beck Depression Inventory-II (BDI-II) for young adults, 21 items
-    * Both converted to $T$-scores (M = 50, SD = 10) 
-    * Eligible if $60 \le T < 90$.
-    * 50% reduction is meaningful.
-* Fatigue over past week
-    * PROMIS Pediatric Short Form for adolescents, 10 items
-    * PROMIS Adult Fatigue Short Form for young adults, 8 items
-    * Both converted to $T$-scores (M = 50, SD = 10) 
-    * Eligible if $T \ge 60$ (elevated).
-    * Reduction of $\ge 10$ is meaningful. 
-* Pain intensity over past 2 weeks
-    * Pain Visual Analog Scale (VAS), ranges 0-10
-    * Eligible if rating $\ge 3$ (moderate)
-    * Reduction of $\ge 30$% are meaningful.
+* Depressive symptoms over past 2 weeks. 
+    * CDI-II (28 items) or BDI-II (21 items), $T$-scores.
+* Fatigue over past week.
+    * PROMIS PSF/ASF (10/8 items), $T$-scores.
+* Pain intensity over past 2 weeks.
+    * Pain Visual Analog Scale (VAS), scores 0-10.
   
 ::: {.notes}
+We had three secondary outcomes. We measured depressive symptoms with the 
+Children's Depression Inventory 2nd Edition (CDI-II) for adolescents and Beck 
+Depression Inventory-II (BDI-II) for young adults, converting both to T-scores 
+with Mean = 50 and SD= 10 to make them comparable across age groups. A 50%
+reduction is considered meaningful. Fatigue was measured by the PROMIS Pediatric
+or Adult Short Form, again converting to T-scores for comparability. A fatigue
+reduction of 10 points is meaningful. Finally, pain was measured with the pain
+visual analog scale, where a 30% reduction is meaningful.
+
+T-scores have M = 50, SD = 10. 
 :::
 
 ## Exploratory Outcome Measures
