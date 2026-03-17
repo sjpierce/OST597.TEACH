@@ -328,7 +328,10 @@ and one in Canada.
 
 * Age 12-22 years, 
 * cSLE diagnosis by age 18 yrs,
-* Elevated depressive, fatigue, and/or pain symptoms, and
+* Elevated symptoms:
+    * Depressive: $60 \le T < 90$
+    * Fatigue: $T \ge 60$
+    * Pain: $\ge 3$
 * English language proficiency. 
 
 :::
