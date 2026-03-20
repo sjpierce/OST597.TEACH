@@ -472,31 +472,34 @@ visual analog scale, where a 30% reduction is meaningful.
 T-scores have M = 50, SD = 10. 
 :::
 
-## Exploratory Outcome Measures
+## Exploratory Outcome Measures {.smaller}
 
 * Anxiety for past 3 months
-    * Screen for Child Anxiety Related Disorders (SCARED) for adolescents, 41 items
-    * Screen for Adult Anxiety Related Disorders (SCAARED) for young adults, 44 items
-    * Converted to $z$-scores.
-    * Reduction of >50% is meaningful. 
-* Disease Activity
-    * Systemic Lupus Erythematosus Disease Activity Index (SLEDAI-2K).
-    * Scores range from 0-105, with scores $\ge 6$ indicating active disease. 
+    * SCARED/SCAARED (41/44 items), $z$-scores.
+* Disease activity
+    * SLEDAI-2K, scores from 0-105 ($\ge 6$ shows active disease). 
 * Medication adherence over past month
-    * Adapted from Medication Adherence Self-Report Inventory
-    * Rated 0-100%, scores $\ge 80$% indicate adequate adherence.
+    * Adapted from Medication Adherence Self-Report Inventory, 0-100%
+    * Scores $\ge 80$% indicate adequate adherence.
 * Pediatric health-related quality of life (HR-QOL)
     * PedsQL Quality of Life Inventory (child & caregiver)
     * PedsQL Rheumatology Module (child & caregiver)
-* Adverse events during the intervention
-    * Negative Effects Questionnaire, 20 items
-    * Binary indicator of occurrent (0 = no, 1 = yes)
-    * Ordinal indicator of how negatively they were affected (0-5)
 
 ::: {.notes}
+We also had several exploratory outcomes. I'm only including a subset of them in
+this talk. We measured anxiety with the Screen for Child Anxiety Related 
+Disorders (SCARED) for adolescents and the Screen for Adult Anxiety Related 
+Disorders (SCAARED) for young adults, converting both to z-scores for 
+comparability. Reductions of over 50% are meaningful. We used the Systemic Lupus 
+Erythematosus Disease Activity Index 2000 (SLEDAI-2K) to measure disease 
+activity. SLEDAI scores range from 0-105, with scores $\ge 6$ indicating active 
+disease. Medication adherence over past month was measured with an 
+instrument adapted from the Medication Adherence Self-Report Inventory. Scores 
+are rated 0-100%, with $\ge 80$% indicating adequate adherence. We used some 
+measures of health-related quality of life as well, but I'll omit results for 
+those today to keep the presentation focused. 
 :::
 
-## Covariates
 
 * Demographics: Age, sex, race, ethnicity, disease duration (months), education.
 * Disease manifestations: Systemic Lupus International Collaborating Clinics 
