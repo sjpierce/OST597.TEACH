@@ -385,7 +385,14 @@ problem solving, and mindfulness strategies.
 
 * All sessions video recorded.
 * Evaluators scored fidelity of each session (0-100%) via standardized checklist. 
-* Average fidelity was 98%.
+
+:::: {.fragment}
+::: {.callout-tip}
+**Average fidelity was 98%!**
+
+:::
+
+::::
 
 ::: {.notes}
 The team recorded video of all intervention sessions, then had three 
