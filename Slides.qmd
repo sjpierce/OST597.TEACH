@@ -549,17 +549,33 @@ interpret the intervention effects.
 
 * Allowed retaining all cases as required for ITT analysis 
 * 55% of cases had at least one missing value.
-    * HR-QOL measures missing by design for young-adults. 
 * Imputation model used:
     * All focal predictors & covariates used in the (ANCOVA) model.
     * Binary indicator of post-assessment attendance.
     * Longitudinal relationships between pretest & posttest for each outcome.
-    * Cross-sectional relationships between outcomes measured at the same time. 
+    * Cross-sectional relationships among outcomes measured at the same time. 
 * Parameter estimates pooled across analyses of 55 imputed datasets. 
 
 ::: {.notes}
-To ensure that we retained all randomized participants in the analysis while 
-also handling missing data, we used multiple imputation via chained equations 
+Inter-to-treat analyses require retaining all randomized participants in the 
+analysis. By default most statistical software will drop cases with missing data 
+on any of the variables involved in a model. That can cause serious biases, so 
+we handled missing data with multiple imputation via chained equations (often 
+abbreviated as MICE). This method replaces each missing value by a set of draws 
+from the conditional distribution of that variable informed by the imputation 
+predictors, yielding not just one completed dataset but a whole collection of 
+imputed datasets that we have to analyze to get better estimates. 
+
+About 55% of the cases in our dataset had at least one missing value, largely
+because the quality of life measures were missing by design for young adult
+patients. Those measures were only developed for use with adolescents. Our
+imputation model included all the focal predictors & covariates used in the
+(ANCOVA) model, plus a binary indicator of post-assessment attendance,
+longitudinal relationships between pretest & posttest for each outcome, and
+cross-sectional relationships among outcomes measured at the same time.
+
+We generated 55 imputed datsets, analyzed each one with the same model, then 
+pooled the parameter estimates across datasets.
 :::
 
 # Results
