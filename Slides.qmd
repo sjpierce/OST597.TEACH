@@ -823,6 +823,43 @@ adherence. At higher levels of pretest adherence (> 10 points above average),
 TEACH may worsen posttest adherence.
 :::
 
+## Conclusions
+
+Add content here! 
+
+## Limitations
+
+* Small sample size limits power & risks reduced representativeness. 
+* Excluding youth with severe mental health problems/disease activity & those 
+  already in treatment limits generalizability. 
+* TAU may vary across sites. 
+* Self-reported medication adherence could be biased. 
+
+::: {.notes}
+In terms of limitations, small sample size limited the power and precision of
+estimates and comes with a risk of reduced sample representativeness.
+Replication with larger samples is important.
+
+Second, our eligibility criteria excluded youth with more severe mental health
+problems and/or disease activity and also those already in psychological
+treatment. That may have affected the size of TEACH treatment effects, given the
+greater potential room for improvement (as per our findings for medication
+adherence). It may also affect generalizability of the results. 
+
+Third, features of treatment as usual may vary between clinical sites. Future
+work may include more detailed assessments of both TAU and other adjunctive
+therapies used by youth and families.
+
+Finally, self-reported measures of medication adherence are vulnerable to 
+response bias. Future studies should consider more comprehensive assessment 
+approaches.
+:::
+
+## Next Steps
+
+A larger follow-up study is underway using a hybrid implementation-effectiveness 
+design. 
+
 ## References {.scrollable}
 
 ::: {#refs}
