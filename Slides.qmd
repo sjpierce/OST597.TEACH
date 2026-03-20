@@ -507,6 +507,19 @@ those today to keep the presentation focused.
   (SLICC) classification.
 * Adverse childhood experiences (ACEs).
 
+## Qualitative Analysis
+
+* Grounded theory & thematic analytic framework.
+* Interviews recorded & transcribed.
+* Reviewed by 3 trained coders.
+* Quotes coded into themes until saturation & consensus achieved.
+
+::: {.notes}
+My colleagues used a grounded theory and thematic analytic framework to analyze 
+the qualitative data. Participant interviews were recorded, transcribed, and 
+reviewed by 3 trained coders. They coded quotes into a set of a priori and 
+emerging themes until they achieved both saturation and consensus. 
+:::
 
 ## Quantitative Analysis
 
