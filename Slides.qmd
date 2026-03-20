@@ -651,6 +651,10 @@ to whether someone was retained at posttest, but pretest child rheumatology
 quality of life and disease duration were related to retention. 
 :::
 
+## Pretest Health Characteristics
+
+Add a table here? 
+
 ## Primary Outcomes: Acceptability Themes
 
 * Skills were logically connected & went "hand in hand".
