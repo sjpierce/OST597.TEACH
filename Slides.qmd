@@ -500,12 +500,13 @@ measures of health-related quality of life as well, but I'll omit results for
 those today to keep the presentation focused. 
 :::
 
+## Other Measures
 
 * Demographics: Age, sex, race, ethnicity, disease duration (months), education.
 * Disease manifestations: Systemic Lupus International Collaborating Clinics 
   (SLICC) classification.
 * Adverse childhood experiences (ACEs).
-* Medication usage (name, indication). 
+
 
 ## Quantitative Analysis
 
