@@ -677,8 +677,7 @@ TEACH skills, but patients enjoyed the virtual format and said it facilitated
 attendance. 
 :::
 
-
-## Secondary Outcomes: Arm Main Effect
+## Secondary Posttest Outcomes: Arm Main Effect
 
 ```{r}
 #| fig-height: 1.5
@@ -712,13 +711,15 @@ plot(emmc_CI_pain, ylab = NULL, xlab = "Pain, Posttest Difference") +
 
 ::: {.notes}
 Here are the results for testing the main effect of arm, which tells us whether 
-on average the TEACH arm did better than the TAU arm at posttest. On the left, 
+on average the TEACH arm did better than the TAU arm at posttest. On all these
+secondary outcomes, lower scores are desirable. On the left, 
 you can see the posttest means and 95% confidence intervals for each arm on each
 secondary outcome. On the right, I've graphed the raw effect size measured by
 the difference between those means. When the red reference line intersects the
 confidence interval for the difference, that means there may be no difference. 
-Here we see that on average, depressive symptoms improved by almost 8 points
-and fatigue by almost 4 points. Pain, however may not have improved. 
+Here we see that on average, depressive symptoms improved by almost 8 points 
+(14%) and fatigue by almost 4 points (7%). Pain, however may not have improved 
+despite an average reduction of 0.89 points (25%). 
 :::
 
 ## Fatigue: Arm x Pretest Interaction
@@ -743,15 +744,19 @@ emmip(fit_fatigue_m3, formula = arm ~ c_fatigue_T1, cov.reduce = range,
 ```
 
 ::: {.notes}
-Testing the arm by pretest interaction for fatigue showed that the size of the 
-intervention effect depended on pretest levels of fatigue. TEACH has the 
-strongest beneficial effect on posttest fatigue when pretest fatigue is very 
-mild (> 10 points below average). The benefit disappears by about 7.5 points 
-above average pretest fatigue. At unusually high levels of pretest fatigue 
-(> 10-12 points above average), TEACH appears to worsen posttest fatigue. 
+Testing the arm by pretest interaction for fatigue showed that the size of the
+intervention effect depended on pretest levels of fatigue. Here, the blue line
+represents the TAU arm and the orange one is the TEACH arm. The vertical
+distance between the lines is the intervention effect at a given pretest level
+of fatigue. The lines are not parallel because there is an interaction. TEACH
+has the strongest beneficial effect on posttest fatigue when pretest fatigue is
+very mild (> 10 points below average). The benefit disappears by about 7.5
+points above average pretest fatigue. At unusually high levels of pretest
+fatigue (> 10-12 points above average), TEACH appears to worsen posttest
+fatigue.
 :::
 
-## Exploratory Outcomes: Arm Main Effect
+## Exploratory Posttest Outcomes: Arm Main Effect
 
 ```{r}
 #| fig-height: 1.5
@@ -810,11 +815,12 @@ emmip(fit_masri_m3, formula = arm ~ c_masri_score_T1, cov.reduce = range,
 ::: {.notes}
 While there was no main effect on medication adherence, we did find an arm by
 pretest adherence interaction. That means the size of the intervention effect
-was not constant. Here, we can see that TEACH has the strongest beneficial
-effect on posttest medication adherence when pretest adherence is very low (> 20
-points below average). The benefit disappears at average pretest adherence. At
-higher levels of pretest adherence (> 10 points above average), TEACH may worsen
-posttest adherence.
+was not constant. Again the blue line is the TAU arm and the orange one is the
+TEACH arm. Here, high adherence is good. We can see that TEACH has the strongest
+beneficial effect on posttest medication adherence when pretest adherence is
+very low (> 20 points below average). The benefit disappears at average pretest
+adherence. At higher levels of pretest adherence (> 10 points above average),
+TEACH may worsen posttest adherence.
 :::
 
 ## References {.scrollable}
