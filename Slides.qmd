@@ -584,11 +584,16 @@ pooled the parameter estimates across datasets.
 
 * Country: 61% US, 39% CA
 * Age: M = 16.5, SD = 2.1, 64% adolescent, 36% young adult
-* Sex: 97% female
-* 
-
+* Sex: 97% female, 3% male
+* Race: 42% White, 25% Asian, 22% Black, 9% Other, 2% Missing
+* Ethnicity: 77% Not Hispanic, 22% Hispanic, 2% Missing
 
 ::: {.notes}
+Here is an overall demographic summary of the participants. About 61% were
+from the US, with the rest from Canada. The mean age was 16.5 years;
+64% of the sample were adolescents and 36% were young adults. About 42% were
+female, and about 42% were white, with 25% Asian, and 22% Black. Only about 22% 
+were Hispanic. 
 :::
 
 ## CONSORT Chart
