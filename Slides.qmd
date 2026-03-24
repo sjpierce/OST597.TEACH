@@ -262,6 +262,7 @@ were exploratory outcomes.
 # Methods
 
 ::: {.notes}
+So, now I'll tell you about the methods we used in this study. 
 :::
 
 ## Research Design
@@ -611,9 +612,9 @@ pooled the parameter estimates across datasets.
 ::: {.notes}
 Here is an overall demographic summary of the participants. About 61% were
 from the US, with the rest from Canada. The mean age was 16.5 years;
-64% of the sample were adolescents and 36% were young adults. About 42% were
-female, and about 42% were white, with 25% Asian, and 22% Black. Only about 22% 
-were Hispanic. 
+64% of the sample were adolescents and 36% were young adults. About 97% were
+female and about 42% were white, with 25% Asian, and 22% Black. About 22% were 
+Hispanic. 
 :::
 
 ## CONSORT Chart
