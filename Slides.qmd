@@ -899,10 +899,9 @@ Add content here!
 
 ## Limitations
 
-* Small sample size limits power & risks reduced representativeness. 
-* Excluding youth with severe mental health problems/disease activity & those 
-  already in treatment limits generalizability. 
-* TAU may vary across sites. 
+* Small sample limits power & risks reduced representativeness. 
+* Exclusion criteria limit generalizability. 
+* TAU practices may vary across sites. 
 * Self-reported medication adherence could be biased. 
 
 ::: {.notes}
