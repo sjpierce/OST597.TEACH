@@ -672,9 +672,58 @@ to whether someone was retained at posttest, but pretest child rheumatology
 quality of life and disease duration were related to retention. 
 :::
 
-## Pretest Health Characteristics
+## Pretest Symptoms (Raw/Unimputed)
 
-Add a table here? 
+```{r}
+#| results: asis
+
+PreSymptoms <- data.frame(Symptom = c("Depressive Symptoms",
+                                      "Fatigue",
+                                      "Pain Intensity",
+                                      "Anxiety"),
+                          TEACH = c("63.6 (12.0)",
+                                    "61.6 (8.5)",
+                                    "3.5 (2.0)",
+                                    "0.1 (1.1)"),
+                          TAU = c("64.4 (10.4)",
+                                  "60.1 (6.7)",
+                                  "4.0 (1.9)",
+                                  "-0.1 (0.8)"))
+
+kable(PreSymptoms, format = "html", escape = FALSE, align = "lrr",
+      col.names = c("Variable", "TEACH M (SD)", "TAU M (SD)")) %>% 
+  kable_styling(full_width = FALSE)
+```
+
+## Pretest cSLE-Related Factors (Raw/Unimputed)
+
+```{r}
+#| results: asis
+
+PreLupus <- data.frame(Symptom = c("Months since diagnosis",
+                                   "No. of Medications",
+                                   "Medication Adherence",
+                                   "Disease Manifestations",
+                                   "Disease Activity"),
+                          TEACH = c("*31 (1-192)*",
+                                    "*2 (0-12)*",
+                                    "83.7 (15.7)",
+                                    "0.50 (0.75)", 
+                                    "*5 (0-18)*"),
+                          TAU = c("*26 (0-178)*",
+                                  "*2 (0-10)*",
+                                  "84.1 (19.2)",
+                                  "0.53 (1.0)",
+                                  "*2 (0-12)*"))
+FN <- "Italics: *median (range)*. Normal font: mean (SD)"
+
+kable(PreLupus, format = "html", escape = FALSE, align = "lrr",
+      col.names = c("Variable", "TEACH", "TAU")) %>% 
+  kable_styling(full_width = FALSE, font_size = 38) %>% 
+  footnote(general = FN, general_title = "Note: ", footnote_as_chunk = TRUE,
+           threeparttable = FALSE, escape = FALSE) %>% 
+  cat()
+```
 
 ## Primary Outcomes: Acceptability Themes
 
