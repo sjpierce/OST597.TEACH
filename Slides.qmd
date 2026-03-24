@@ -81,10 +81,10 @@ Grant (PI: Natoshia R. Cunningham).
 
 ::: {.notes}
 My case study is based on a forthcoming paper in *Arthritis Care & Research*. 
-Supporting references for some of my points here can be found in the paper, 
-which is listed in the references at the end of the slides. I've just been 
-selective about citing sources in the slides to keep them cleaner. The study was 
-approved by MSU's institutional review board. 
+Supporting references for some of my points here can be found in the paper. The 
+full citation is at the end of the slides. The study was approved by MSU's 
+institutional review board, and funded by the Childhood Arthritis and 
+Rheumatology Research Alliance. 
 :::
 
 ## Contributors {.smaller}
@@ -135,13 +135,13 @@ approved by MSU's institutional review board.
 
 ::: {.notes}
 Our study team was very large. This is a list of all the co-authors on our paper
-with the principal investigators' names in bold text. That said, let's get
-started with the substantive content of the case study.
+with the principal investigators' names in bold text. 
 :::
 
 # Introduction
 
 ::: {.notes}
+With the preliminaries out of the way, I'll turn to introducing the study. 
 :::
 
 ## Childhood-Onset Systemic Lupus Erythematosus
@@ -157,7 +157,7 @@ started with the substantive content of the case study.
 Childhood-onset lupus is a chronic, multisystemic, autoimmune disease diagnosed 
 prior to age 18 years. Patients are at higher risk for depressive, fatigue, and 
 pain symptoms, which may lower health-related quality of life. We know that 
-lupus has a disproportionate impact on some parts of the population: it is more 
+lupus has a disproportionate impact on some parts of the population: it's more 
 likely to affect female and Asian, Native American, and Black youth. It's the 
 fifth leading cause of death for Black and Hispanic females age 15-24. Previous
 studies also suggest that Black youth may be less likely to receive effective 
@@ -177,14 +177,14 @@ This all means that we need better interventions to help lupus patients.
 
 ::: {.notes}
 Psychological interventions offer one way to improve the mental health of lupus
-patients. Research has shown that cognitive behavioral therapy is effective for
-managing depression, fatigue, and pain in youth with other chronic illnesses and
-in adults with lupus. However, there were only two prior studies on using CBT
-for youth with lupus. One of them failed to find any clinically significant
-effects on pain, affect, and quality of life. The other was our team's
-single-arm pilot test of the Treatment and Education Approach for
-Childhood-Onset Lupus, the TEACH program. My colleagues' first TEACH study 
-yielded promising results but needed some refinements.
+patients. Research has shown that cognitive behavioral therapy (CBT) is
+effective for managing depression, fatigue, and pain in youth with *other* 
+*chronic illnesses* and in *adults* with lupus. However, there were only two 
+prior studies on using CBT for youth with lupus. One of them failed to find any
+clinically significant effects on pain, affect, and quality of life. The other
+was our team's single-arm pilot test of the Treatment and Education Approach for
+Childhood-Onset Lupus, the TEACH program. My colleagues' first TEACH study
+yielded promising results but showed that it still needed some refinements.
 :::
 
 ## TEACH: Initial Pilot Study
@@ -237,22 +237,25 @@ randomized trial could yield stronger evidence for TEACH's efficacy.
     * Secondary: disease activity, medication adherence, & anxiety symptoms.
 
 ::: {.notes}
-That led to development of the study I'm describing today. The PIs decided to
-update the program content and delivery method to address the patient feedback
-from the prior study. So, our new study needed to again examine the feasibility
-and acceptability of the updated program, which was delivered remotely via
-video-conference calls with participants instead of in-person. The other major
-objective was to move to a randomized controlled trial design that included an
-intervention arm and a treatment-as-usual control arm. That design change aimed
-to improve internal validity when we tested the intervention's efficacy by
-comparing primary and secondary outcomes among patients who received TEACH
-with outcomes among those who did not. Both groups got medical
-treatment-as-usual for lupus throughout the study, so study arms were a
-TEACH+TAU intervention arm and TAU-alone control arm.
+That led to developing the study I'm describing today, which continued the
+aimed to refine the TEACH intervention for adolescents and young adults with
+lupus. The PIs updated the program content and delivery method to address the
+patient feedback from the prior study. That included switching to delivering the
+intervention remotely via video calls with participants instead of in-person.
 
-Measures of depressive, fatigue, and pain symptoms were the primary outcomes, 
+One major objective was to examine feasibility and acceptability as primary
+outcomes of the updated program. The other major objective was to move to a
+randomized controlled trial design that included an intervention arm and a
+control arm. That design change aimed to improve internal validity when we
+tested the intervention's efficacy by comparing secondary and exploratory
+outcomes among patients who received TEACH with outcomes among those who did
+not. Both groups got medical treatment-as-usual for lupus throughout the study,
+so patients in the intervention arm received TEACH paired with usual treatment
+and the control arm received only treatment as usual.
+
+Measures of depressive, fatigue, and pain symptoms were the secondary outcomes, 
 while measures of disease activity, medication adherence, and anxiety symptoms 
-were secondary outcomes. 
+were exploratory outcomes. 
 :::
 
 # Methods
@@ -287,10 +290,26 @@ kable(StudyDesign, format = "html", escape = FALSE, align = "lcccc",
 * Preregistered at ClinicalTrials.gov (NCT04335643)
 
 ::: {.notes}
-This international, multi-site study used a parallel arms randomized controlled 
-trial design, with pretest data collected before random assignment. The TEACH 
-arm got the intervention between pretest and posttest, but the TAU arm did not.
+This international, multi-site study used a longitudinal, parallel arms
+randomized controlled trial design, with pretest data collected before random
+assignment. This table is a simple way to visualize the study design. Each row
+represents one of the two arms we want to compare. The columns correspond to
+different longitudinal events that unfold over time as we move from left to
+right in the table. Collection of observed data is denoted with an O in both the
+pretest and posttest columns, while random assignment to arms is shown by the R
+in the allocation column. Delivery of the intervention is shown by placing an X
+in the intervention column.
 
+We expect no differences on pretest outcomes because we collected those data
+before assigning patients to the two arms. At that point they are all part of
+the same population. After randomization, their experiences diverge
+systematically. Because one arm goes on to get the TEACH intervention for 6
+weeks and the other does not, collecting posttest data 8 weeks after pretest
+enables us to test intervention efficacy. Using the pretest data as a covariate
+increases statistical power because repeated measures of an outcome from the
+same patient are often correlated over time. It also means our test of the arm
+effect quantifies the expected difference in posttest outcomes among patients
+who start with similar pretest scores but end up in opposite arms.
 :::
 
 ## Sites: Pediatric Rheumatology Clinics
