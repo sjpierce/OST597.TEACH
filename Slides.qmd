@@ -229,12 +229,13 @@ randomized trial could yield stronger evidence for TEACH's efficacy.
 
 ## Current Study
 
-* Update program content per previous feedback.
-* Examine feasibility & acceptability of remotely-delivered TEACH for 
-  adolescents/young adults w/ cSLE. 
+* Refined TEACH intervention for adolescents/young adults with cSLE.
+    * Update program content per previous feedback.
+    * Switch to remote delivery via video calls. 
+* Primary outcomes: feasibility & acceptability. 
 * Test efficacy of TEACH vs. TAU:
-    * Primary: depressive, fatigue, & pain symptoms. 
-    * Secondary: disease activity, medication adherence, & anxiety symptoms.
+    * Secondary: depressive, fatigue, & pain symptoms. 
+    * Exploratory: disease activity, medication adherence, & anxiety symptoms.
 
 ::: {.notes}
 That led to developing the study I'm describing today, which continued the
