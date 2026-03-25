@@ -76,7 +76,6 @@ load(file=here("data/OST597_TEACH.RData"))
 All phases of this study were supported by a Childhood Arthritis and 
 Rheumatology Research Alliance-Arthritis Foundation Transdisciplinary Research 
 Grant (PI: Natoshia R. Cunningham).
-
 :::
 
 ::: {.notes}
@@ -85,6 +84,9 @@ Supporting references for some of my points here can be found in the paper. The
 full citation is at the end of the slides. The study was approved by MSU's 
 institutional review board, and funded by the Childhood Arthritis and 
 Rheumatology Research Alliance. 
+
+[In speaker notes, the symbol **>** is used to mark when to press the spacebar 
+or click the right arrow to reveal the next animated element on a slide.]
 :::
 
 ## Contributors {.smaller}
@@ -311,7 +313,7 @@ enables us to test intervention efficacy. Using the pretest data as a covariate
 increases statistical power because repeated measures of an outcome from the
 same patient are often correlated over time. It also means our test of the arm
 effect quantifies the expected difference in posttest outcomes among patients
-who start with similar pretest scores but end up in opposite arms.
+who start with the same pretest score but end up in opposite arms.
 :::
 
 ## Sites: Pediatric Rheumatology Clinics
@@ -369,15 +371,15 @@ and one in Canada.
 ::::
 
 ::: {.notes}
-Participants had to be 12-22 years old, with a cSLE diagnosis from a pediatric 
-rheumatologist by age 18 yrs, have elevated depressive, fatigue, and/or pain 
-symptoms, and proficient in English. We excluded any who had other chronic 
-medical conditions (such as juvenile idiopathic arthritis), any documented 
-developmental delays or severe cognitive impairments, untreated major 
-psychiatric illness (such as bipolar disorder, active suicidal ideation), or
+Participants had to be 12-22 years old; with a lupus diagnosis from a pediatric 
+rheumatologist by age 18 yrs; have elevated depressive, fatigue, or pain 
+symptoms; and proficient in English. We excluded any who had other chronic 
+medical conditions (such as juvenile idiopathic arthritis); any documented 
+developmental delays or severe cognitive impairments; untreated major 
+psychiatric illness (such as bipolar disorder, active suicidal ideation); or
 who was already getting treated for depressive, fatigue, or pain symptoms. 
 
-Participants were compensated with gift cards, with $50 each at baseline and and 
+Participants were compensated with gift cards: $50 each at baseline and 
 post-assessment. 
 :::
 
@@ -396,7 +398,7 @@ patients and caregivers. It remained a 6-session CBT program, but was delivered
 via video calls with trained interventionists (two licensed clinical social 
 workers or a pediatric psychologist). Patients used supporting online modules, 
 and caregivers were involved for minors. TEACH continued to target depressive, 
-fatigue, and pain symptoms as primary outcomes. The intervention content 
+fatigue, and pain symptoms as key outcomes. The intervention content 
 included psychoeducation, behavioral strategies such as relaxation training and 
 activity pacing, cognitive strategies such as challenging automatic thoughts and 
 problem solving, and mindfulness strategies. 
@@ -419,8 +421,9 @@ problem solving, and mindfulness strategies.
 The team recorded video of all intervention sessions, then had three 
 independent, trained evaluators (a physician, licensed social worker, or
 doctoral student of psychology) use standardized checklists to assess fidelity 
-to the TEACH intervention manual. Fidelity was extraordinarily high: the average 
-across all sessions of 98%, so the intervention was delivered as designed. 
+to the TEACH intervention manual. **>** Fidelity was extraordinarily high: the 
+average across all sessions of 98%, so the intervention was delivered as 
+designed. 
 :::
 
 ## Stratified Random Block Randomization
@@ -452,6 +455,10 @@ of either 4 or 8 participants were allocated to the TEACH vs TAU arms in 1:1
 ratio. The investigators (except the interventionists & statistician) were blind
 to randomization results during data collection. After the posttest, the TAU
 participants were offered the TEACH intervention.
+
+Using stratified randomization means we have to add the stratification variables 
+to our model as covariates to control for confounding, reduce error variance, 
+and improve precision of the intervention effect estimate. 
 :::
 
 ## Primary Outcome Measures 
@@ -466,9 +473,12 @@ participants were offered the TEACH intervention.
 The primary quantitative outcomes for this study were the recruitment rate, 
 defined as the percent of approached patients who consented to joining the 
 study, and the retention rate, defined as the percent of randomized patients who 
-completed the posttest data collection. In addition, qualitative feedback about 
-the acceptability of the intervention was collected by interviewing 
-participants.
+completed the posttest data collection. We set a target benchmark for each rate 
+before collecting data: We wanted to get a recruitment rate above 65% and a 
+retention rate over 80%. Qualitative feedback about the acceptability of the 
+intervention was collected by interviewing participants and used to assess 
+acceptability as another primary outcome. That makes this a mixed methods study
+because we're drawing on both quantitative and qualitative approaches. 
 :::
 
 ## Secondary Outcome Measures
@@ -489,8 +499,6 @@ reduction is considered meaningful. Fatigue was measured by the PROMIS Pediatric
 or Adult Short Form, again converting to T-scores for comparability. A fatigue
 reduction of 10 points is meaningful. Finally, pain was measured with the pain
 visual analog scale, where a 30% reduction is meaningful.
-
-T-scores have M = 50, SD = 10. 
 :::
 
 ## Exploratory Outcome Measures {.smaller}
