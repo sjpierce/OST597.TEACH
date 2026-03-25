@@ -534,7 +534,18 @@ those today to keep the presentation focused.
 * Demographics: Age, sex, race, ethnicity, disease duration (months), education.
 * Disease manifestations: Systemic Lupus International Collaborating Clinics 
   (SLICC) classification.
-* Adverse childhood experiences (ACEs).
+* Adverse childhood experiences (ACEs, scores 0-9).
+
+::: {.notes}
+Naturally, we collected other measures too. For demographics, we had age, sex, 
+race, ethnicity, disease duration (in months), and caregiver education. We used 
+Systemic Lupus International Collaborating Clinics (SLICC) classification to 
+measure disease manifestation, and we had a measure of the number of adverse 
+childhood experiences for each patient. 
+
+Some of these measures were collected just to describe the sample, others were 
+used in our models. 
+:::
 
 ## Qualitative Analysis
 
