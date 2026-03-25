@@ -564,25 +564,44 @@ emerging themes until they achieved both saturation and consensus.
 ## Quantitative Analysis
 
 * Estimated recruitment and retention rates.
-* Intent-to-treat (ITT) estimate of intervention effect.
+* Intent-to-treat (ITT) estimate of intervention effect for secondary & 
+  exploratory outcomes.
+    * Use all randomized participants.
+    * Stay in assigned arm regardless of non-compliance, missing data, etc.
+    * ITT estimates are the gold standard for testing efficacy in RCTs.
+
+::: {.notes}
+For the primary outcomes, the quantitative analysis was simple: we estimated the
+recruitment and retention rates and compared them to our benchmarks. For
+secondary and exploratory outcomes, we wanted to get intent-to-treat estimates
+of the intervention effect. That means that every randomized patient has to stay
+in the analysis and in the arm to which they were assigned, regardless of
+non-compliance, withdrawal, missing data, or protocol deviations. So a TEACH
+patient who skipped half of the planned intervention sessions was still treated
+as a full member of the TEACH arm even though they didn't get the full dosage.
+ITT estimates are the gold standard for analyzing randomized trials to get a
+pragmatic, real-world estimate of efficacy.
+:::
+
+## Analysis of Covariance (ANCOVA)
+
 * ANCOVA predictors of posttest outcomes: 
     * Arm, pretest, arm x pretest.
     * Country, age group, race, ethnicity, & ACE exposures.
 * Estimated marginal means, contrasts, & graphs.
 
 ::: {.notes}
-For the primary outcomes, the quantitative analysis was simple: we estimated the 
-recruitment and retention rates and compared them to our benchmarks. For 
-secondary and exploratory outcomes, we wanted to get intent-to-treat estimates 
-of the intervention effect. That led us to model the posttest outcomes via 
-ANCOVA models that used tested for arm effect, controlling for pretest scores on 
-the outcome measure. We also examined whether pretest scores moderated the 
-intervention effect by testing an arm by pretest interaction. We included 
-several covariates. For example, we had to control for the stratification 
-covariates of country and age group because of the sampling design. We also 
-controlled for race, Hispanic ethnicity, and adverse childhood experiences. 
-We use estimated marginal means, contrasts between them, and some graphs to 
-interpret the intervention effects. 
+That led us to model the posttest outcomes via analysis of covariance (ANCOVA)
+models that used tested for arm effect, controlling for pretest scores on the
+outcome measure. We also examined whether pretest scores moderated the
+intervention effect by testing an arm by pretest interaction. We included
+several other covariates, but sample size limited how many we could use while
+still getting trustworthy estimates. We had to control for the stratification
+covariates of country and age group because of the randomization design. We also
+controlled for race, Hispanic ethnicity, and adverse childhood experiences.
+However, the distribution of sex was so extreme that we could not use it as a
+covariate. We use estimated marginal means, contrasts between them, and some
+graphs to interpret the intervention effects.
 :::
 
 ## Imputing Missing Data via MICE {.smaller}
