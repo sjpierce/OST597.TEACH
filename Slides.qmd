@@ -590,19 +590,24 @@ emerging themes until they achieved both saturation and consensus.
   exploratory outcomes.
     * Use all randomized participants.
     * Stay in assigned arm regardless of non-compliance, missing data, etc.
-    * ITT estimates are the gold standard for testing efficacy in RCTs.
+    * Gold standard for testing efficacy in RCTs.
 
 ::: {.notes}
 For the primary outcomes, the quantitative analysis was simple: we estimated the
-recruitment and retention rates and compared them to our benchmarks. For
-secondary and exploratory outcomes, we wanted to get intent-to-treat estimates
-of the intervention effect. That means that every randomized patient has to stay
-in the analysis and in the arm to which they were assigned, regardless of
-non-compliance, withdrawal, missing data, or protocol deviations. So a TEACH
-patient who skipped half of the planned intervention sessions was still treated
-as a full member of the TEACH arm even though they didn't get the full dosage.
+recruitment and retention rates and compared them to our benchmarks. 
+
+For secondary and exploratory outcomes, we wanted to get intent-to-treat
+estimates of the intervention effect. That means that every randomized patient
+has to stay in the analysis and in the arm to which they were assigned,
+regardless of non-compliance, withdrawal, missing data, or protocol deviations.
+So a TEACH patient who skipped half of the planned intervention sessions was
+still treated as a full member of the TEACH arm even though they didn't get the
+full dosage. 
+
 ITT estimates are the gold standard for analyzing randomized trials to get a
-pragmatic, real-world estimate of efficacy.
+pragmatic, real-world estimate of efficacy in part because they represent what
+happens when we prescribe a treatment in settings where compliance is imperfect
+instead of what happens when everyone fully complies with the treatment.
 :::
 
 ## Analysis of Covariance (ANCOVA)
