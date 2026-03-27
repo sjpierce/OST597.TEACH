@@ -751,14 +751,15 @@ the pretest and were randomly assigned to one of the two arms (TEACH vs TAU).
 Then, 8 weeks later, the posttest assessment occurred. The chart in our paper 
 shows breakdowns of why people dropped out between steps. Here, I want 
 to emphasize that we can use the data shown here to estimate two of the primary 
-outcomes, the recruitment rate and the retention rate. 97 of 200 patients 
-approached consented to participate, yielding a 48.5% recruitment rate. That was 
-lower than the 65% benchmark we hoped to achieve. However, 59 of 64 randomized 
-participants returned for the posttest assessment, giving us a 92.2% retention 
-rate that exceeded the 80% benchmark we had set. In our attrition analyses, 
-arm, country, age group, race, ethnicity, most pretest outcomes were unrelated 
-to whether someone was retained at posttest, but pretest child rheumatology 
-quality of life and disease duration were related to retention. 
+outcomes, the recruitment rate and the retention rate. 
+
+▶ 97 of 200 patients approached consented to participate, yielding a 48.5%
+recruitment rate. That was lower than the 65% benchmark we hoped to achieve.
+However, 59 of 64 randomized participants returned for the posttest assessment,
+giving us a 92.2% retention rate that exceeded the 80% benchmark we had set. In
+our attrition analyses, retention at posttest was unrelated to arm, country, age 
+group, race, ethnicity, and most pretest outcomes, but pretest child 
+rheumatology quality of life and disease duration were related to retention.
 :::
 
 ## Pretest Symptoms (Raw/Unimputed)
