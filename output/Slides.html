@@ -1497,7 +1497,7 @@ border: 0;
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-notes="1 hr (40-45 min talk + 5 min Q &amp; A + 10 min break) My name is Steven Pierce. I’ll be presenting a research case study on the TEACH intervention for youth with childhood-onset lupus. I was the statistician on the project, so my talk will emphasize some of the research design and methodology issues involved, plus the results we obtained." class="quarto-title-block center">
+<section id="title-slide" data-notes="1 hr (40-45 min talk + 5 min Q &amp; A + 10 min break) Good afternoon. My name is Steven Pierce. I’m a statistician here at MSU’s Center for Statistical Training and Consulting. I collaborate with a variety researchers on campus to help them do more rigorous research. I’ll be presenting a research case study on the TEACH intervention for youth with childhood-onset lupus. Given my role on the project, my talk will emphasize some of the research design and methodology issues involved, plus the results we obtained." class="quarto-title-block center">
   <h1 class="title">The TEACH Intervention for Youth with Childhood-Onset Lupus</h1>
   <p class="subtitle">Research Case Study for OST 597 (Biomedical Research Structure and Methods)</p>
 
@@ -1537,7 +1537,7 @@ Andrea Knight <a href="https://orcid.org/0000-0003-4278-9049" class="quarto-titl
 <h2>Preface</h2>
 <ul>
 <li>Presentation is based on a forthcoming paper.<span class="citation" data-cites="Cunningham-RN8694"><sup>[<a href="#/references" role="doc-biblioref" onclick>1</a>]</sup></span></li>
-<li>See the paper for most supporting references.</li>
+<li>See the paper for supporting references.</li>
 <li>Study was approved by MSU IRB (STUDY00003882).</li>
 </ul>
 <div title="Funding">
@@ -1556,7 +1556,8 @@ Andrea Knight <a href="https://orcid.org/0000-0003-4278-9049" class="quarto-titl
 </div>
 </div>
 <aside class="notes">
-<p>My case study is based on a forthcoming paper in <em>Arthritis Care &amp; Research</em>. Supporting references for some of my points here can be found in the paper. The full citation is at the end of the slides. The study was approved by MSU’s institutional review board, and funded by the Childhood Arthritis and Rheumatology Research Alliance.</p>
+<p>My case study is based on a forthcoming paper in <em>Arthritis Care &amp; Research</em>. Supporting references for things I’m discussing today can be found in the paper. The full citation is at the end of the slides. I also want to note that the study was approved by MSU’s institutional review board, and funded by the Childhood Arthritis and Rheumatology Research Alliance.</p>
+<p>[In speaker notes, the symbol ▶ marks when to press the spacebar or click the right arrow to reveal the next animated element on a slide.]</p>
 <style type="text/css">
 span.MJX_Assistive_MathML {
 position:absolute!important;
@@ -1614,7 +1615,7 @@ display:block!important;
 </div></div>
 <p><strong>Bold = Principal investigators.</strong></p>
 <aside class="notes">
-<p>Our study team was very large. This is a list of all the co-authors on our paper with the principal investigators’ names in bold text.</p>
+<p>Multi-studies like the one I’m describing today can involve very large research teams because recruiting participants from multiple clinics requires having team members at each clinic. So, I want to just share the list of co-authors on our paper to properly acknowledge everyone’s contributions. The principal investigators’ names are in bold text here.</p>
 <style type="text/css">
 span.MJX_Assistive_MathML {
 position:absolute!important;
@@ -1631,7 +1632,7 @@ display:block!important;
 <section id="introduction" class="title-slide slide level1 center">
 <h1>Introduction</h1>
 <aside class="notes">
-<p>With the preliminaries out of the way, I’ll turn to introducing the study.</p>
+<p>With those preliminaries out of the way, I’ll turn to introducing the study.</p>
 <style type="text/css">
 span.MJX_Assistive_MathML {
 position:absolute!important;
@@ -1644,16 +1645,21 @@ overflow: hidden!important;
 display:block!important;
 }</style></aside>
 </section>
-<section id="childhood-onset-systemic-lupus-erythematosus" class="slide level2">
-<h2>Childhood-Onset Systemic Lupus Erythematosus</h2>
+<section id="childhood-onset-systemic-lupus-erythematosus-csle" class="slide level2">
+<h2>Childhood-Onset Systemic Lupus Erythematosus (cSLE)</h2>
 <ul>
-<li>cSLE is a chronic, multisystemic, autoimmune disease diagnosed prior to age 18 years.</li>
-<li>Higher risk for depressive, fatigue, and pain symptoms, which may lower health-related quality of life (HR-QOL).</li>
-<li>More often affects female and Asian, Native American, and Black youth.</li>
-<li>Black youth may get less help managing comorbid symptoms than White peers.</li>
+<li>A chronic, multisystemic, autoimmune disease.</li>
+</ul>
+<ul>
+<li class="fragment">Higher risk for depressive, fatigue, and pain symptoms, which may lower health-related quality of life (HR-QOL).</li>
+<li class="fragment">More often affects female and Asian, Native American, and Black youth.</li>
+<li class="fragment">Black youth may get less help managing comorbid symptoms than White peers.</li>
 </ul>
 <aside class="notes">
-<p>Childhood-onset lupus is a chronic, multisystemic, autoimmune disease diagnosed prior to age 18 years. Patients are at higher risk for depressive, fatigue, and pain symptoms, which may lower health-related quality of life. We know that lupus has a disproportionate impact on some parts of the population: it’s more likely to affect female and Asian, Native American, and Black youth. It’s the fifth leading cause of death for Black and Hispanic females age 15-24. Previous studies also suggest that Black youth may be less likely to receive effective help managing comorbid symptoms such as anxiety and depression than White peers. This all means that we need better interventions to help lupus patients.</p>
+<p>Childhood-onset lupus is a chronic, multisystemic, autoimmune disease diagnosed prior to age 18 years.</p>
+<p>▶ Patients are at higher risk for depressive, fatigue, and pain symptoms, which may lower health-related quality of life.</p>
+<p>▶ We know that lupus has a disproportionate impact on some parts of the population: it’s more likely to affect female and Asian, Native American, and Black youth. It’s the fifth leading cause of death for Black and Hispanic females age 15-24.</p>
+<p>▶ Previous studies also suggest that Black youth may be less likely to receive effective help managing comorbid symptoms such as anxiety and depression than White peers. This all means that we need better interventions to help lupus patients.</p>
 <style type="text/css">
 span.MJX_Assistive_MathML {
 position:absolute!important;
@@ -1670,14 +1676,19 @@ display:block!important;
 <h2>Cognitive Behavioral Therapy (CBT)</h2>
 <ul>
 <li>Effective for managing depression, fatigue, and pain in youth with other chronic illnesses and in <em>adults</em> with lupus.</li>
-<li>Prior studies on CBT for <em>youth</em> with lupus:
+</ul>
 <ul>
-<li>One failed to find clinically significant effects on pain, affect, &amp; quality of life.</li>
-<li>Treatment and Education Approach for Childhood-Onset Lupus (TEACH) program had promising results but needed refinements.</li>
+<li class="fragment">Prior studies on CBT for <em>youth</em> with lupus:
+<ul>
+<li class="fragment">One failed to find clinically significant effects on pain, affect, &amp; quality of life.</li>
+<li class="fragment">Treatment and Education Approach for Childhood-Onset Lupus (TEACH) program had promising results but needed refinements.</li>
 </ul></li>
 </ul>
 <aside class="notes">
-<p>Psychological interventions offer one way to improve the mental health of lupus patients. Research has shown that cognitive behavioral therapy (CBT) is effective for managing depression, fatigue, and pain in youth with <em>other</em> <em>chronic illnesses</em> and in <em>adults</em> with lupus. However, there were only two prior studies on using CBT for youth with lupus. One of them failed to find any clinically significant effects on pain, affect, and quality of life. The other was our team’s single-arm pilot test of the Treatment and Education Approach for Childhood-Onset Lupus, the TEACH program. My colleagues’ first TEACH study yielded promising results but showed that it still needed some refinements.</p>
+<p>Psychological interventions offer one way to improve the mental health of lupus patients. Research has shown that cognitive behavioral therapy (CBT) is effective for managing depression, fatigue, and pain in youth with <em>other</em> <em>chronic illnesses</em> and in <em>adults</em> with lupus.</p>
+<p>▶ However, there were only two prior studies on using CBT for youth with lupus.</p>
+<p>▶ One of them failed to find any clinically significant effects on pain, affect, and quality of life.</p>
+<p>▶ The other was our team’s single-arm pilot test of the Treatment and Education Approach for Childhood-Onset Lupus, the TEACH program. My colleagues’ first TEACH study yielded promising results but showed that it still needed some refinements.</p>
 <style type="text/css">
 span.MJX_Assistive_MathML {
 position:absolute!important;
@@ -1700,7 +1711,7 @@ display:block!important;
 <li>Marginal reductions in pain and anxiety.</li>
 </ul>
 <aside class="notes">
-<p>The first iteration of the TEACH intervention consisted of a tailored, CBT program delivered during a series of 6 weekly in-person visits. The primary outcomes it sought to improve were patients’ depressive, fatigue, and pain symptoms. The first study showed a retention rate of just over 82% and potential improvements in depressive and fatigue symptoms, with weaker evidence for reductions in pain and anxiety.</p>
+<p>The first iteration of the TEACH intervention consisted of a tailored, CBT program delivered during a series of 6 weekly in-person visits. The primary outcomes it sought to improve were patients’ depressive, fatigue, and pain symptoms. The first study had a patient retention rate of just over 82% and potential improvements in depressive and fatigue symptoms, with weaker evidence for reductions in pain and anxiety.</p>
 <p>Intervention development is often iterative. Early results like these are promising but not definitive and usually accompanied by feedback about ways to improve the program.</p>
 <style type="text/css">
 span.MJX_Assistive_MathML {
@@ -1723,7 +1734,7 @@ display:block!important;
 <li>Need to get stronger evidence of efficacy.</li>
 </ul>
 <aside class="notes">
-<p>Some of the initial lessons learned were that patients reported wanting the option to get the TEACH intervention delivered remotely instead of only through in-person visits. That first study also revealed a need to refine the intervention and it was clear that engaging lupus patients in planning those refinements could be crucial to improving feasibility, acceptability, and effectiveness of the intervention. One priority was better addressing pain and anxiety. Finally, my colleagues also recognized that they needed a stronger research design because the initial study lacked a control group. Moving to a randomized trial could yield stronger evidence for TEACH’s efficacy.</p>
+<p>Some of the initial lessons learned were that patients reported wanting the option to get the TEACH intervention delivered remotely instead of only through in-person visits. That first study also revealed a need to refine the intervention and it was clear that engaging lupus patients in planning those refinements could be crucial to improving feasibility, acceptability, and effectiveness of the intervention. One priority was better addressing pain and anxiety. Finally, my colleagues also recognized that they needed a stronger research design because the initial study lacked a control group.</p>
 <style type="text/css">
 span.MJX_Assistive_MathML {
 position:absolute!important;
@@ -1752,7 +1763,7 @@ display:block!important;
 </ul></li>
 </ul>
 <aside class="notes">
-<p>That led to developing the study I’m describing today, which continued the aimed to refine the TEACH intervention for adolescents and young adults with lupus. The PIs updated the program content and delivery method to address the patient feedback from the prior study. That included switching to delivering the intervention remotely via video calls with participants instead of in-person.</p>
+<p>That led to developing the study I’m describing today, which aimed to refine the TEACH intervention for adolescents and young adults with lupus. The PIs updated the program content and delivery method to address the patient feedback from the prior study. That included switching to delivering the intervention remotely via video calls with participants instead of in-person.</p>
 <p>One major objective was to examine feasibility and acceptability as primary outcomes of the updated program. The other major objective was to move to a randomized controlled trial design that included an intervention arm and a control arm. That design change aimed to improve internal validity when we tested the intervention’s efficacy by comparing secondary and exploratory outcomes among patients who received TEACH with outcomes among those who did not. Both groups got medical treatment-as-usual for lupus throughout the study, so patients in the intervention arm received TEACH paired with usual treatment and the control arm received only treatment as usual.</p>
 <p>Measures of depressive, fatigue, and pain symptoms were the secondary outcomes, while measures of disease activity, medication adherence, and anxiety symptoms were exploratory outcomes.</p>
 <style type="text/css">
@@ -1862,8 +1873,8 @@ TAU
 <li>Preregistered at ClinicalTrials.gov (NCT04335643)</li>
 </ul>
 <aside class="notes">
-<p>This international, multi-site study used a longitudinal, parallel arms randomized controlled trial design, with pretest data collected before random assignment. This table is a simple way to visualize the study design. Each row represents one of the two arms we want to compare. The columns correspond to different longitudinal events that unfold over time as we move from left to right in the table. Collection of observed data is denoted with an O in both the pretest and posttest columns, while random assignment to arms is shown by the R in the allocation column. Delivery of the intervention is shown by placing an X in the intervention column.</p>
-<p>We expect no differences on pretest outcomes because we collected those data before assigning patients to the two arms. At that point they are all part of the same population. After randomization, their experiences diverge systematically. Because one arm goes on to get the TEACH intervention for 6 weeks and the other does not, collecting posttest data 8 weeks after pretest enables us to test intervention efficacy. Using the pretest data as a covariate increases statistical power because repeated measures of an outcome from the same patient are often correlated over time. It also means our test of the arm effect quantifies the expected difference in posttest outcomes among patients who start with similar pretest scores but end up in opposite arms.</p>
+<p>This study used a longitudinal, parallel arms randomized controlled trial design, with pretest data collected before random assignment. This table is a simple way to visualize the study design. Each row represents one of the two arms we want to compare. The columns correspond to different longitudinal events that unfold over time as we move from left to right in the table. Collection of observed data is denoted with an O in both the pretest and posttest columns, while random assignment to arms is shown by the R in the allocation column. Delivery of the intervention is shown by placing an X in the intervention column.</p>
+<p>We expect no differences on pretest outcomes because we collected those data before assigning patients to the two arms. At that point they are all part of the same population. After randomization, their experiences diverge systematically. Because one arm goes on to get the TEACH intervention for 6 weeks and the other does not, collecting posttest data 8 weeks after pretest enables us to test intervention efficacy. Using the pretest data as a covariate increases statistical power because repeated measures of an outcome from the same patient are often correlated over time. It also means our test of the arm effect quantifies the expected difference in posttest outcomes among patients who start with the same pretest score but end up in opposite arms.</p>
 <style type="text/css">
 span.MJX_Assistive_MathML {
 position:absolute!important;
@@ -1895,7 +1906,7 @@ display:block!important;
 </ul>
 </div></div>
 <aside class="notes">
-<p>Our sites were all pediatric rheumatology clinics. We had five sites in the US and one in Canada.</p>
+<p>This was an international, multi-site sudy. Our sites were all pediatric rheumatology clinics. We had five sites in the US and one in Canada.</p>
 <style type="text/css">
 span.MJX_Assistive_MathML {
 position:absolute!important;
@@ -1934,8 +1945,8 @@ display:block!important;
 </ul>
 </div></div>
 <aside class="notes">
-<p>Participants had to be 12-22 years old, with a cSLE diagnosis from a pediatric rheumatologist by age 18 yrs, have elevated depressive, fatigue, and/or pain symptoms, and proficient in English. We excluded any who had other chronic medical conditions (such as juvenile idiopathic arthritis), any documented developmental delays or severe cognitive impairments, untreated major psychiatric illness (such as bipolar disorder, active suicidal ideation), or who was already getting treated for depressive, fatigue, or pain symptoms.</p>
-<p>Participants were compensated with gift cards, with $50 each at baseline and and post-assessment.</p>
+<p>Participants had to be 12-22 years old; with a lupus diagnosis from a pediatric rheumatologist by age 18 yrs; have elevated depressive, fatigue, or pain symptoms; and be proficient in English. We excluded any who had other chronic medical conditions (such as juvenile idiopathic arthritis); any documented developmental delays or severe cognitive impairments; untreated major psychiatric illness (such as bipolar disorder, active suicidal ideation); or who was already getting treated for depressive, fatigue, or pain symptoms.</p>
+<p>Participants were compensated with gift cards: $50 each at baseline and post-assessment.</p>
 <style type="text/css">
 span.MJX_Assistive_MathML {
 position:absolute!important;
@@ -1959,7 +1970,7 @@ display:block!important;
 <li>Psychoeducation, behavioral, cognitive, &amp; mindfulness strategies.</li>
 </ul>
 <aside class="notes">
-<p>The TEACH intervention was adapted with input from an advisory group of lupus patients and caregivers. It remained a 6-session CBT program, but was delivered via video calls with trained interventionists (two licensed clinical social workers or a pediatric psychologist). Patients used supporting online modules, and caregivers were involved for minors. TEACH continued to target depressive, fatigue, and pain symptoms as primary outcomes. The intervention content included psychoeducation, behavioral strategies such as relaxation training and activity pacing, cognitive strategies such as challenging automatic thoughts and problem solving, and mindfulness strategies.</p>
+<p>The TEACH intervention was adapted with input from an advisory group of lupus patients and caregivers. It remained a 6-session CBT program, but was delivered via video calls with trained interventionists (two licensed clinical social workers or a pediatric psychologist). Patients used supporting online modules, and caregivers were involved for minors. TEACH continued to target depressive, fatigue, and pain symptoms as key outcomes. The intervention content included psychoeducation, behavioral strategies such as relaxation training and activity pacing, cognitive strategies such as challenging automatic thoughts and problem solving, and mindfulness strategies.</p>
 <style type="text/css">
 span.MJX_Assistive_MathML {
 position:absolute!important;
@@ -1975,7 +1986,9 @@ display:block!important;
 <section id="fidelity-assessment" class="slide level2">
 <h2>Fidelity Assessment</h2>
 <ul>
-<li>All sessions video recorded.</li>
+<li>Fidelity is the degree to which an intervention is delivered as intended by its developers.</li>
+<li>Low fidelity may weaken intervention effects.</li>
+<li>Our team recorded all video sessions with patients.</li>
 <li>Evaluators scored fidelity of each session (0-100%) via standardized checklist.</li>
 </ul>
 <div class="fragment">
@@ -1994,7 +2007,9 @@ display:block!important;
 </div>
 </div>
 <aside class="notes">
-<p>The team recorded video of all intervention sessions, then had three independent, trained evaluators (a physician, licensed social worker, or doctoral student of psychology) use standardized checklists to assess fidelity to the TEACH intervention manual. Fidelity was extraordinarily high: the average across all sessions of 98%, so the intervention was delivered as designed.</p>
+<p>An intervention’s fidelity is the degree to which it is delivered as intended by its developers. For example, that may require following a treatment protocol described in an intervention manual. High fidelity helps you ensure that study results show the actual efficacy instead of the result of inconsistent usage or implementation. Low fidelity may reduce or weaken intervention effects of otherwise useful interventions.</p>
+<p>Our team recorded video of all intervention sessions, then had three independent, trained evaluators (a physician, licensed social worker, or doctoral student of psychology) use standardized checklists to assess fidelity to the TEACH intervention manual, yielding a score that ranged from 0 to 100%.</p>
+<p>▶ Fidelity was extraordinarily high: the average across all sessions was 98%!</p>
 <style type="text/css">
 span.MJX_Assistive_MathML {
 position:absolute!important;
@@ -2078,7 +2093,8 @@ Young Adult (18-22 yrs)
 </tfoot>
 </table>
 <aside class="notes">
-<p>To balance sample size across arms, the study used a stratified random block randomization process. The two stratification variables were country (US vs Canada) and age group (adolescent vs young adult). Within each stratum, blocks of either 4 or 8 participants were allocated to the TEACH vs TAU arms in 1:1 ratio. The investigators (except the interventionists &amp; statistician) were blind to randomization results during data collection. After the posttest, the TAU participants were offered the TEACH intervention.</p>
+<p>To balance sample size across arms, the study used a stratified random block randomization process. The two stratification variables were country (US vs Canada) and age group (adolescent vs young adult). Within each stratum, blocks of either 4 or 8 participants were randomly allocated to the TEACH vs TAU arms in 1:1 ratio. The investigators (except the interventionists &amp; statistician) were blind to randomization results during data collection. After the posttest, the TAU participants were offered the TEACH intervention.</p>
+<p>Using stratified randomization means we have to add the stratification variables to our model as covariates to control for confounding, reduce error variance, and improve precision of the intervention effect estimate.</p>
 <style type="text/css">
 span.MJX_Assistive_MathML {
 position:absolute!important;
@@ -2105,7 +2121,8 @@ display:block!important;
 <li>Qualitative interviews about TEACH acceptability</li>
 </ul>
 <aside class="notes">
-<p>The primary quantitative outcomes for this study were the recruitment rate, defined as the percent of approached patients who consented to joining the study, and the retention rate, defined as the percent of randomized patients who completed the posttest data collection. In addition, qualitative feedback about the acceptability of the intervention was collected by interviewing participants.</p>
+<p>The primary quantitative outcomes for this study were the recruitment rate, defined as the percent of approached patients who consented to joining the study, and the retention rate, defined as the percent of randomized patients who completed the posttest data collection. We set a target benchmark for each rate before collecting data: We wanted to get a recruitment rate above 65% and a retention rate over 80%.</p>
+<p>Qualitative feedback about the acceptability of the intervention was collected by interviewing participants and used to assess acceptability as another primary outcome. That makes this a mixed methods study because we’re drawing on both quantitative and qualitative approaches.</p>
 <style type="text/css">
 span.MJX_Assistive_MathML {
 position:absolute!important;
@@ -2135,8 +2152,9 @@ display:block!important;
 </ul></li>
 </ul>
 <aside class="notes">
-<p>We had three secondary outcomes. We measured depressive symptoms with the Children’s Depression Inventory 2nd Edition (CDI-II) for adolescents and Beck Depression Inventory-II (BDI-II) for young adults, converting both to T-scores with Mean = 50 and SD= 10 to make them comparable across age groups. A 50% reduction is considered meaningful. Fatigue was measured by the PROMIS Pediatric or Adult Short Form, again converting to T-scores for comparability. A fatigue reduction of 10 points is meaningful. Finally, pain was measured with the pain visual analog scale, where a 30% reduction is meaningful.</p>
-<p>T-scores have M = 50, SD = 10.</p>
+<p>We had three secondary outcomes. We measured depressive symptoms with the Children’s Depression Inventory 2nd Edition (CDI-II) for adolescents and Beck Depression Inventory-II (BDI-II) for young adults, converting both to T-scores with Mean = 50 and SD= 10 to make them comparable across age groups. A 50% reduction is considered meaningful.</p>
+<p>Fatigue was measured by the PROMIS Pediatric or Adult Short Form, again converting to T-scores for comparability. A fatigue reduction of 10 points is meaningful.</p>
+<p>Finally, pain was measured with the pain visual analog scale, which uses a 0 to 10 scale and where a 30% reduction is meaningful.</p>
 <style type="text/css">
 span.MJX_Assistive_MathML {
 position:absolute!important;
@@ -2172,7 +2190,10 @@ display:block!important;
 </ul></li>
 </ul>
 <aside class="notes">
-<p>We also had several exploratory outcomes. I’m only including a subset of them in this talk. We measured anxiety with the Screen for Child Anxiety Related Disorders (SCARED) for adolescents and the Screen for Adult Anxiety Related Disorders (SCAARED) for young adults, converting both to z-scores for comparability. Reductions of over 50% are meaningful. We used the Systemic Lupus Erythematosus Disease Activity Index 2000 (SLEDAI-2K) to measure disease activity. SLEDAI scores range from 0-105, with scores <span class="math inline">\(\ge 6\)</span> indicating active disease. Medication adherence over past month was measured with an instrument adapted from the Medication Adherence Self-Report Inventory. Scores are rated 0-100%, with <span class="math inline">\(\ge 80\)</span>% indicating adequate adherence. We used some measures of health-related quality of life as well, but I’ll omit results for those today to keep the presentation focused.</p>
+<p>We also had several exploratory outcomes. We measured anxiety with the Screen for Child Anxiety Related Disorders (SCARED) for adolescents and the Screen for Adult Anxiety Related Disorders (SCAARED) for young adults, converting both to z-scores for comparability. Reductions of over 50% are meaningful.</p>
+<p>We used the Systemic Lupus Erythematosus Disease Activity Index 2000 (SLEDAI-2K) to measure disease activity. SLEDAI scores range from 0-105, with scores <span class="math inline">\(\ge 6\)</span> indicating active disease.</p>
+<p>Medication adherence over past month was measured with an instrument adapted from the Medication Adherence Self-Report Inventory. Scores are rated 0-100%, with <span class="math inline">\(\ge 80\)</span>% indicating adequate adherence.</p>
+<p>We used some measures of health-related quality of life as well, but I’ll omit results for those today to keep the presentation focused.</p>
 <style type="text/css">
 span.MJX_Assistive_MathML {
 position:absolute!important;
@@ -2190,8 +2211,22 @@ display:block!important;
 <ul>
 <li>Demographics: Age, sex, race, ethnicity, disease duration (months), education.</li>
 <li>Disease manifestations: Systemic Lupus International Collaborating Clinics (SLICC) classification.</li>
-<li>Adverse childhood experiences (ACEs).</li>
+<li>Adverse childhood experiences (ACEs, scores 0-9).</li>
 </ul>
+<aside class="notes">
+<p>Naturally, we collected other measures too. For demographics, we had age, sex, race, ethnicity, disease duration (in months), and caregiver education. We used Systemic Lupus International Collaborating Clinics (SLICC) classification to measure disease manifestation, and we had a measure of the number of adverse childhood experiences for each patient.</p>
+<p>Some of these measures were collected just to describe the sample, others were used in our models.</p>
+<style type="text/css">
+span.MJX_Assistive_MathML {
+position:absolute!important;
+clip: rect(1px, 1px, 1px, 1px);
+padding: 1px 0 0 0!important;
+border: 0!important;
+height: 1px!important;
+width: 1px!important;
+overflow: hidden!important;
+display:block!important;
+}</style></aside>
 </section>
 <section id="qualitative-analysis" class="slide level2">
 <h2>Qualitative Analysis</h2>
@@ -2219,16 +2254,110 @@ display:block!important;
 <h2>Quantitative Analysis</h2>
 <ul>
 <li>Estimated recruitment and retention rates.</li>
-<li>Intent-to-treat (ITT) estimate of intervention effect.</li>
-<li>ANCOVA predictors of posttest outcomes:
+<li>Intent-to-treat (ITT) estimate of intervention effect for secondary &amp; exploratory outcomes.
 <ul>
-<li>Arm, pretest, arm x pretest.</li>
-<li>Country, age group, race, ethnicity, &amp; ACE exposures.</li>
+<li>Use all randomized participants.</li>
+<li>Stay in assigned arm regardless of non-compliance, missing data, etc.</li>
+<li>Gold standard for testing efficacy in RCTs.</li>
 </ul></li>
-<li>Estimated marginal means, contrasts, &amp; graphs.</li>
 </ul>
 <aside class="notes">
-<p>For the primary outcomes, the quantitative analysis was simple: we estimated the recruitment and retention rates and compared them to our benchmarks. For secondary and exploratory outcomes, we wanted to get intent-to-treat estimates of the intervention effect. That led us to model the posttest outcomes via ANCOVA models that used tested for arm effect, controlling for pretest scores on the outcome measure. We also examined whether pretest scores moderated the intervention effect by testing an arm by pretest interaction. We included several covariates. For example, we had to control for the stratification covariates of country and age group because of the sampling design. We also controlled for race, Hispanic ethnicity, and adverse childhood experiences. We use estimated marginal means, contrasts between them, and some graphs to interpret the intervention effects.</p>
+<p>For the primary outcomes, the quantitative analysis was simple: we estimated the recruitment and retention rates and compared them to our benchmarks.</p>
+<p>For secondary and exploratory outcomes, we wanted to get intent-to-treat estimates of the intervention effect. That means that every randomized patient has to stay in the analysis and in the arm to which they were assigned, regardless of non-compliance, withdrawal, missing data, or protocol deviations. So a TEACH patient who skipped half of the planned intervention sessions was still treated as a full member of the TEACH arm even though they didn’t get the full dosage.</p>
+<p>ITT estimates are the gold standard for analyzing randomized trials to get a pragmatic, real-world estimate of efficacy in part because they represent what happens when we prescribe a treatment in settings where compliance is imperfect instead of what happens when everyone fully complies with the treatment.</p>
+<style type="text/css">
+span.MJX_Assistive_MathML {
+position:absolute!important;
+clip: rect(1px, 1px, 1px, 1px);
+padding: 1px 0 0 0!important;
+border: 0!important;
+height: 1px!important;
+width: 1px!important;
+overflow: hidden!important;
+display:block!important;
+}</style></aside>
+</section>
+<section id="analysis-of-covariance-ancova" class="slide level2">
+<h2>Analysis of Covariance (ANCOVA)</h2>
+<div class="cell" data-fig-width="10" data-fig-height="6" data-layout-align="default">
+<div class="cell-output-display">
+<div>
+<p></p><figure class><p></p>
+<div>
+<svg width="960" height="576" viewbox="0.00 0.00 409.95 229.60" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto auto">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 225.6)">
+<title>ANCOVA</title>
+<polygon fill="white" stroke="transparent" points="-4,4 -4,-225.6 405.95,-225.6 405.95,4 -4,4"></polygon>
+<!-- Post -->
+<g id="node1" class="node">
+<title>Post</title>
+<polygon fill="#c3ffec" stroke="black" points="401.78,-131.4 264.46,-131.4 264.46,-90.2 401.78,-90.2 401.78,-131.4"></polygon>
+<text text-anchor="middle" x="333.12" y="-115" font-family="Lato" font-size="14.00">Posttest Measure</text>
+<text text-anchor="middle" x="333.12" y="-98.2" font-family="Lato" font-size="14.00">(Dependent Variable)</text>
+</g>
+<!-- Arm -->
+<g id="node2" class="node">
+<title>Arm</title>
+<polygon fill="#c3ffec" stroke="black" points="169.89,-221.4 58.4,-221.4 58.4,-180.2 169.89,-180.2 169.89,-221.4"></polygon>
+<text text-anchor="middle" x="114.15" y="-205" font-family="Lato" font-size="14.00">Arm</text>
+<text text-anchor="middle" x="114.15" y="-188.2" font-family="Lato" font-size="14.00">(Focal Predictor)</text>
+</g>
+<!-- Arm&#45;&gt;Post -->
+<g id="edge1" class="edge">
+<title>Arm-&gt;Post</title>
+<path fill="none" stroke="black" d="M169.92,-189.38C188.77,-184.64 209.79,-178.44 228.29,-170.8 250.55,-161.61 273.89,-148.47 292.8,-136.83" />
+<polygon fill="black" stroke="black" points="294.8,-139.71 301.42,-131.44 291.09,-133.77 294.8,-139.71"></polygon>
+</g>
+<!-- Pre -->
+<g id="node3" class="node">
+<title>Pre</title>
+<polygon fill="#c3ffec" stroke="black" points="167.22,-161.4 61.07,-161.4 61.07,-120.2 167.22,-120.2 167.22,-161.4"></polygon>
+<text text-anchor="middle" x="114.15" y="-145" font-family="Lato" font-size="14.00">Pretest Measure</text>
+<text text-anchor="middle" x="114.15" y="-128.2" font-family="Lato" font-size="14.00">(Key Covariate)</text>
+</g>
+<!-- Pre&#45;&gt;Post -->
+<g id="edge2" class="edge">
+<title>Pre-&gt;Post</title>
+<path fill="none" stroke="black" d="M167.39,-133.58C193.42,-129.98 225.41,-125.55 254.25,-121.57" />
+<polygon fill="black" stroke="black" points="254.88,-125.01 264.31,-120.18 253.92,-118.08 254.88,-125.01"></polygon>
+</g>
+<!-- ArmxPre -->
+<g id="node4" class="node">
+<title>ArmxPre</title>
+<polygon fill="#c3ffec" stroke="black" points="160.91,-101.4 67.38,-101.4 67.38,-60.2 160.91,-60.2 160.91,-101.4"></polygon>
+<text text-anchor="middle" x="114.15" y="-85" font-family="Lato" font-size="14.00">Arm x Pretest</text>
+<text text-anchor="middle" x="114.15" y="-68.2" font-family="Lato" font-size="14.00">(Interaction)</text>
+</g>
+<!-- ArmxPre&#45;&gt;Post -->
+<g id="edge3" class="edge">
+<title>ArmxPre-&gt;Post</title>
+<path fill="none" stroke="black" d="M161.16,-87.16C188.21,-90.9 223.12,-95.73 254.34,-100.05" />
+<polygon fill="black" stroke="black" points="253.95,-103.52 264.33,-101.43 254.91,-96.59 253.95,-103.52"></polygon>
+</g>
+<!-- Covariates -->
+<g id="node5" class="node">
+<title>Covariates</title>
+<polygon fill="#c3ffec" stroke="black" points="228.44,-41.4 -0.15,-41.4 -0.15,-0.2 228.44,-0.2 228.44,-41.4"></polygon>
+<text text-anchor="middle" x="114.15" y="-25" font-family="Lato" font-size="14.00">Country, Age Group, Race, Ethnicity,</text>
+<text text-anchor="middle" x="114.15" y="-8.2" font-family="Lato" font-size="14.00">ACEs (Other Covariates)</text>
+</g>
+<!-- Covariates&#45;&gt;Post -->
+<g id="edge4" class="edge">
+<title>Covariates-&gt;Post</title>
+<path fill="none" stroke="black" d="M202.41,-41.42C211.26,-44.26 220.03,-47.39 228.29,-50.8 250.55,-59.99 273.89,-73.13 292.8,-84.77" />
+<polygon fill="black" stroke="black" points="291.09,-87.83 301.42,-90.16 294.8,-81.89 291.09,-87.83"></polygon>
+</g>
+</g>
+</svg>
+</div>
+<p></p></figure><p></p>
+</div>
+</div>
+</div>
+<aside class="notes">
+<p>To get our ITT estimates, we used the posttest outcomes as the dependent variable in analysis of covariance (ANCOVA) models and tested for an arm effect, controlling for pretest scores on the outcome measure. We also examined whether pretest scores moderated the intervention effect by testing an arm by pretest interaction.</p>
+<p>We included several other covariates, but sample size limited how many we could use while still getting trustworthy estimates. We had to control for the stratification covariates of country and age group because of the randomization design. We also controlled for race, Hispanic ethnicity, and adverse childhood experiences. However, the distribution of sex was so extreme that we could not use it as a covariate.</p>
+<p>We use estimated marginal means, contrasts between them, and some graphs to interpret the intervention effects.</p>
 <style type="text/css">
 span.MJX_Assistive_MathML {
 position:absolute!important;
@@ -2253,12 +2382,12 @@ display:block!important;
 <li>Longitudinal relationships between pretest &amp; posttest for each outcome.</li>
 <li>Cross-sectional relationships among outcomes measured at the same time.</li>
 </ul></li>
-<li>Parameter estimates pooled across analyses of 55 imputed datasets.</li>
+<li>Parameter estimates pooled across analyses of 55 imputed data sets.</li>
 </ul>
 <aside class="notes">
-<p>Inter-to-treat analyses require retaining all randomized participants in the analysis. By default most statistical software will drop cases with missing data on any of the variables involved in a model. That can cause serious biases, so we handled missing data with multiple imputation via chained equations (often abbreviated as MICE). This method replaces each missing value by a set of draws from the conditional distribution of that variable informed by the imputation predictors, yielding not just one completed dataset but a whole collection of imputed datasets that we have to analyze to get better estimates.</p>
-<p>About 55% of the cases in our dataset had at least one missing value, largely because the quality of life measures were missing by design for young adult patients. Those measures were only developed for use with adolescents. Our imputation model included all the focal predictors &amp; covariates used in the (ANCOVA) model, plus a binary indicator of post-assessment attendance, longitudinal relationships between pretest &amp; posttest for each outcome, and cross-sectional relationships among outcomes measured at the same time.</p>
-<p>We generated 55 imputed datsets, analyzed each one with the same model, then pooled the parameter estimates across datasets.</p>
+<p>Intent-to-treat analyses require retaining all randomized participants in the analysis. By default most statistical software will drop cases with missing data on any of the variables involved in a model. That can cause serious biases, so we handled missing data with multiple imputation via chained equations (often abbreviated as MICE). This method replaces each missing value by a set of draws from the conditional distribution of that variable informed by the imputation predictors, yielding not just one completed dataset but a whole collection of imputed data sets that we have to analyze to get better estimates.</p>
+<p>About 55% of the cases in our data set had at least one missing value, largely because the quality of life measures were missing by design for young adult patients. Those measures were only developed for use with adolescents. Our imputation model included all the focal predictors &amp; covariates used in the (ANCOVA) model, plus a binary indicator of post-assessment attendance, longitudinal relationships between pretest &amp; posttest for each outcome, and cross-sectional relationships among outcomes measured at the same time.</p>
+<p>We generated 55 imputed datsets, analyzed each one with the same model, then pooled the parameter estimates across data sets.</p>
 <style type="text/css">
 span.MJX_Assistive_MathML {
 position:absolute!important;
@@ -2274,7 +2403,19 @@ display:block!important;
 <section>
 <section id="results" class="title-slide slide level1 center">
 <h1>Results</h1>
-
+<aside class="notes">
+<p>So, now let’s see some of the results.</p>
+<style type="text/css">
+span.MJX_Assistive_MathML {
+position:absolute!important;
+clip: rect(1px, 1px, 1px, 1px);
+padding: 1px 0 0 0!important;
+border: 0!important;
+height: 1px!important;
+width: 1px!important;
+overflow: hidden!important;
+display:block!important;
+}</style></aside>
 </section>
 <section id="sample-descriptives" class="slide level2">
 <h2>Sample Descriptives</h2>
@@ -2308,7 +2449,7 @@ display:block!important;
 <div>
 <svg width="960" height="240" viewbox="0.00 0.00 730.23 109.60" xmlns="http://www.w3.org/2000/svg" xlink="http://www.w3.org/1999/xlink" style="; max-width: none; max-height: none; display: block; margin: auto auto auto auto">
 <g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 105.6)">
-<title>RRProduct</title>
+<title>CONSORT</title>
 <polygon fill="white" stroke="transparent" points="-4,4 -4,-105.6 726.23,-105.6 726.23,4 -4,4"></polygon>
 <!-- Identified -->
 <g id="node1" class="node">
@@ -2454,7 +2595,8 @@ display:block!important;
 </div>
 </div>
 <aside class="notes">
-<p>This CONSORT chart summarizes participant flow through the study. It started by identifying potential participants, then approaching them to ask for consent. Then, those who consented were screened and the eligible participants then took the pretest and were randomly assigned to one of the two arms (TEACH vs TAU). Then, 8 weeks later, the posttest assessment occurred. The chart in our paper shows breakdowns of why people dropped out between steps. Here, I want to emphasize that we can use the data shown here to estimate two of the primary outcomes, the recruitment rate and the retention rate. 97 of 200 patients approached consented to participate, yielding a 48.5% recruitment rate. That was lower than the 65% benchmark we hoped to achieve. However, 59 of 64 randomized participants returned for the posttest assessment, giving us a 92.2% retention rate that exceeded the 80% benchmark we had set. In our attrition analyses, arm, country, age group, race, ethnicity, most pretest outcomes were unrelated to whether someone was retained at posttest, but pretest child rheumatology quality of life and disease duration were related to retention.</p>
+<p>This CONSORT chart summarizes participant flow through the study. It started by identifying potential participants, then approaching them to ask for consent. Then, those who consented were screened and the eligible participants then took the pretest and were randomly assigned to one of the two arms (TEACH vs TAU). Then, 8 weeks later, the posttest assessment occurred. The chart in our paper shows breakdowns of why people dropped out between steps. Here, I want to emphasize that we can use the data shown here to estimate two of the primary outcomes, the recruitment rate and the retention rate.</p>
+<p>▶ 97 of 200 patients approached consented to participate, yielding a 48.5% recruitment rate. That was lower than the 65% benchmark we hoped to achieve. However, 59 of 64 randomized participants returned for the posttest assessment, giving us a 92.2% retention rate that exceeded the 80% benchmark we had set. In our attrition analyses, retention at posttest was unrelated to arm, country, age group, race, ethnicity, and most pretest outcomes, but pretest child rheumatology quality of life and disease duration were related to retention.</p>
 <style type="text/css">
 span.MJX_Assistive_MathML {
 position:absolute!important;
@@ -2500,6 +2642,20 @@ display:block!important;
 </tr>
 </tbody>
 </table>
+<aside class="notes">
+<p>Before we look at the intervention effect, we should the pretest data about the secondary and exploratory outcomes. This table shows pretest means and standard deviations of the raw, unimputed data broken down by arm. One thing to notice here is that the means are very similar between arms: that’s what we expect because random assignment occurred after these data were collected.</p>
+<p>We can also see that the mean T-scores for depressive symptoms and fatigue were just above their respective eligibility criteria, both of which required scores of at least 60. Similarly, the pain eligibility criterion was a score of at least 3 and the means here are 3.5 and 4. Remember that a participant could qualify due to an elevated score on any of those three symptoms: we didn’t require them to be high on all of them.</p>
+<style type="text/css">
+span.MJX_Assistive_MathML {
+position:absolute!important;
+clip: rect(1px, 1px, 1px, 1px);
+padding: 1px 0 0 0!important;
+border: 0!important;
+height: 1px!important;
+width: 1px!important;
+overflow: hidden!important;
+display:block!important;
+}</style></aside>
 </section>
 <section id="pretest-csle-related-factors-rawunimputed" class="slide level2">
 <h2>Pretest cSLE-Related Factors (Raw/Unimputed)</h2>
@@ -2582,6 +2738,19 @@ Disease Activity
 </tr>
 </tfoot>
 </table>
+<aside class="notes">
+<p>This table shows pretest data by group for some of the lupus-related factors and exploratory outcomes. Again, we see similar values between arms, consistent with what we expect due to randomization. The median time since lupus diagnosis was 26 to 31 months. The median number of medications was 2 in both arms. The most important finding on this slide is that the means for medication adherence were 83-84% at pretest in both groups, suggesting adherence was already adequate and that there’s not a lot of room for improvement. Keep that in mind.</p>
+<style type="text/css">
+span.MJX_Assistive_MathML {
+position:absolute!important;
+clip: rect(1px, 1px, 1px, 1px);
+padding: 1px 0 0 0!important;
+border: 0!important;
+height: 1px!important;
+width: 1px!important;
+overflow: hidden!important;
+display:block!important;
+}</style></aside>
 </section>
 <section id="primary-outcomes-acceptability-themes" class="slide level2">
 <h2>Primary Outcomes: Acceptability Themes</h2>
@@ -2594,7 +2763,7 @@ Disease Activity
 <li>Virtual format was appreciated &amp; facilitated attendance.</li>
 </ul>
 <aside class="notes">
-<p>The themes emerging from our qualitative analyses suggest that that patients thought the skills emphasized by TEACH were logically connected and went hand in hand. They reported that the relaxation skills, pleaseant activity planning, and activity pacing strategies were helpful, and that there was an immediate benefit of using the skills they were taught. Patients also said that having a positive relationship with the interventionist motivated them to actually practice using the skills (even though they struggled to remember the names of the skills). Greater symptom severity and busy schedules were identified as barriers to using TEACH skills, but patients enjoyed the virtual format and said it facilitated attendance.</p>
+<p>The themes emerging from our qualitative analyses suggest that the patients thought the skills emphasized by TEACH were logically connected and went hand in hand. They reported that the relaxation skills, pleasant activity planning, and activity pacing strategies were helpful, and that there was an immediate benefit of using the skills they were taught. Patients also said that having a positive relationship with the interventionist motivated them to actually practice using the skills (even though they struggled to remember the names of the skills). Greater symptom severity and busy schedules were identified as barriers to using TEACH skills, but patients enjoyed the virtual format and said it facilitated attendance.</p>
 <style type="text/css">
 span.MJX_Assistive_MathML {
 position:absolute!important;
@@ -2636,7 +2805,8 @@ display:block!important;
 </div>
 </div>
 <aside class="notes">
-<p>Here are the results for testing the main effect of arm, which tells us whether on average the TEACH arm did better than the TAU arm at posttest. On all these secondary outcomes, lower scores are desirable. On the left, you can see the posttest means and 95% confidence intervals for each arm on each secondary outcome. On the right, I’ve graphed the raw effect size measured by the difference between those means. When the red reference line intersects the confidence interval for the difference, that means there may be no difference. Here we see that on average, depressive symptoms improved by almost 8 points (14%) and fatigue by almost 4 points (7%). Pain, however may not have improved despite an average reduction of 0.89 points (25%).</p>
+<p>Now let’s look at the results for intervention efficacy. These are based on the imputed data and are adjusted by averaging over other covariates. Here are the results for testing the main effect of arm, which tells us whether on average the TEACH arm did better than the TAU arm at posttest. On all these secondary outcomes, lower scores are desirable. On the left, you can see the posttest means and 95% confidence intervals for each arm on each secondary outcome. The posttest means for <em>both arms</em> are notably lower than the pretest means I showed earlier. But what matters for efficacy is how these posttest means compare to each other.</p>
+<p>So, on the right, I’ve graphed the raw effect size measured by the difference between those means. When the red reference line intersects the confidence interval for the difference, that means there may be no difference. Here we see that on average, depressive symptoms improved by almost 8 points (14%) and fatigue by almost 4 points (7%). Pain, however may not have improved despite an average reduction of 0.89 points (25%).</p>
 <style type="text/css">
 span.MJX_Assistive_MathML {
 position:absolute!important;
@@ -2695,7 +2865,8 @@ display:block!important;
 </div>
 </div>
 <aside class="notes">
-
+<p>Here are results for some of the exploratory outcomes. We can see that the TEACH arm ended up with less anxiety than the TAU arm, by about 0.35 points on the z-score scale. There wasn’t any effect on disease activity.</p>
+<p>Now, remember that pretest medication adherence was already adequate and very similar across arms, averaging about 83-84%. Here we can see that by the 8-week posttest it had increased to about 92-93% for both arms, which is great. We want to see high adherence. But, it improved by a similar amount in each arm, so it’s not surprising that we don’t see an overall intervention effect on adherence at posttest. However, that is only looking at part of the story. We actually found something more interesting than that.</p>
 <style type="text/css">
 span.MJX_Assistive_MathML {
 position:absolute!important;
@@ -2727,7 +2898,19 @@ display:block!important;
 </section>
 <section id="conclusions" class="slide level2">
 <h2>Conclusions</h2>
-<p>Add content here!</p>
+<ul>
+<li>TEACH may improve depressive, fatigue, and anxiety symptoms
+<ul>
+<li>Need to look at longer time period to see if benefits persist.</li>
+<li>Improvements fell short of clinically significant effect sizes.</li>
+<li>Effect on fatigue depends on pretest.</li>
+<li>Pain started pretty low, so had little room to improve.</li>
+</ul></li>
+<li>TEACH improved medication adherence among those with low pretest adherence.</li>
+<li>Low recruitment rate suggests systemic barriers to care for this population. We need to find ways to overcome those.</li>
+<li>Patients appreciated the program, remote delivery, and relationship with interventionist.</li>
+<li></li>
+</ul>
 </section>
 <section id="limitations" class="slide level2">
 <h2>Limitations</h2>
@@ -2738,7 +2921,7 @@ display:block!important;
 <li>Self-reported medication adherence could be biased.</li>
 </ul>
 <aside class="notes">
-<p>In terms of limitations, small sample size limited the power and precision of estimates and comes with a risk of reduced sample representativeness. Replication with larger samples is important.</p>
+<p>Now, I want to acknowledge some of the limitations of our study. First, small sample size limited the power and precision of estimates and comes with a risk of reduced sample representativeness. Replication with larger samples will be important for building the evidence base about how well TEACH actually works.</p>
 <p>Second, our eligibility criteria excluded youth with more severe mental health problems and/or disease activity and also those already in psychological treatment. That may have affected the size of TEACH treatment effects, given the greater potential room for improvement (as per our findings for medication adherence). It may also affect generalizability of the results.</p>
 <p>Third, features of treatment as usual may vary between clinical sites. Future work may include more detailed assessments of both TAU and other adjunctive therapies used by youth and families.</p>
 <p>Finally, self-reported measures of medication adherence are vulnerable to response bias. Future studies should consider more comprehensive assessment approaches.</p>
@@ -2766,7 +2949,7 @@ display:block!important;
 </div>
 </div>
 <aside class="notes">
-<p>Finally, here’s the list of references mentioned in the slides.</p>
+<p>Finally, here is the reference for our paper.</p>
 <style type="text/css">
 span.MJX_Assistive_MathML {
 position:absolute!important;
