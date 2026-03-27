@@ -151,47 +151,65 @@ investigators' names are in bold text here.
 With those preliminaries out of the way, I'll turn to introducing the study. 
 :::
 
-## Childhood-Onset Systemic Lupus Erythematosus
+## Childhood-Onset Systemic Lupus Erythematosus (cSLE)
 
-* cSLE is a chronic, multisystemic, autoimmune disease diagnosed prior to age 18 
-  years.
+* A chronic, multisystemic, autoimmune disease.
+  
+::: {.incremental}
 * Higher risk for depressive, fatigue, and pain symptoms, which may lower 
   health-related quality of life (HR-QOL).
 * More often affects female and Asian, Native American, and Black youth.
 * Black youth may get less help managing comorbid symptoms than White peers.
 
+:::
+
 ::: {.notes}
 Childhood-onset lupus is a chronic, multisystemic, autoimmune disease diagnosed 
-prior to age 18 years. Patients are at higher risk for depressive, fatigue, and 
-pain symptoms, which may lower health-related quality of life. We know that 
-lupus has a disproportionate impact on some parts of the population: it's more 
-likely to affect female and Asian, Native American, and Black youth. It's the 
-fifth leading cause of death for Black and Hispanic females age 15-24. Previous
-studies also suggest that Black youth may be less likely to receive effective 
-help managing comorbid symptoms such as anxiety and depression than White peers.
-This all means that we need better interventions to help lupus patients. 
+prior to age 18 years. 
+
+▶ Patients are at higher risk for depressive, fatigue, and pain symptoms, which
+may lower health-related quality of life.
+
+▶ We know that lupus has a disproportionate impact on some parts of the
+population: it's more likely to affect female and Asian, Native American, and
+Black youth. It's the fifth leading cause of death for Black and Hispanic
+females age 15-24.
+
+▶ Previous studies also suggest that Black youth may be less likely to receive
+effective help managing comorbid symptoms such as anxiety and depression than
+White peers. This all means that we need better interventions to help lupus
+patients.
 :::
 
 ## Cognitive Behavioral Therapy (CBT)
 
 * Effective for managing depression, fatigue, and pain in youth with other 
   chronic illnesses and in *adults* with lupus. 
+
+::: {.incremental}
 * Prior studies on CBT for *youth* with lupus: 
     * One failed to find clinically significant effects on pain, affect, & 
       quality of life. 
     * Treatment and Education Approach for Childhood-Onset Lupus (TEACH) program 
       had promising results but needed refinements. 
 
+:::
+
 ::: {.notes}
 Psychological interventions offer one way to improve the mental health of lupus
 patients. Research has shown that cognitive behavioral therapy (CBT) is
 effective for managing depression, fatigue, and pain in youth with *other* 
-*chronic illnesses* and in *adults* with lupus. However, there were only two 
-prior studies on using CBT for youth with lupus. One of them failed to find any
-clinically significant effects on pain, affect, and quality of life. The other
-was our team's single-arm pilot test of the Treatment and Education Approach for
-Childhood-Onset Lupus, the TEACH program. My colleagues' first TEACH study
-yielded promising results but showed that it still needed some refinements.
+*chronic illnesses* and in *adults* with lupus.
+
+▶ However, there were only two prior studies on using CBT for youth with lupus. 
+
+▶ One of them failed to find any clinically significant effects on pain, affect,
+and quality of life.
+
+▶ The other was our team's single-arm pilot test of the Treatment and Education
+Approach for Childhood-Onset Lupus, the TEACH program. My colleagues' first
+TEACH study yielded promising results but showed that it still needed some
+refinements.
 :::
 
 ## TEACH: Initial Pilot Study
