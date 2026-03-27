@@ -138,11 +138,11 @@ right arrow to reveal the next animated element on a slide.]
 **Bold = Principal investigators.**
 
 ::: {.notes}
-Studies like the one I'm describing for you today can involve very large
-research teams, in part because recruiting participants from multiple clinics
-requires having team members at each location. So, I want to just share the list
-of co-authors on our paper to properly acknowledge everyone's contributions. The
-principal investigators' names are in bold text here.
+Multi-studies like the one I'm describing today can involve very large research 
+teams because recruiting participants from multiple clinics requires having
+team members at each clinic. So, I want to just share the list of co-authors
+on our paper to properly acknowledge everyone's contributions. The principal
+investigators' names are in bold text here.
 :::
 
 # Introduction
@@ -377,7 +377,7 @@ rheumatology clinics. We had five sites in the US and one in Canada.
 ::: {.notes}
 Participants had to be 12-22 years old; with a lupus diagnosis from a pediatric 
 rheumatologist by age 18 yrs; have elevated depressive, fatigue, or pain 
-symptoms; and proficient in English. We excluded any who had other chronic 
+symptoms; and be proficient in English. We excluded any who had other chronic 
 medical conditions (such as juvenile idiopathic arthritis); any documented 
 developmental delays or severe cognitive impairments; untreated major 
 psychiatric illness (such as bipolar disorder, active suicidal ideation); or
@@ -464,10 +464,10 @@ kable(Strata, format = "html", escape = FALSE, align = "ccc",
 To balance sample size across arms, the study used a stratified random block
 randomization process. The two stratification variables were country (US vs
 Canada) and age group (adolescent vs young adult). Within each stratum, blocks
-of either 4 or 8 participants were allocated to the TEACH vs TAU arms in 1:1
-ratio. The investigators (except the interventionists & statistician) were blind
-to randomization results during data collection. After the posttest, the TAU
-participants were offered the TEACH intervention.
+of either 4 or 8 participants were randomly allocated to the TEACH vs TAU arms
+in 1:1 ratio. The investigators (except the interventionists & statistician)
+were blind to randomization results during data collection. After the posttest,
+the TAU participants were offered the TEACH intervention.
 
 Using stratified randomization means we have to add the stratification variables 
 to our model as covariates to control for confounding, reduce error variance, 
