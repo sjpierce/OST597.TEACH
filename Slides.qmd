@@ -488,10 +488,12 @@ defined as the percent of approached patients who consented to joining the
 study, and the retention rate, defined as the percent of randomized patients who 
 completed the posttest data collection. We set a target benchmark for each rate 
 before collecting data: We wanted to get a recruitment rate above 65% and a 
-retention rate over 80%. Qualitative feedback about the acceptability of the 
-intervention was collected by interviewing participants and used to assess 
-acceptability as another primary outcome. That makes this a mixed methods study
-because we're drawing on both quantitative and qualitative approaches. 
+retention rate over 80%. 
+
+Qualitative feedback about the acceptability of the intervention was collected
+by interviewing participants and used to assess acceptability as another primary
+outcome. That makes this a mixed methods study because we're drawing on both
+quantitative and qualitative approaches.
 :::
 
 ## Secondary Outcome Measures
@@ -508,10 +510,14 @@ We had three secondary outcomes. We measured depressive symptoms with the
 Children's Depression Inventory 2nd Edition (CDI-II) for adolescents and Beck 
 Depression Inventory-II (BDI-II) for young adults, converting both to T-scores 
 with Mean = 50 and SD= 10 to make them comparable across age groups. A 50%
-reduction is considered meaningful. Fatigue was measured by the PROMIS Pediatric
-or Adult Short Form, again converting to T-scores for comparability. A fatigue
-reduction of 10 points is meaningful. Finally, pain was measured with the pain
-visual analog scale, where a 30% reduction is meaningful.
+reduction is considered meaningful. 
+
+Fatigue was measured by the PROMIS Pediatric or Adult Short Form, again
+converting to T-scores for comparability. A fatigue reduction of 10 points is
+meaningful.
+
+Finally, pain was measured with the pain visual analog scale, which uses a 0 to 
+10 scale and where a 30% reduction is meaningful.
 :::
 
 ## Exploratory Outcome Measures {.smaller}
@@ -528,18 +534,21 @@ visual analog scale, where a 30% reduction is meaningful.
     * PedsQL Rheumatology Module (child & caregiver)
 
 ::: {.notes}
-We also had several exploratory outcomes. I'm only including a subset of them in
-this talk. We measured anxiety with the Screen for Child Anxiety Related 
-Disorders (SCARED) for adolescents and the Screen for Adult Anxiety Related 
-Disorders (SCAARED) for young adults, converting both to z-scores for 
-comparability. Reductions of over 50% are meaningful. We used the Systemic Lupus 
-Erythematosus Disease Activity Index 2000 (SLEDAI-2K) to measure disease 
-activity. SLEDAI scores range from 0-105, with scores $\ge 6$ indicating active 
-disease. Medication adherence over past month was measured with an 
-instrument adapted from the Medication Adherence Self-Report Inventory. Scores 
-are rated 0-100%, with $\ge 80$% indicating adequate adherence. We used some 
-measures of health-related quality of life as well, but I'll omit results for 
-those today to keep the presentation focused. 
+We also had several exploratory outcomes. We measured anxiety with the Screen
+for Child Anxiety Related Disorders (SCARED) for adolescents and the Screen for
+Adult Anxiety Related Disorders (SCAARED) for young adults, converting both to
+z-scores for comparability. Reductions of over 50% are meaningful.
+
+We used the Systemic Lupus Erythematosus Disease Activity Index 2000 (SLEDAI-2K)
+to measure disease activity. SLEDAI scores range from 0-105, with scores $\ge 6$
+indicating active disease.
+
+Medication adherence over past month was measured with an instrument adapted
+from the Medication Adherence Self-Report Inventory. Scores are rated 0-100%,
+with $\ge 80$% indicating adequate adherence.
+
+We used some measures of health-related quality of life as well, but I'll omit
+results for those today to keep the presentation focused.
 :::
 
 ## Other Measures
