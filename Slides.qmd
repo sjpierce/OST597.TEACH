@@ -410,24 +410,33 @@ problem solving, and mindfulness strategies.
 
 ## Fidelity Assessment
 
-* All sessions video recorded.
+* Fidelity is the degree to which an intervention is delivered as intended by 
+  its developers. 
+* Low fidelity may weaken intervention effects. 
+* Our team recorded all video sessions with patients.
 * Evaluators scored fidelity of each session (0-100%) via standardized checklist. 
 
 :::: {.fragment}
 ::: {.callout-tip}
 **Average fidelity was 98%!**
-
 :::
 
 ::::
 
 ::: {.notes}
-The team recorded video of all intervention sessions, then had three 
+An intervention's fidelity is the degree to which it is delivered as intended by
+its developers. For example, that may require following a treatment protocol
+described in an intervention manual. High fidelity helps you ensure that study
+results show the actual efficacy instead of the result of inconsistent usage or
+implementation. Low fidelity may reduce or weaken intervention effects of
+otherwise useful interventions.
+
+Our team recorded video of all intervention sessions, then had three 
 independent, trained evaluators (a physician, licensed social worker, or
 doctoral student of psychology) use standardized checklists to assess fidelity 
-to the TEACH intervention manual. **>** Fidelity was extraordinarily high: the 
-average across all sessions of 98%, so the intervention was delivered as 
-designed. 
+to the TEACH intervention manual. 
+
+▶ Fidelity was extraordinarily high: the average across all sessions was 98%!
 :::
 
 ## Stratified Random Block Randomization
