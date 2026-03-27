@@ -1,6 +1,6 @@
 ---
 title: "The TEACH Intervention for Youth with Childhood-Onset Lupus"
-subtitle: "Research Case Study for OST 597 (Biomedical Research Structure and Methods)"
+subtitle: "Research Case Study for Michigan State University course OST 597 (Biomedical Research Structure and Methods)"
 author: 
   - name: Steven J. Pierce
     orcid: 0000-0002-0679-3019
