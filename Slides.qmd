@@ -979,14 +979,17 @@ plot(emmc_CI_masri, ylab = NULL, xlab = "Medication Adherence, Posttest Differen
 ```
 
 ::: {.notes}
-ADD MORE NARRATIVE! 
-Remember that pretest medication adherence was already adequate and very similar
-across arms, averaging about 83-84%. Here we can see that by the 8-week posttest
-it had increased to about 92-93% for both arms, which is great. We want to see 
-high adherence. But, it improved by a similar amount in each arm, so it's not 
-surprising that we don't see much evidence for an intervention effect at 
-posttest. However, that is only looking at part of the story. We actually found 
-something more interesting.
+Here are results for some of the exploratory outcomes. We can see that the TEACH
+arm ended up with less anxiety than the TAU arm, by about 0.35 points on the 
+z-score scale. There wasn't any effect on disease activity.
+
+Now, remember that pretest medication adherence was already adequate and very
+similar across arms, averaging about 83-84%. Here we can see that by the 8-week
+posttest it had increased to about 92-93% for both arms, which is great. We want
+to see high adherence. But, it improved by a similar amount in each arm, so it's
+not surprising that we don't see an overall intervention effect on adherence at
+posttest. However, that is only looking at part of the story. We actually found
+something more interesting than that.
 :::
 
 ## Medication Adherence: Arm x Pretest Interaction
