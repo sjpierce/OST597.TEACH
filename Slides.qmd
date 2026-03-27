@@ -1044,7 +1044,17 @@ TEACH may worsen posttest adherence.
 
 ## Conclusions
 
-Add content here! 
+* TEACH may improve depressive, fatigue, and anxiety symptoms
+    * Need to look at longer time period to see if benefits persist. 
+    * Improvements fell short of clinically significant effect sizes. 
+    * Effect on fatigue depends on pretest. 
+    * Pain started pretty low, so had little room to improve. 
+* TEACH improved medication adherence among those with low pretest adherence. 
+* Low recruitment rate suggests systemic barriers to care for this population. 
+  We need to find ways to overcome those. 
+* Patients appreciated the program, remote delivery, and relationship with 
+  interventionist.
+* 
 
 ## Limitations
 
