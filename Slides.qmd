@@ -710,7 +710,7 @@ Hispanic.
 ```{dot}
 //| fig-width: 10
 //| fig-height: 2.5
-digraph RRProduct {
+digraph CONSORT {
 rankdir="LR";
 
 node [shape = "box", style= "filled", fontname="Lato", fillcolor = "#C3FFEC"]
