@@ -16,7 +16,10 @@ control tools while developing my slides, but its secondary purpose is
 distributing the slides to my audience.
 
 There are two different types of users of this repository: myself and my
-audience. I assume the audience just wants copies of my slides,.
+audience. I am an the only person editing the code in this repository
+and I assume the audience just wants copies of my slides, so I am
+omitting information about the structure of the repository and how to
+render the slides.
 
 ## Obtaining the Slides
 
@@ -27,7 +30,7 @@ pencil icon. Use that to download the file to your computer, then open
 it with a web browser.
 
 - [`Slides.html`](https://github.com/sjpierce/OST597.TEACH/blob/main/output/Slides.html)
-  *These are the final slides.*
+  *This file contains the most current version of the slides.*
 
 ## Usage Tips
 
@@ -49,8 +52,8 @@ M. R., Danguecan, A. N., Flores Pereira, L., Mossad, S. I., Ely, S. L.,
 Abulaban, K., Kessler, E. A., Rosenwasser, N., Rubinstein, T. B., Ogbu,
 E. A., Smitherman, E. A., Miller, A., Abounader, T., Ross, E.,
 Timmerman, L., … Knight, A. (2025). Cognitive behavioral therapy for
-youth with childhood-onset lupus: A randomized clinical trial
-\[Manuscript in press\]. *Arthritis Care & Research*.
+youth with childhood-onset lupus: A randomized clinical trial \[Advance
+online publication\]. *Arthritis Care & Research*.
 <https://doi.org/10.1002/acr.70010>
 
 </div>

@@ -45,7 +45,7 @@ pencil icon. Use that to download the file to your computer, then open it with
 a web browser.
 
 * [`Slides.html`](https://github.com/sjpierce/OST597.TEACH/blob/main/output/Slides.html) 
-  *These are the final slides.*
+  *This file contains the most current version of the slides.*
 
 ## Usage Tips
 
