@@ -414,7 +414,8 @@ problem solving, and mindfulness strategies.
   its developers. 
 * Low fidelity may weaken intervention effects. 
 * Our team recorded all video sessions with patients.
-* Evaluators scored fidelity of each session (0-100%) via standardized checklist. 
+* Evaluators scored fidelity of each session (0-100%) via standardized 
+  checklist. 
 
 :::: {.fragment}
 ::: {.callout-tip}
@@ -434,7 +435,7 @@ otherwise useful interventions.
 Our team recorded video of all intervention sessions, then had three 
 independent, trained evaluators (a physician, licensed social worker, or
 doctoral student of psychology) use standardized checklists to assess fidelity 
-to the TEACH intervention manual. 
+to the TEACH intervention manual, yielding a score that ranged from 0 to 100%. 
 
 ▶ Fidelity was extraordinarily high: the average across all sessions was 98%!
 :::
