@@ -1036,7 +1036,7 @@ Add content here!
 * Self-reported medication adherence could be biased. 
 
 ::: {.notes}
-Now, I want to acknolwedge some of the limitations of our study. First, small
+Now, I want to acknowledge some of the limitations of our study. First, small
 sample size limited the power and precision of estimates and comes with a risk
 of reduced sample representativeness. Replication with larger samples will be
 important for building the evidence base about how well TEACH actually works.
@@ -1067,7 +1067,7 @@ design.
 :::
 
 ::: {.notes}
-Finally, here's the list of references mentioned in the slides. 
+Finally, here is the reference for our paper. 
 :::
 
 # Questions & Discussion Time
