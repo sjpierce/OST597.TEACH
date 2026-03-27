@@ -782,6 +782,20 @@ kable(PreSymptoms, format = "html", escape = FALSE, align = "lrr",
       col.names = c("Variable", "TEACH M (SD)", "TAU M (SD)")) %>% 
   kable_styling(full_width = FALSE)
 ```
+::: {.notes}
+ADD MORE NARRATIVE
+This table shows pretest means and standard deviations of the raw, unimputed 
+data broken down by arm. One thing to notice here is that the means are 
+very similar between arms: that's what we expect because random assignment 
+occurred after these data were collected. 
+
+We can also see that the mean T-scores for depressive symptoms and fatigue were 
+just above their respective eligibility criteria, both of which required scores 
+of at least 60. Similarly, the pain eligibility criterion was a score of at 
+least 3 and the means here are 3.5 and 4. Remember that a participant could 
+qualify due to an elevated score on any of those three symptoms: we didn't 
+require them to be high on all of them. 
+:::
 
 ## Pretest cSLE-Related Factors (Raw/Unimputed)
 
@@ -812,6 +826,13 @@ kable(PreLupus, format = "html", escape = FALSE, align = "lrr",
            threeparttable = FALSE, escape = FALSE) %>% 
   cat()
 ```
+
+::: {.notes}
+ADD MORE NARRATIVE! 
+The means for medication adherence were 83-84% at pretest in both groups, 
+suggesting adherence was already adequate and that there's not a lot of room for 
+improvement. Keep that in mind. 
+:::
 
 ## Primary Outcomes: Acceptability Themes
 
@@ -947,6 +968,14 @@ plot(emmc_CI_masri, ylab = NULL, xlab = "Medication Adherence, Posttest Differen
 ```
 
 ::: {.notes}
+ADD MORE NARRATIVE! 
+Remember that pretest medication adherence was already adequate and very similar
+across arms, averaging about 83-84%. Here we can see that by the 8-week posttest
+it had increased to about 92-93% for both arms, which is great. We want to see 
+high adherence. But, it improved by a similar amount in each arm, so it's not 
+surprising that we don't see much evidence for an intervention effect at 
+posttest. However, that is only looking at part of the story. We actually found 
+something more interesting.
 :::
 
 ## Medication Adherence: Arm x Pretest Interaction
@@ -993,9 +1022,10 @@ Add content here!
 * Self-reported medication adherence could be biased. 
 
 ::: {.notes}
-In terms of limitations, small sample size limited the power and precision of
-estimates and comes with a risk of reduced sample representativeness.
-Replication with larger samples is important.
+Now, I want to acknolwedge some of the limitations of our study. First, small
+sample size limited the power and precision of estimates and comes with a risk
+of reduced sample representativeness. Replication with larger samples will be
+important for building the evidence base about how well TEACH actually works.
 
 Second, our eligibility criteria excluded youth with more severe mental health
 problems and/or disease activity and also those already in psychological
