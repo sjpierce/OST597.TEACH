@@ -138,14 +138,17 @@ right arrow to reveal the next animated element on a slide.]
 **Bold = Principal investigators.**
 
 ::: {.notes}
-Our study team was very large. This is a list of all the co-authors on our paper
-with the principal investigators' names in bold text. 
+Studies like the one I'm describing for you today can involve very large
+research teams, in part because recruiting participants from multiple clinics
+requires having team members at each location. So, I want to just share the list
+of co-authors on our paper to properly acknowledge everyone's contributions. The
+principal investigators' names are in bold text here.
 :::
 
 # Introduction
 
 ::: {.notes}
-With the preliminaries out of the way, I'll turn to introducing the study. 
+With those preliminaries out of the way, I'll turn to introducing the study. 
 :::
 
 ## Childhood-Onset Systemic Lupus Erythematosus
@@ -200,12 +203,12 @@ yielded promising results but showed that it still needed some refinements.
 * Marginal reductions in pain and anxiety. 
 
 ::: {.notes}
-The first iteration of the TEACH intervention consisted of a tailored, CBT 
-program delivered during a series of 6 weekly in-person visits. The primary 
+The first iteration of the TEACH intervention consisted of a tailored, CBT
+program delivered during a series of 6 weekly in-person visits. The primary
 outcomes it sought to improve were patients' depressive, fatigue, and pain
-symptoms. The first study showed a retention rate of just over 82% and potential 
-improvements in depressive and fatigue symptoms, with weaker evidence for 
-reductions in pain and anxiety. 
+symptoms. The first study had a patient retention rate of just over 82% and
+potential improvements in depressive and fatigue symptoms, with weaker evidence
+for reductions in pain and anxiety.
 
 Intervention development is often iterative. Early results like these are 
 promising but not definitive and usually accompanied by feedback about ways to 
@@ -227,8 +230,7 @@ intervention and it was clear that engaging lupus patients in planning those
 refinements could be crucial to improving feasibility, acceptability, and
 effectiveness of the intervention. One priority was better addressing pain and
 anxiety. Finally, my colleagues also recognized that they needed a stronger
-research design because the initial study lacked a control group. Moving to a
-randomized trial could yield stronger evidence for TEACH's efficacy.
+research design because the initial study lacked a control group. 
 :::
 
 ## Current Study
@@ -242,11 +244,11 @@ randomized trial could yield stronger evidence for TEACH's efficacy.
     * Exploratory: disease activity, medication adherence, & anxiety symptoms.
 
 ::: {.notes}
-That led to developing the study I'm describing today, which continued the
-aimed to refine the TEACH intervention for adolescents and young adults with
-lupus. The PIs updated the program content and delivery method to address the
-patient feedback from the prior study. That included switching to delivering the
-intervention remotely via video calls with participants instead of in-person.
+That led to developing the study I'm describing today, which aimed to refine
+the TEACH intervention for adolescents and young adults with lupus. The PIs
+updated the program content and delivery method to address the patient feedback
+from the prior study. That included switching to delivering the intervention
+remotely via video calls with participants instead of in-person.
 
 One major objective was to examine feasibility and acceptability as primary
 outcomes of the updated program. The other major objective was to move to a
@@ -296,15 +298,15 @@ kable(StudyDesign, format = "html", escape = FALSE, align = "lcccc",
 * Preregistered at ClinicalTrials.gov (NCT04335643)
 
 ::: {.notes}
-This international, multi-site study used a longitudinal, parallel arms
-randomized controlled trial design, with pretest data collected before random
-assignment. This table is a simple way to visualize the study design. Each row
-represents one of the two arms we want to compare. The columns correspond to
-different longitudinal events that unfold over time as we move from left to
-right in the table. Collection of observed data is denoted with an O in both the
-pretest and posttest columns, while random assignment to arms is shown by the R
-in the allocation column. Delivery of the intervention is shown by placing an X
-in the intervention column.
+This study used a longitudinal, parallel arms randomized controlled trial
+design, with pretest data collected before random assignment. This table is a
+simple way to visualize the study design. Each row represents one of the two
+arms we want to compare. The columns correspond to different longitudinal events
+that unfold over time as we move from left to right in the table. Collection of
+observed data is denoted with an O in both the pretest and posttest columns,
+while random assignment to arms is shown by the R in the allocation column.
+Delivery of the intervention is shown by placing an X in the intervention
+column.
 
 We expect no differences on pretest outcomes because we collected those data
 before assigning patients to the two arms. At that point they are all part of
@@ -341,8 +343,8 @@ who start with the same pretest score but end up in opposite arms.
 ::::
 
 ::: {.notes}
-Our sites were all pediatric rheumatology clinics. We had five sites in the US 
-and one in Canada. 
+This was an international, multi-site sudy. Our sites were all pediatric
+rheumatology clinics. We had five sites in the US and one in Canada.
 :::
 
 ## Participants {.smaller}
