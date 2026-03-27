@@ -612,23 +612,43 @@ instead of what happens when everyone fully complies with the treatment.
 
 ## Analysis of Covariance (ANCOVA)
 
-* ANCOVA predictors of posttest outcomes: 
-    * Arm, pretest, arm x pretest.
-    * Country, age group, race, ethnicity, & ACE exposures.
-* Estimated marginal means, contrasts, & graphs.
+```{dot}
+//| fig-width: 10
+//| fig-height: 6
+//| 
+digraph ANCOVA {
+rankdir="LR";
+
+node [shape = "box", style= "filled", fontname="Lato", fillcolor = "#C3FFEC"]
+Post [label = "Posttest Measure\n(Dependent Variable)"]
+Arm [label = "Arm\n(Focal Predictor)"]
+Pre [label = "Pretest Measure\n(Key Covariate)"]
+ArmxPre [label = "Arm x Pretest\n(Interaction)"]
+Covariates [label = "Country, Age Group, Race, Ethnicity,\nACEs (Other Covariates)"]
+
+Arm -> Post 
+Pre -> Post
+ArmxPre -> Post
+Covariates -> Post
+}
+```    
 
 ::: {.notes}
-That led us to model the posttest outcomes via analysis of covariance (ANCOVA)
-models that used tested for arm effect, controlling for pretest scores on the
-outcome measure. We also examined whether pretest scores moderated the
-intervention effect by testing an arm by pretest interaction. We included
-several other covariates, but sample size limited how many we could use while
-still getting trustworthy estimates. We had to control for the stratification
-covariates of country and age group because of the randomization design. We also
-controlled for race, Hispanic ethnicity, and adverse childhood experiences.
-However, the distribution of sex was so extreme that we could not use it as a
-covariate. We use estimated marginal means, contrasts between them, and some
-graphs to interpret the intervention effects.
+To get our ITT estimates, we used the posttest outcomes as the dependent variable
+in analysis of covariance (ANCOVA) models and tested for an arm effect,
+controlling for pretest scores on the outcome measure. We also examined whether
+pretest scores moderated the intervention effect by testing an arm by pretest
+interaction. 
+
+We included several other covariates, but sample size limited how many we could
+use while still getting trustworthy estimates. We had to control for the
+stratification covariates of country and age group because of the randomization
+design. We also controlled for race, Hispanic ethnicity, and adverse childhood
+experiences. However, the distribution of sex was so extreme that we could not
+use it as a covariate. 
+
+We use estimated marginal means, contrasts between them, and some graphs to
+interpret the intervention effects.
 :::
 
 ## Imputing Missing Data via MICE {.smaller}
