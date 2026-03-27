@@ -686,6 +686,9 @@ pooled the parameter estimates across datasets.
 
 # Results
 
+::: {.notes}
+So, now let's see some of the results. 
+:::
 ## Sample Descriptives
 
 * Country: 61% US, 39% CA
