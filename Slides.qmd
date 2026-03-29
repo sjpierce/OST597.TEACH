@@ -500,6 +500,40 @@ to the TEACH intervention manual, yielding a score that ranged from 0 to 100%.
 ▶ Fidelity was extraordinarily high: the average across all sessions was 98%!
 :::
 
+## Random Assignment
+
+* Eliminates selection bias & minimizes confounding.
+* Enhances internal validity & causal inference.
+
+::: {.fragment}
+
+* Simple random assignment:
+    * Sets equal probability of being in each arm.
+    * Works best in large samples.
+    * Risks unequal sample sizes & distributions in small samples.
+    
+:::
+
+::: {.notes}
+Random assignment is crucial to clinical trials because it eliminates selection 
+bias, which can occur when people self-select into the study arms. It also 
+minimizes confounding by making the distributions of participant characteristics
+similar between study arms. Preventing systematic differences between the arms 
+enhances the internal validity of an experiment and enhances the ability to draw 
+causal inferences about the effects of interventions. 
+
+▶ Using simple random assignment means each participant has an equal chance of 
+ending up in each study arm. That will work very well in large samples where 
+it will tend to both balance sample sizes across arms and ensure similar 
+distributions of both measured and unmeasured characteristics across arms.
+However, in smaller studies, simple random assignment is more risky. We may end
+up with large imbalances in sample sizes that reduce power, or the distributions 
+of important characteristics may vary more across arms than we would like.
+
+This is a small study, so we had to do something more sophisticated than simple 
+random assignment. 
+:::
+
 ## Stratified Random Block Randomization
 
 ```{r}
