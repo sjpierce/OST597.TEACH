@@ -266,9 +266,6 @@ research design because the initial study lacked a control group.
     * Update program content per previous feedback.
     * Switch to remote delivery via video calls. 
 * Primary outcomes: feasibility & acceptability. 
-* Test efficacy of TEACH vs. TAU:
-    * Secondary: depressive, fatigue, & pain symptoms. 
-    * Exploratory: disease activity, medication adherence, & anxiety symptoms.
 
 ::: {.notes}
 That led to developing the study I'm describing today, which aimed to refine
@@ -278,18 +275,50 @@ from the prior study. That included switching to delivering the intervention
 remotely via video calls with participants instead of in-person.
 
 One major objective was to examine feasibility and acceptability as primary
-outcomes of the updated program. The other major objective was to move to a
-randomized controlled trial design that included an intervention arm and a
-control arm. That design change aimed to improve internal validity when we
-tested the intervention's efficacy by comparing secondary and exploratory
-outcomes among patients who received TEACH with outcomes among those who did
-not. Both groups got medical treatment-as-usual for lupus throughout the study,
-so patients in the intervention arm received TEACH paired with usual treatment
-and the control arm received only treatment as usual.
+outcomes of the updated program. Studying feasibility and acceptability is 
+important because the efficacy of an intervention is largely irrelevant if you 
+can't get people to try it in the first place or they find it so unacceptable 
+or onerous that they stop using it and drop out of the study. 
+:::
+
+## Current Study (Continued)
+
+Test efficacy of TEACH vs. TAU on ...
+
+:::: {.columns}
+::: {.column width="50%"}
+**Secondary Outcomes**
+
+* Depressive symptoms.
+* Fatigue.
+* Pain intensity.
+
+:::
+
+::: {.column width="50%"}
+**Exploratory Outcomes**
+
+* Disease activity.
+* Medication adherence.
+* Anxiety symptoms. 
+* Health-related quality of life.
+
+:::
+::::
+
+::: {.notes}
+The other major objective was to move to a randomized controlled trial design
+that included an intervention arm and a control arm. That design change aimed to
+improve internal validity when we tested the intervention's efficacy by
+comparing secondary and exploratory outcomes among patients who received TEACH
+with outcomes among those who did not. Both groups got medical
+treatment-as-usual for lupus throughout the study, so patients in the
+intervention arm received TEACH paired with usual treatment and the control arm
+received only treatment as usual.
 
 Measures of depressive, fatigue, and pain symptoms were the secondary outcomes, 
-while measures of disease activity, medication adherence, and anxiety symptoms 
-were exploratory outcomes. 
+while measures of disease activity, medication adherence, anxiety symptoms, and 
+health-related quality of life were exploratory outcomes. 
 :::
 
 # Methods
