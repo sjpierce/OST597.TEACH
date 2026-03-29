@@ -939,8 +939,9 @@ already adequate and that there's not a lot of room for improvement. Keep that
 in mind.
 :::
 
-## Primary Outcomes: Acceptability Themes
+## Primary Outcomes: Acceptability Themes 
 
+::: {.incremental}
 * Skills were logically connected & went "hand in hand".
 * Relaxation skills, pleasant activity planning, & activity pacing were helpful.
 * There was immediate effect of using the skills taught.
@@ -948,17 +949,26 @@ in mind.
 * Symptom severity & busy schedules were barriers.
 * Virtual format was appreciated & facilitated attendance. 
 
+:::
+
 ::: {.notes}
-The themes emerging from our qualitative analyses suggest that the patients
-thought the skills emphasized by TEACH were logically connected and went hand in 
-hand. They reported that the relaxation skills, pleasant activity planning, and 
-activity pacing strategies were helpful, and that there was an immediate benefit 
-of using the skills they were taught. Patients also said that having a positive 
-relationship with the interventionist motivated them to actually practice using 
-the skills (even though they struggled to remember the names of the skills). 
-Greater symptom severity and busy schedules were identified as barriers to using 
-TEACH skills, but patients enjoyed the virtual format and said it facilitated 
-attendance. 
+▶ The themes emerging from our qualitative analyses suggest that the patients
+thought the skills emphasized by TEACH were logically connected and went hand in
+hand. 
+
+▶ They reported that the relaxation skills, pleasant activity planning, and
+activity pacing strategies were helpful, and that
+
+▶ there was an immediate benefit of using the skills they were taught. 
+
+▶ Patients also said that having a positive relationship with the
+interventionist motivated them to actually practice using the skills (even
+though they struggled to remember the names of the skills).
+
+▶ Greater symptom severity and busy schedules were identified as barriers to
+using TEACH skills, but
+
+▶ patients enjoyed the virtual format and said it facilitated attendance.
 :::
 
 ## Secondary Posttest Outcomes: Arm Main Effect
