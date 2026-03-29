@@ -150,10 +150,12 @@ paper to properly acknowledge everyone's contributions. The principal
 investigators' names are in bold text here.
 :::
 
-# Introduction
+# Introduction {style="text-align: center; background-color: rgba(255, 255, 255, .5); backdrop-filter: blur(5px); border-radius: 5px;" background-image="graphics/pexels-silverkblack-36729613.jpg" fig-alt="Photo of an adolescent Black patient talking to a therapist in a modern office."  background-size="cover" background-position="bottom" background-repeat="no-repeat"}
 
 ::: {.notes}
 With those preliminaries out of the way, I'll turn to introducing the study. 
+
+[Photo credit: Vitaly Gariev, retrieved from https://www.pexels.com/photo/teen-counseling-session-in-modern-office-36729613/]
 :::
 
 ## Childhood-Onset Systemic Lupus Erythematosus (cSLE)
@@ -321,10 +323,13 @@ while measures of disease activity, medication adherence, anxiety symptoms, and
 health-related quality of life were exploratory outcomes. 
 :::
 
-# Methods
+# Methods {style="text-align: center; background-color: rgba(255, 255, 255, .5); backdrop-filter: blur(5px); border-radius: 5px;" background-image="graphics/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg" fig-alt="Photo of two hands typing on a laptop."  background-size="cover" background-position="right" background-repeat="no-repeat"}
 
 ::: {.notes}
 So, now I'll tell you about the methods we used in this study. 
+
+[Photo Credit: Glenn Carstens-Peters, retrieved from 
+https://unsplash.com/photos/person-using-macbook-pro-npxXWgQ33ZQ]
 :::
 
 ## Research Design
@@ -782,11 +787,15 @@ We generated 55 imputed datsets, analyzed each one with the same model, then
 pooled the parameter estimates across data sets.
 :::
 
-# Results
+# Results {style="text-align: center; background-color: rgba(255, 255, 255, .5); backdrop-filter: blur(5px); border-radius: 5px;" background-image="graphics/pexels-fauxels-3184634.jpg" fig-alt="Photo of a team of several people in business suits sitting at a table discussing a report." background-size="cover" background-position="center" }
 
 ::: {.notes}
 So, now let's see some of the results. 
+
+[Photo Credit: fauxels, retrieved from 
+https://www.pexels.com/photo/multi-cultural-people-3184634/]
 :::
+
 ## Sample Descriptives
 
 * Country: 61% US, 39% CA
@@ -1134,7 +1143,16 @@ adherence. At higher levels of pretest adherence (> 10 points above average),
 TEACH may worsen posttest adherence.
 :::
 
-## Conclusions
+# Conclusions & Discussion {style="text-align: center; background-color: rgba(255, 255, 255, .5); backdrop-filter: blur(5px); border-radius: 5px;" background-image="graphics/pexels-felicity-tai-7964200.jpg" fig-alt="Photo of two men and a woman looking at papers on a table." background-position="top" }
+
+::: {.notes}
+So, now I'll summarize our conclusions and discuss some associated issues. 
+
+[Photo Credit: Felicity Tai, retrieved from 
+https://www.pexels.com/photo/two-men-and-woman-in-green-shirt-looking-on-papers-on-the-table-7964200/]
+:::
+
+## Summary of Findings
 
 * TEACH may improve several patient outcomes. 
     * Improvements were small effect sizes. 
