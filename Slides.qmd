@@ -437,7 +437,7 @@ rheumatology clinics. We had five sites in the US and one in Canada.
 ::: {.notes}
 Participants had to be 12-22 years old; with a lupus diagnosis from a pediatric 
 rheumatologist by age 18 yrs; have elevated depressive, fatigue, or pain 
-symptoms; and be proficient in English. We excluded any who had other chronic 
+symptoms; and be proficient in English. We excluded anyone who had other chronic 
 medical conditions (such as juvenile idiopathic arthritis); any documented 
 developmental delays or severe cognitive impairments; untreated major 
 psychiatric illness (such as bipolar disorder, active suicidal ideation); or
