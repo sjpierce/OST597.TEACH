@@ -235,7 +235,11 @@ for reductions in pain and anxiety.
 
 Intervention development is often iterative. Early results like these are 
 promising but not definitive and usually accompanied by feedback about ways to 
-improve the program. 
+improve the program. That usually means we conduct multiple studies, starting 
+with small scale studies in early iterations and using that feedback to fix 
+problems in subsequent iterations, where testing efficacy and using larger 
+samples become more important. So think of this case study as an example of that 
+process. 
 :::
 
 ## TEACH: Initial Lessons Learned
