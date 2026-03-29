@@ -728,11 +728,15 @@ Covariates -> Post
 ```    
 
 ::: {.notes}
-To get our ITT estimates, we used the posttest outcomes as the dependent variable
-in analysis of covariance (ANCOVA) models and tested for an arm effect,
-controlling for pretest scores on the outcome measure. We also examined whether
-pretest scores moderated the intervention effect by testing an arm by pretest
-interaction. 
+To get our ITT estimates, we used the posttest outcomes as the dependent
+variable in analysis of covariance (ANCOVA) models and tested for an arm effect,
+controlling for pretest scores on the outcome measure. Using the pretest data as
+a covariate increases statistical power because repeated measures of an outcome
+from the same patient are often correlated over time. It also means our test of
+the arm effect quantifies the expected difference in posttest outcomes among
+patients who start with the same pretest score but end up in opposite arms. We
+also examined whether pretest scores moderated the intervention effect by
+testing an arm by pretest interaction.
 
 We included several other covariates, but sample size limited how many we could
 use while still getting trustworthy estimates. We had to control for the
