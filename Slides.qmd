@@ -1136,17 +1136,42 @@ TEACH may worsen posttest adherence.
 
 ## Conclusions
 
-* TEACH may improve depressive, fatigue, and anxiety symptoms
-    * Need to look at longer time period to see if benefits persist. 
-    * Improvements fell short of clinically significant effect sizes. 
-    * Effect on fatigue depends on pretest. 
-    * Pain started pretty low, so had little room to improve. 
-* TEACH improved medication adherence among those with low pretest adherence. 
-* Low recruitment rate suggests systemic barriers to care for this population. 
-  We need to find ways to overcome those. 
-* Patients appreciated the program, remote delivery, and relationship with 
-  interventionist.
-* 
+* TEACH may improve several patient outcomes. 
+    * Improvements were small effect sizes. 
+    * Need to study longer time period. 
+* Low recruitment rate suggests systemic barriers to care. 
+* Retention rate was excellent. 
+* Patients appreciated TEACH, remote delivery, & relationships.
+
+::: {.notes}
+This is the first trial to show beneficial effects of a psychosocial
+intervention on patient outcomes among adolescents and young adults with
+childhood-onset lupus. We found some evidence that TEACH may improve depressive,
+fatigue, and anxiety symptoms, although the benefits with respect to fatigue
+depended on baseline levels of fatigue. It may also have improved medication
+adherence specifically among those who started out with low adherence. While
+there was a trend toward reduced pain, we could not rule out the possibility
+there was no effect; this may have been a consequence of the relatively low
+levels of pain seen at pretest.
+
+While the effects fell short of conventions regarding clinical significance, 
+further refining the intervention may bolster effect size. Interventions can  
+become better and stronger with further development. In addition, moderate 
+symptom reductions may reduce risk of symptom persistence or progression. 
+
+We also need to examine the intervention effects over a longer time period to
+see whether improvements persist, grow over time, or fade away. That can inform
+decisions about whether adding booster sessions to the protocol would be useful.
+
+In terms of feasibility, our low recruitment rate suggests that patients face 
+systemic barriers to care. We need to explore ways to overcome those barriers. 
+Working with patient advocates may be one way to do that. However, our retention 
+rate among randomized patients was excellent: it exceeded our benchmark by a 
+substantial amount. 
+
+Patients appreciated the program, remote delivery, and their relationships with 
+interventionists. That speaks well of TEACH's acceptability. 
+:::
 
 ## Limitations
 
