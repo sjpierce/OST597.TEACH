@@ -1201,10 +1201,24 @@ response bias. Future studies should consider more comprehensive assessment
 approaches.
 :::
 
-## Next Steps
+## Follow-Up Study Already Underway 
 
-A larger follow-up study is underway using a hybrid implementation-effectiveness 
-design. 
+* Using a hybrid implementation-effectiveness design. 
+* Integrates mental health champions into sites to deliver TEACH.
+* Patients & caregivers on consumer advocacy team. 
+* Uses a larger sample. 
+* Collect posttest & follow-up data 5 times over 56 weeks.
+
+::: {.notes}
+In terms of next steps, we already have a follow-up study underway that is using 
+a hybrid implementation-effectiveness design. We are integrating mental health
+champions into rheumatology clinics to deliver TEACH to patients. We have 
+patients and caregivers actively engaged in our consumer advocacy team. This 
+study is recruiting a larger sample, once again drawn from multiple sites in the
+US and Canada. It is also collecting posttest & follow-up data at 5 time points
+over 56 weeks, which gives us the ability to examine long-term effects of the
+intervention.
+:::
 
 ## References {.scrollable}
 
