@@ -599,18 +599,18 @@ quantitative and qualitative approaches.
     * Pain Visual Analog Scale (VAS), scores 0-10.
   
 ::: {.notes}
-We had three secondary outcomes. We measured depressive symptoms with the 
-Children's Depression Inventory 2nd Edition (CDI-II) for adolescents and Beck 
-Depression Inventory-II (BDI-II) for young adults, converting both to T-scores 
-with Mean = 50 and SD= 10 to make them comparable across age groups. A 50%
-reduction is considered meaningful. 
+We had three secondary outcomes. We measured depressive symptoms over the past 2
+weeks with the Children's Depression Inventory 2nd Edition (CDI-II) for
+adolescents and Beck Depression Inventory-II (BDI-II) for young adults,
+converting both to T-scores with Mean = 50 and SD= 10 to make them comparable
+across age groups. A 50% reduction is considered meaningful.
 
-Fatigue was measured by the PROMIS Pediatric or Adult Short Form, again
-converting to T-scores for comparability. A fatigue reduction of 10 points is
-meaningful.
+Fatigue over the past week was measured by the PROMIS Pediatric or Adult Short
+Form, again converting to T-scores for comparability. A fatigue reduction of 10
+points is meaningful.
 
-Finally, pain was measured with the pain visual analog scale, which uses a 0 to 
-10 scale and where a 30% reduction is meaningful.
+Finally, pain over the past 2 weeks was measured with the pain visual analog
+scale, which uses a 0 to 10 scale and where a 30% reduction is meaningful.
 :::
 
 ## Exploratory Outcome Measures {.smaller}
@@ -627,16 +627,17 @@ Finally, pain was measured with the pain visual analog scale, which uses a 0 to
     * PedsQL Rheumatology Module (child & caregiver)
 
 ::: {.notes}
-We also had several exploratory outcomes. We measured anxiety with the Screen
-for Child Anxiety Related Disorders (SCARED) for adolescents and the Screen for
-Adult Anxiety Related Disorders (SCAARED) for young adults, converting both to
-z-scores for comparability. Reductions of over 50% are meaningful.
+We also had several exploratory outcomes. We measured anxiety over the past 3
+months with the Screen for Child Anxiety Related Disorders (SCARED) for
+adolescents and the Screen for Adult Anxiety Related Disorders (SCAARED) for
+young adults, converting both to z-scores for comparability. Reductions of over
+50% are meaningful.
 
 We used the Systemic Lupus Erythematosus Disease Activity Index 2000 (SLEDAI-2K)
 to measure disease activity. SLEDAI scores range from 0-105, with scores $\ge 6$
 indicating active disease.
 
-Medication adherence over past month was measured with an instrument adapted
+Medication adherence over the past month was measured with an instrument adapted
 from the Medication Adherence Self-Report Inventory. Scores are rated 0-100%,
 with $\ge 80$% indicating adequate adherence.
 
