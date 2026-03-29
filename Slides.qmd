@@ -143,10 +143,10 @@ right arrow to reveal the next animated element on a slide.]
 **Bold = Principal investigators.**
 
 ::: {.notes}
-Multi-studies like the one I'm describing today can involve very large research 
-teams because recruiting participants from multiple clinics requires having
-team members at each clinic. So, I want to just share the list of co-authors
-on our paper to properly acknowledge everyone's contributions. The principal
+Studies like the one I'm describing today can involve very large research teams
+because recruiting participants from multiple clinics requires having team
+members at each clinic. So, I want to just share the list of co-authors on our
+paper to properly acknowledge everyone's contributions. The principal
 investigators' names are in bold text here.
 :::
 
