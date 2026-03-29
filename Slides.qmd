@@ -882,11 +882,12 @@ kable(PreSymptoms, format = "html", escape = FALSE, align = "lrr",
   kable_styling(full_width = FALSE)
 ```
 ::: {.notes}
-Before we look at the intervention effect, we should the pretest data about the
-secondary and exploratory outcomes. This table shows pretest means and standard
-deviations of the raw, unimputed data broken down by arm. One thing to notice
-here is that the means are very similar between arms: that's what we expect
-because random assignment occurred after these data were collected.
+Before we look at the intervention effect, we should pause to examine the
+pretest data about the secondary and exploratory outcomes. This table shows
+pretest means and standard deviations of the raw, unimputed data broken down by
+arm. One thing to notice here is that the means are very similar between arms:
+that's what we expect because random assignment occurred after these data were
+collected.
 
 We can also see that the mean T-scores for depressive symptoms and fatigue were 
 just above their respective eligibility criteria, both of which required scores 
@@ -930,10 +931,12 @@ kable(PreLupus, format = "html", escape = FALSE, align = "lrr",
 This table shows pretest data by group for some of the lupus-related factors 
 and exploratory outcomes. Again, we see similar values between arms, consistent 
 with what we expect due to randomization. The median time since lupus diagnosis 
-was 26 to 31 months. The median number of medications was 2 in both arms. The 
-most important finding on this slide is that the means for medication adherence 
-were 83-84% at pretest in both groups, suggesting adherence was already adequate 
-and that there's not a lot of room for improvement. Keep that in mind. 
+was 26 to 31 months. The median number of medications was 2 in both arms. 
+
+The most important finding on this slide is that the means for medication
+adherence were 83-84% at pretest in both groups, suggesting adherence was
+already adequate and that there's not a lot of room for improvement. Keep that
+in mind.
 :::
 
 ## Primary Outcomes: Acceptability Themes
