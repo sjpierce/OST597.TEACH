@@ -369,11 +369,15 @@ before assigning patients to the two arms. At that point they are all part of
 the same population. After randomization, their experiences diverge
 systematically. Because one arm goes on to get the TEACH intervention for 6
 weeks and the other does not, collecting posttest data 8 weeks after pretest
-enables us to test intervention efficacy. Using the pretest data as a covariate
-increases statistical power because repeated measures of an outcome from the
-same patient are often correlated over time. It also means our test of the arm
-effect quantifies the expected difference in posttest outcomes among patients
-who start with the same pretest score but end up in opposite arms.
+enables us to test intervention efficacy. After the posttest, the TAU
+participants were offered the TEACH intervention, making that arm a wait-listed
+version of a control group.
+
+We preregistered this study at ClinicalTrials.gov. That means we published 
+details about the population being studied, the research design, outcome 
+measures and so on before collecting the data. Preregistration increases 
+transparency and can help prevent publication biases and reduce selective 
+reporting, so generally it enhances study credibility. 
 :::
 
 ## Sites: Pediatric Rheumatology Clinics
