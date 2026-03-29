@@ -655,7 +655,7 @@ results for those today to keep the presentation focused.
 ::: {.notes}
 Naturally, we collected other measures too. For demographics, we had age, sex, 
 race, ethnicity, disease duration (in months), and caregiver education. We used 
-Systemic Lupus International Collaborating Clinics (SLICC) classification to 
+the Systemic Lupus International Collaborating Clinics (SLICC) classification to 
 measure disease manifestation, and we had a measure of the number of adverse 
 childhood experiences for each patient. 
 
