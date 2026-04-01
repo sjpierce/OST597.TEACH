@@ -7,6 +7,11 @@ Steven J. Pierce
 
 <!-- badges: start -->
 
+[![](https://img.shields.io/badge/lifecycle-stable-brightgreen.svg)](https://lifecycle.r-lib.org/articles/stages.html#stable)
+[![Project Status: Inactive – The project has reached a stable, usable
+state but is no longer being actively developed; support/maintenance
+will be provided as time
+allows.](https://www.repostatus.org/badges/latest/inactive.svg)](https://www.repostatus.org/#inactive)
 <!-- badges: end -->
 
 This repository holds materials for one of my professional presentations
@@ -62,9 +67,9 @@ online publication\]. *Arthritis Care & Research*.
 
 Pierce, S. J., Cunningham, N., & Knight, A. (2026, March 30). *The TEACH
 intervention for youth with childhood-onset lupus* \[Invited oral
-presentation\]. Research case study for Michigan State University OST
-597 (Biomedical Research Structure; Methods), East Lansing, MI, United
-States. <https://github.com/sjpierce/OST597.TEACH>
+presentation\]. Research case study for Michigan State University course
+OST 597 (Biomedical Research Structure; Methods), East Lansing, MI,
+United States. <https://github.com/sjpierce/OST597.TEACH>
 
 </div>
 
